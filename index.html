@@ -328,6 +328,13 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 <!-- ══ TAB: SDG Cards ══ -->
 <div class="tab-panel" id="tab-sdgcards">
 <div class="sec">All 17 Sustainable Development Goals</div>
+
+<div class="card" style="margin-bottom:24px">
+  <div class="card-title">University Presence Across SDG Goals</div>
+  <div class="card-sub">Number of SDG goals each university appears in the top 5 contributors (out of 17)</div>
+  <div style="height:360px;position:relative"><canvas id="affSdgChart"></canvas></div>
+</div>
+
 <div class="sdg-grid">
   
         <div class="sdg-card" style="--sdg-color:#E5243B" id="sdg1">
@@ -3095,6 +3102,50 @@ new Chart(document.getElementById('affBar'),{
     }
   }
 });
+
+// ── Affiliation × SDG goal presence chart ────────────────────────────────────
+(function(){
+  const tally = {};
+  document.querySelectorAll('#tab-sdgcards .sdg-card').forEach(card=>{
+    card.querySelectorAll('.aff-row .aff-name').forEach(el=>{
+      const n = el.textContent.trim();
+      tally[n] = (tally[n]||0) + 1;
+    });
+  });
+  const rows = Object.entries(tally).sort((a,b)=>b[1]-a[1]);
+  const palette = rows.map((_,i)=>{
+    const t = i/Math.max(rows.length-1,1);
+    const r = Math.round(3 + t*(14-3));
+    const g = Math.round(105 + t*(116-105));
+    const b = Math.round(161 + t*(226-161));
+    return `rgba(${r},${g},${b},0.85)`;
+  });
+  new Chart(document.getElementById('affSdgChart'),{
+    type:'bar',
+    data:{
+      labels:rows.map(e=>e[0]),
+      datasets:[{
+        label:'SDG goals in top 5',
+        data:rows.map(e=>e[1]),
+        backgroundColor:palette,
+        borderColor:palette.map(c=>c.replace('0.85','1')),
+        borderWidth:1,borderRadius:5,
+      }]
+    },
+    options:{
+      indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label:ctx=>` Top-5 contributor in ${ctx.raw} of 17 SDG goals`}}
+      },
+      scales:{
+        x:{max:17,min:0,grid:{color:'#f1f5f9'},ticks:{color:'#64748b',stepSize:1},
+           title:{display:true,text:'Number of SDG Goals (max 17)',color:'#94a3b8',font:{size:10}}},
+        y:{grid:{display:false},ticks:{color:'#1e293b',font:{size:11}}}
+      }
+    }
+  });
+})();
 
 // ── Tooltip ───────────────────────────────────────────────────────────────────
 const ttEl = document.getElementById('tooltip');
