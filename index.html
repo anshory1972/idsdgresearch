@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>SDG Gap Analysis â€” SDG Center UNPAD</title>
+<title>SDG Gap Analysis — SDG Center UNPAD</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 <style>
-/* â”€â”€ Reset & base â”€â”€ */
+/* ── Reset & base ── */
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
   --unpad-blue:#003B7A; --unpad-gold:#F2A900;
@@ -16,7 +16,7 @@
 }
 body{background:var(--bg);color:var(--text);font-size:14px;line-height:1.5}
 
-/* â”€â”€ Header â”€â”€ */
+/* ── Header ── */
 header{
   background:linear-gradient(135deg,var(--unpad-blue) 0%,#005eb8 100%);
   color:#fff; padding:0;
@@ -34,8 +34,6 @@ header{
 .header-center{flex:1;text-align:center}
 .header-center h1{font-size:20px;font-weight:800;letter-spacing:.02em}
 .header-center .subtitle{font-size:12px;opacity:.85;margin-top:3px}
-.header-right{display:flex;align-items:center}
-.header-right img{height:44px;filter:brightness(0) invert(1);opacity:.9}
 .header-bottom{
   display:flex;align-items:center;gap:10px;
   padding:10px 36px; background:rgba(0,0,0,.15);
@@ -47,7 +45,7 @@ header{
 }
 .filter-label{opacity:.7;font-size:11px;margin-right:4px}
 
-/* â”€â”€ Tab navigation â”€â”€ */
+/* ── Tab navigation ── */
 .tab-nav{
   background:var(--surface);border-bottom:2px solid var(--border);
   display:flex;gap:0;padding:0 32px;position:sticky;top:0;z-index:100;
@@ -64,17 +62,17 @@ header{
 .tab-panel{display:none}
 .tab-panel.active{display:block}
 
-/* â”€â”€ Main layout â”€â”€ */
+/* ── Main layout ── */
 main{max-width:1700px;margin:0 auto;padding:28px 32px}
 
-/* â”€â”€ Section title â”€â”€ */
+/* ── Section title ── */
 .sec{
   font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;
   color:var(--muted);margin:32px 0 16px;display:flex;align-items:center;gap:10px;
 }
 .sec::after{content:'';flex:1;height:1px;background:var(--border)}
 
-/* â”€â”€ KPI strip â”€â”€ */
+/* ── KPI strip ── */
 .kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:8px}
 .kpi-card{
   background:var(--surface);border-radius:var(--radius);
@@ -89,7 +87,7 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .kpi-card.ks-amber{border-left:4px solid #d97706}
 .kpi-card.ks-red{border-left:4px solid #dc2626}
 
-/* â”€â”€ SDG card grid â”€â”€ */
+/* ── SDG card grid ── */
 .sdg-grid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(290px,1fr));
@@ -137,14 +135,14 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .aff-bar-fill{height:100%;border-radius:2px}
 .aff-count{width:36px;text-align:right;font-weight:700;color:var(--muted);flex-shrink:0}
 
-/* â”€â”€ Charts section â”€â”€ */
+/* ── Charts section ── */
 .charts-grid{display:grid;grid-template-columns:3fr 2fr;gap:18px;margin-bottom:24px}
 @media(max-width:1100px){.charts-grid{grid-template-columns:1fr}}
 .chart-card{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);padding:22px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
 .chart-card h3{font-size:13px;font-weight:700;margin-bottom:16px;color:var(--text)}
 .chart-card h3 span{color:var(--muted);font-size:11px;font-weight:400;margin-left:6px}
 
-/* â”€â”€ Heatmap â”€â”€ */
+/* ── Heatmap ── */
 .hm-grid{display:grid;grid-template-columns:repeat(17,1fr);gap:4px}
 .hm-cell{
   border-radius:6px;padding:10px 2px;text-align:center;
@@ -154,7 +152,7 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .hm-cell .hc-n{font-size:9px;font-weight:700}
 .hm-cell .hc-p{font-size:11px;font-weight:800;margin-top:4px}
 
-/* â”€â”€ Gap detail section â”€â”€ */
+/* ── Gap detail section ── */
 .gap-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-bottom:8px}
 .gap-detail-card{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
 .gdc-head{display:flex;align-items:flex-start;gap:14px;margin-bottom:14px}
@@ -177,12 +175,12 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .gaff-bar-fill{height:100%;border-radius:3px}
 .gaff-count{width:40px;text-align:right;font-weight:800;flex-shrink:0}
 
-/* â”€â”€ Tooltip â”€â”€ */
+/* ── Tooltip ── */
 .tooltip{position:fixed;background:rgba(15,23,42,.95);color:#e2e8f0;border-radius:8px;padding:10px 14px;font-size:12px;pointer-events:none;z-index:9999;display:none;max-width:240px;box-shadow:0 8px 24px rgba(0,0,0,.3)}
 .tooltip.show{display:block}
 .tooltip strong{display:block;margin-bottom:4px;font-size:13px}
 
-/* â”€â”€ Journal tables â”€â”€ */
+/* ── Journal tables ── */
 .jnl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:18px;margin-bottom:8px}
 .jnl-card{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);padding:18px 20px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
 .jnl-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
@@ -205,7 +203,7 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .jnl-metric{text-align:right;color:var(--muted);white-space:nowrap}
 .jnl-na{color:#cbd5e1;font-size:10px}
 
-/* â”€â”€ Methodology section â”€â”€ */
+/* ── Methodology section ── */
 .method-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:8px}
 .method-card{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);padding:20px 22px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
 .method-card h4{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--unpad-blue);margin-bottom:10px;display:flex;align-items:center;gap:7px}
@@ -215,7 +213,7 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .method-card strong{color:var(--text)}
 .method-note{background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:12px 18px;font-size:11.5px;color:#0369a1;margin-bottom:20px}
 
-/* â”€â”€ Footer â”€â”€ */
+/* ── Footer ── */
 footer{
   background:var(--unpad-blue);color:rgba(255,255,255,.8);
   text-align:center;padding:24px 32px;margin-top:16px;font-size:11px;
@@ -228,7 +226,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 </head>
 <body>
 
-<!-- â”€â”€ Header â”€â”€ -->
+<!-- ── Header ── -->
 <header>
   <div class="header-top">
     <div class="header-logos">
@@ -242,9 +240,6 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
       <h1>Indonesian Academic Publications &amp; SDG Alignment</h1>
       <div class="subtitle">SDG Center UNPAD (Pusat Riset SDGs &mdash; Universitas Padjadjaran) &nbsp;|&nbsp; Q1 Scopus-indexed journals &nbsp;|&nbsp; 2015&ndash;2026</div>
     </div>
-    <div class="header-right">
-      <img src="img/sdg-logo.png" alt="Sustainable Development Goals" />
-    </div>
   </div>
   <div class="header-bottom">
     <span class="filter-label">Active filters:</span>
@@ -257,7 +252,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
   </div>
 </header>
 
-<!-- â”€â”€ Tab navigation â”€â”€ -->
+<!-- ── Tab navigation ── -->
 <nav class="tab-nav" id="tabNav">
   <button class="tab-btn active" data-tab="overview">Overview</button>
   <button class="tab-btn" data-tab="sdgcards">SDG Goals</button>
@@ -269,7 +264,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 
 <main>
 
-<!-- â•â• TAB: Overview â•â• -->
+<!-- ══ TAB: Overview ══ -->
 <div class="tab-panel active" id="tab-overview">
 
 <div class="sec">Summary</div>
@@ -281,34 +276,34 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
   </div>
   <div class="kpi-card ks-green">
     <div class="kl">Strong Coverage (&ge;5%)</div>
-    <div class="kv" style="color:#16a34a" id="kpi-strong">â€”</div>
+    <div class="kv" style="color:#16a34a" id="kpi-strong">—</div>
     <div class="ks" id="kpi-strong-sub"></div>
   </div>
   <div class="kpi-card ks-amber">
-    <div class="kl">Moderate Coverage (1â€“5%)</div>
-    <div class="kv" style="color:#d97706" id="kpi-mod">â€”</div>
+    <div class="kl">Moderate Coverage (1–5%)</div>
+    <div class="kv" style="color:#d97706" id="kpi-mod">—</div>
     <div class="ks" id="kpi-mod-sub"></div>
   </div>
   <div class="kpi-card ks-red">
     <div class="kl">Gaps (&lt;1%)</div>
-    <div class="kv" style="color:#dc2626" id="kpi-gap">â€”</div>
+    <div class="kv" style="color:#dc2626" id="kpi-gap">—</div>
     <div class="ks" id="kpi-gap-sub"></div>
   </div>
   <div class="kpi-card ks-red">
     <div class="kl">Deepest Gap</div>
-    <div class="kv" style="color:#dc2626;font-size:22px" id="kpi-worst">â€”</div>
+    <div class="kv" style="color:#dc2626;font-size:22px" id="kpi-worst">—</div>
     <div class="ks" id="kpi-worst-sub"></div>
   </div>
   <div class="kpi-card accent">
     <div class="kl">Leading University</div>
-    <div class="kv" style="font-size:17px;margin-top:8px" id="kpi-lead-univ">â€”</div>
+    <div class="kv" style="font-size:17px;margin-top:8px" id="kpi-lead-univ">—</div>
     <div class="ks" id="kpi-lead-univ-sub">universities only</div>
   </div>
 </div>
 
 <div class="sec">SDG Coverage Heatmap</div>
 <div class="chart-card" style="margin-bottom:24px">
-  <h3>All 17 SDGs â€” share of national Q1 journal output &nbsp;<span>hover for details</span></h3>
+  <h3>All 17 SDGs — share of national Q1 journal output &nbsp;<span>hover for details</span></h3>
   <div class="hm-grid" id="heatmap"></div>
 </div>
 
@@ -327,7 +322,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 
 </div><!-- /tab-overview -->
 
-<!-- â•â• TAB: SDG Cards â•â• -->
+<!-- ══ TAB: SDG Cards ══ -->
 <div class="tab-panel" id="tab-sdgcards">
 <div class="sec">All 17 Sustainable Development Goals</div>
 <div class="sdg-grid">
@@ -358,31 +353,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#E5243B"></div></div>
-              <span class="aff-count">86</span>
+              <span class="aff-count">138</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:98%;background:#E5243B"></div></div>
-              <span class="aff-count">84</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:88%;background:#E5243B"></div></div>
+              <span class="aff-count">122</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="IPB University">IPB University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:69%;background:#E5243B"></div></div>
-              <span class="aff-count">59</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:84%;background:#E5243B"></div></div>
+              <span class="aff-count">116</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Hasanuddin University">Hasanuddin University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:51%;background:#E5243B"></div></div>
-              <span class="aff-count">44</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:62%;background:#E5243B"></div></div>
+              <span class="aff-count">86</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
               <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:45%;background:#E5243B"></div></div>
-              <span class="aff-count">39</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:50%;background:#E5243B"></div></div>
+              <span class="aff-count">69</span>
             </div>
           </div>
         </div>
@@ -413,31 +408,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#DDA63A"></div></div>
-              <span class="aff-count">98</span>
+              <span class="aff-count">152</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:81%;background:#DDA63A"></div></div>
-              <span class="aff-count">79</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:95%;background:#DDA63A"></div></div>
+              <span class="aff-count">144</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:78%;background:#DDA63A"></div></div>
-              <span class="aff-count">76</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:89%;background:#DDA63A"></div></div>
+              <span class="aff-count">136</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="IPB University">IPB University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:78%;background:#DDA63A"></div></div>
-              <span class="aff-count">76</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:72%;background:#DDA63A"></div></div>
+              <span class="aff-count">109</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
               <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:50%;background:#DDA63A"></div></div>
-              <span class="aff-count">49</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:70%;background:#DDA63A"></div></div>
+              <span class="aff-count">106</span>
             </div>
           </div>
         </div>
@@ -468,31 +463,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#4C9F38"></div></div>
-              <span class="aff-count">163</span>
+              <span class="aff-count">971</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:96%;background:#4C9F38"></div></div>
-              <span class="aff-count">157</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:93%;background:#4C9F38"></div></div>
+              <span class="aff-count">899</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:93%;background:#4C9F38"></div></div>
-              <span class="aff-count">152</span>
+              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:82%;background:#4C9F38"></div></div>
+              <span class="aff-count">797</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:72%;background:#4C9F38"></div></div>
-              <span class="aff-count">118</span>
+              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:80%;background:#4C9F38"></div></div>
+              <span class="aff-count">779</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
               <span class="aff-name" title="Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo">Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:44%;background:#4C9F38"></div></div>
-              <span class="aff-count">72</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:45%;background:#4C9F38"></div></div>
+              <span class="aff-count">440</span>
             </div>
           </div>
         </div>
@@ -523,31 +518,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Negeri Malang">Universitas Negeri Malang</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#C5192D"></div></div>
-              <span class="aff-count">72</span>
+              <span class="aff-count">225</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#C5192D"></div></div>
-              <span class="aff-count">72</span>
+              <span class="aff-name" title="Universitas Pendidikan Indonesia">Universitas Pendidikan Indonesia</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:85%;background:#C5192D"></div></div>
+              <span class="aff-count">192</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:97%;background:#C5192D"></div></div>
-              <span class="aff-count">70</span>
+              <span class="aff-name" title="Universitas Negeri Yogyakarta">Universitas Negeri Yogyakarta</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:85%;background:#C5192D"></div></div>
+              <span class="aff-count">191</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Negeri Yogyakarta">Universitas Negeri Yogyakarta</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:78%;background:#C5192D"></div></div>
-              <span class="aff-count">56</span>
+              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:77%;background:#C5192D"></div></div>
+              <span class="aff-count">173</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
               <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:74%;background:#C5192D"></div></div>
-              <span class="aff-count">53</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:70%;background:#C5192D"></div></div>
+              <span class="aff-count">158</span>
             </div>
           </div>
         </div>
@@ -576,33 +571,33 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
             
             <div class="aff-row">
               <span class="aff-rank">1</span>
-              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
+              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#FF3A21"></div></div>
               <span class="aff-count">28</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:96%;background:#FF3A21"></div></div>
-              <span class="aff-count">27</span>
+              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#FF3A21"></div></div>
+              <span class="aff-count">28</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:89%;background:#FF3A21"></div></div>
-              <span class="aff-count">25</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:96%;background:#FF3A21"></div></div>
+              <span class="aff-count">27</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Islam Negeri Syarif Hidayatullah Jakarta">Universitas Islam Negeri Syarif Hidayatullah Jakarta</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:61%;background:#FF3A21"></div></div>
-              <span class="aff-count">17</span>
+              <span class="aff-name" title="Universitas Islam Negeri Sunan Kalijaga, Yogyakarta">Universitas Islam Negeri Sunan Kalijaga, Yogyakarta</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:86%;background:#FF3A21"></div></div>
+              <span class="aff-count">24</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Islam Negeri Sunan Kalijaga, Yogyakarta">Universitas Islam Negeri Sunan Kalijaga, Yogyakarta</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:50%;background:#FF3A21"></div></div>
-              <span class="aff-count">14</span>
+              <span class="aff-name" title="Universitas Islam Negeri Syarif Hidayatullah Jakarta">Universitas Islam Negeri Syarif Hidayatullah Jakarta</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:71%;background:#FF3A21"></div></div>
+              <span class="aff-count">20</span>
             </div>
           </div>
         </div>
@@ -633,31 +628,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#26BDE2"></div></div>
-              <span class="aff-count">120</span>
+              <span class="aff-count">235</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:84%;background:#26BDE2"></div></div>
-              <span class="aff-count">101</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:81%;background:#26BDE2"></div></div>
+              <span class="aff-count">191</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:68%;background:#26BDE2"></div></div>
-              <span class="aff-count">81</span>
+              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:79%;background:#26BDE2"></div></div>
+              <span class="aff-count">185</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:56%;background:#26BDE2"></div></div>
-              <span class="aff-count">67</span>
+              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:66%;background:#26BDE2"></div></div>
+              <span class="aff-count">156</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Diponegoro">Universitas Diponegoro</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:49%;background:#26BDE2"></div></div>
-              <span class="aff-count">59</span>
+              <span class="aff-name" title="Institut Teknologi Sepuluh Nopember">Institut Teknologi Sepuluh Nopember</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:59%;background:#26BDE2"></div></div>
+              <span class="aff-count">139</span>
             </div>
           </div>
         </div>
@@ -688,31 +683,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#FCC30B"></div></div>
-              <span class="aff-count">126</span>
+              <span class="aff-count">245</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:71%;background:#FCC30B"></div></div>
-              <span class="aff-count">89</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:74%;background:#FCC30B"></div></div>
+              <span class="aff-count">182</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Institut Teknologi Sepuluh Nopember">Institut Teknologi Sepuluh Nopember</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:63%;background:#FCC30B"></div></div>
-              <span class="aff-count">80</span>
+              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:65%;background:#FCC30B"></div></div>
+              <span class="aff-count">159</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:57%;background:#FCC30B"></div></div>
-              <span class="aff-count">72</span>
+              <span class="aff-name" title="Institut Teknologi Sepuluh Nopember">Institut Teknologi Sepuluh Nopember</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:54%;background:#FCC30B"></div></div>
+              <span class="aff-count">133</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:44%;background:#FCC30B"></div></div>
-              <span class="aff-count">56</span>
+              <span class="aff-name" title="Universitas Sebelas Maret">Universitas Sebelas Maret</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:45%;background:#FCC30B"></div></div>
+              <span class="aff-count">111</span>
             </div>
           </div>
         </div>
@@ -743,31 +738,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#A21942"></div></div>
-              <span class="aff-count">87</span>
+              <span class="aff-count">299</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:90%;background:#A21942"></div></div>
-              <span class="aff-count">78</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#A21942"></div></div>
+              <span class="aff-count">299</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:87%;background:#A21942"></div></div>
-              <span class="aff-count">76</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:97%;background:#A21942"></div></div>
+              <span class="aff-count">290</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:86%;background:#A21942"></div></div>
-              <span class="aff-count">75</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:79%;background:#A21942"></div></div>
+              <span class="aff-count">236</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:74%;background:#A21942"></div></div>
-              <span class="aff-count">64</span>
+              <span class="aff-name" title="IPB University">IPB University</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:65%;background:#A21942"></div></div>
+              <span class="aff-count">195</span>
             </div>
           </div>
         </div>
@@ -796,33 +791,33 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
             
             <div class="aff-row">
               <span class="aff-rank">1</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
+              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#FD6925"></div></div>
-              <span class="aff-count">90</span>
+              <span class="aff-count">397</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:86%;background:#FD6925"></div></div>
-              <span class="aff-count">77</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:99%;background:#FD6925"></div></div>
+              <span class="aff-count">395</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:84%;background:#FD6925"></div></div>
-              <span class="aff-count">76</span>
+              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:97%;background:#FD6925"></div></div>
+              <span class="aff-count">385</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:79%;background:#FD6925"></div></div>
-              <span class="aff-count">71</span>
+              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:74%;background:#FD6925"></div></div>
+              <span class="aff-count">292</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:74%;background:#FD6925"></div></div>
-              <span class="aff-count">67</span>
+              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:64%;background:#FD6925"></div></div>
+              <span class="aff-count">254</span>
             </div>
           </div>
         </div>
@@ -853,31 +848,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#DD1367"></div></div>
-              <span class="aff-count">43</span>
+              <span class="aff-count">44</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
-              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:93%;background:#DD1367"></div></div>
-              <span class="aff-count">40</span>
+              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:98%;background:#DD1367"></div></div>
+              <span class="aff-count">43</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:91%;background:#DD1367"></div></div>
-              <span class="aff-count">39</span>
+              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:95%;background:#DD1367"></div></div>
+              <span class="aff-count">42</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:88%;background:#DD1367"></div></div>
-              <span class="aff-count">38</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:89%;background:#DD1367"></div></div>
+              <span class="aff-count">39</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
               <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:42%;background:#DD1367"></div></div>
-              <span class="aff-count">18</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:43%;background:#DD1367"></div></div>
+              <span class="aff-count">19</span>
             </div>
           </div>
         </div>
@@ -908,31 +903,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#FD9D24"></div></div>
-              <span class="aff-count">56</span>
+              <span class="aff-count">61</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:95%;background:#FD9D24"></div></div>
-              <span class="aff-count">53</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:97%;background:#FD9D24"></div></div>
+              <span class="aff-count">59</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:45%;background:#FD9D24"></div></div>
-              <span class="aff-count">25</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:52%;background:#FD9D24"></div></div>
+              <span class="aff-count">32</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:38%;background:#FD9D24"></div></div>
+              <span class="aff-name" title="Universitas Sebelas Maret">Universitas Sebelas Maret</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:34%;background:#FD9D24"></div></div>
               <span class="aff-count">21</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Sebelas Maret">Universitas Sebelas Maret</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:36%;background:#FD9D24"></div></div>
-              <span class="aff-count">20</span>
+              <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:34%;background:#FD9D24"></div></div>
+              <span class="aff-count">21</span>
             </div>
           </div>
         </div>
@@ -963,31 +958,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#BF8B2E"></div></div>
-              <span class="aff-count">84</span>
+              <span class="aff-count">166</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:80%;background:#BF8B2E"></div></div>
-              <span class="aff-count">67</span>
+              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:74%;background:#BF8B2E"></div></div>
+              <span class="aff-count">123</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Institut Teknologi Sepuluh Nopember">Institut Teknologi Sepuluh Nopember</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:77%;background:#BF8B2E"></div></div>
-              <span class="aff-count">65</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:72%;background:#BF8B2E"></div></div>
+              <span class="aff-count">120</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:69%;background:#BF8B2E"></div></div>
-              <span class="aff-count">58</span>
+              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:67%;background:#BF8B2E"></div></div>
+              <span class="aff-count">111</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Brawijaya University">Brawijaya University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:68%;background:#BF8B2E"></div></div>
-              <span class="aff-count">57</span>
+              <span class="aff-name" title="IPB University">IPB University</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:58%;background:#BF8B2E"></div></div>
+              <span class="aff-count">96</span>
             </div>
           </div>
         </div>
@@ -1016,33 +1011,33 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
             
             <div class="aff-row">
               <span class="aff-rank">1</span>
-              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
+              <span class="aff-name" title="IPB University">IPB University</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#3F7E44"></div></div>
-              <span class="aff-count">94</span>
+              <span class="aff-count">285</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
-              <span class="aff-name" title="IPB University">IPB University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:98%;background:#3F7E44"></div></div>
-              <span class="aff-count">92</span>
+              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:83%;background:#3F7E44"></div></div>
+              <span class="aff-count">237</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:97%;background:#3F7E44"></div></div>
-              <span class="aff-count">91</span>
+              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:76%;background:#3F7E44"></div></div>
+              <span class="aff-count">217</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:97%;background:#3F7E44"></div></div>
-              <span class="aff-count">91</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:69%;background:#3F7E44"></div></div>
+              <span class="aff-count">196</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Sebelas Maret">Universitas Sebelas Maret</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:63%;background:#3F7E44"></div></div>
-              <span class="aff-count">59</span>
+              <span class="aff-name" title="Universitas Diponegoro">Universitas Diponegoro</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:41%;background:#3F7E44"></div></div>
+              <span class="aff-count">118</span>
             </div>
           </div>
         </div>
@@ -1073,31 +1068,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="IPB University">IPB University</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#0A97D9"></div></div>
-              <span class="aff-count">129</span>
+              <span class="aff-count">323</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:89%;background:#0A97D9"></div></div>
-              <span class="aff-count">115</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:76%;background:#0A97D9"></div></div>
+              <span class="aff-count">246</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Hasanuddin University">Hasanuddin University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:55%;background:#0A97D9"></div></div>
-              <span class="aff-count">71</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:57%;background:#0A97D9"></div></div>
+              <span class="aff-count">185</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Universitas Diponegoro">Universitas Diponegoro</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:48%;background:#0A97D9"></div></div>
-              <span class="aff-count">62</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:47%;background:#0A97D9"></div></div>
+              <span class="aff-count">153</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:46%;background:#0A97D9"></div></div>
-              <span class="aff-count">59</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:40%;background:#0A97D9"></div></div>
+              <span class="aff-count">129</span>
             </div>
           </div>
         </div>
@@ -1128,31 +1123,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="IPB University">IPB University</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#56C02B"></div></div>
-              <span class="aff-count">136</span>
+              <span class="aff-count">713</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:71%;background:#56C02B"></div></div>
-              <span class="aff-count">96</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:53%;background:#56C02B"></div></div>
+              <span class="aff-count">379</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
-              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:54%;background:#56C02B"></div></div>
-              <span class="aff-count">73</span>
+              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:37%;background:#56C02B"></div></div>
+              <span class="aff-count">267</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
-              <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:53%;background:#56C02B"></div></div>
-              <span class="aff-count">72</span>
+              <span class="aff-name" title="Institut Teknologi Bandung">Institut Teknologi Bandung</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:36%;background:#56C02B"></div></div>
+              <span class="aff-count">255</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:39%;background:#56C02B"></div></div>
-              <span class="aff-count">53</span>
+              <span class="aff-name" title="Hasanuddin University">Hasanuddin University</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:30%;background:#56C02B"></div></div>
+              <span class="aff-count">215</span>
             </div>
           </div>
         </div>
@@ -1183,31 +1178,31 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#00689D"></div></div>
-              <span class="aff-count">98</span>
+              <span class="aff-count">341</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:82%;background:#00689D"></div></div>
-              <span class="aff-count">80</span>
+              <span class="aff-count">280</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="Universitas Airlangga">Universitas Airlangga</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:64%;background:#00689D"></div></div>
-              <span class="aff-count">63</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:59%;background:#00689D"></div></div>
+              <span class="aff-count">202</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:48%;background:#00689D"></div></div>
-              <span class="aff-count">47</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:50%;background:#00689D"></div></div>
+              <span class="aff-count">169</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Brawijaya University">Brawijaya University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:44%;background:#00689D"></div></div>
-              <span class="aff-count">43</span>
+              <span class="aff-name" title="Universitas Sebelas Maret">Universitas Sebelas Maret</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:48%;background:#00689D"></div></div>
+              <span class="aff-count">162</span>
             </div>
           </div>
         </div>
@@ -1238,30 +1233,30 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="aff-rank">1</span>
               <span class="aff-name" title="Universitas Gadjah Mada">Universitas Gadjah Mada</span>
               <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:100%;background:#19486A"></div></div>
-              <span class="aff-count">35</span>
+              <span class="aff-count">36</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">2</span>
               <span class="aff-name" title="Universitas Indonesia">Universitas Indonesia</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:71%;background:#19486A"></div></div>
-              <span class="aff-count">25</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:72%;background:#19486A"></div></div>
+              <span class="aff-count">26</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">3</span>
               <span class="aff-name" title="IPB University">IPB University</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:43%;background:#19486A"></div></div>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:42%;background:#19486A"></div></div>
               <span class="aff-count">15</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">4</span>
               <span class="aff-name" title="Universitas Padjadjaran">Universitas Padjadjaran</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:37%;background:#19486A"></div></div>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:36%;background:#19486A"></div></div>
               <span class="aff-count">13</span>
             </div>
             <div class="aff-row">
               <span class="aff-rank">5</span>
-              <span class="aff-name" title="Universitas Sebelas Maret">Universitas Sebelas Maret</span>
-              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:37%;background:#19486A"></div></div>
+              <span class="aff-name" title="Hasanuddin University">Hasanuddin University</span>
+              <div class="aff-bar-wrap"><div class="aff-bar-fill" style="width:36%;background:#19486A"></div></div>
               <span class="aff-count">13</span>
             </div>
           </div>
@@ -1269,11 +1264,11 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 </div>
 </div><!-- /tab-sdgcards -->
 
-<!-- â•â• TAB: Gap Analysis â•â• -->
+<!-- ══ TAB: Gap Analysis ══ -->
 <div class="tab-panel" id="tab-gaps">
 <div class="sec">Research Gap Analysis</div>
 <div style="background:#fff7f7;border:1px solid #fecaca;border-radius:12px;padding:16px 20px;margin-bottom:20px;font-size:13px">
-  <strong style="color:#dc2626">&#9888; 4 SDGs identified as research gaps</strong> â€” below 1.0% of total national Q1 journal output (2015+, active journals).
+  <strong style="color:#dc2626">&#9888; 4 SDGs identified as research gaps</strong> — below 1.0% of total national Q1 journal output (2015+, active journals).
   These SDGs represent critical research blind spots in Indonesian high-quality academic publishing.
   Affiliation counts below are <strong>exact</strong> across all matching papers (via Scopus facets API).
 </div>
@@ -1302,48 +1297,48 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="gaff-rank">1</span>
               <span class="gaff-name">Universitas Gadjah Mada</span>
               <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:100%;background:#19486A44;border-left:3px solid #19486A"></div></div>
-              <span class="gaff-count" style="color:#19486A;font-weight:700">35</span>
+              <span class="gaff-count" style="color:#19486A;font-weight:700">36</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">2</span>
               <span class="gaff-name">Universitas Indonesia</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:71%;background:#19486A44;border-left:3px solid #19486A"></div></div>
-              <span class="gaff-count" style="color:#19486A;font-weight:700">25</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:72%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <span class="gaff-count" style="color:#19486A;font-weight:700">26</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">3</span>
               <span class="gaff-name">IPB University</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:43%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:42%;background:#19486A44;border-left:3px solid #19486A"></div></div>
               <span class="gaff-count" style="color:#19486A;font-weight:700">15</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">4</span>
               <span class="gaff-name">Universitas Padjadjaran</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:37%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:36%;background:#19486A44;border-left:3px solid #19486A"></div></div>
               <span class="gaff-count" style="color:#19486A;font-weight:700">13</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">5</span>
-              <span class="gaff-name">Universitas Sebelas Maret</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:37%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <span class="gaff-name">Hasanuddin University</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:36%;background:#19486A44;border-left:3px solid #19486A"></div></div>
               <span class="gaff-count" style="color:#19486A;font-weight:700">13</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">6</span>
-              <span class="gaff-name">Hasanuddin University</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:34%;background:#19486A44;border-left:3px solid #19486A"></div></div>
-              <span class="gaff-count" style="color:#19486A;font-weight:700">12</span>
+              <span class="gaff-name">Universitas Sebelas Maret</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:36%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <span class="gaff-count" style="color:#19486A;font-weight:700">13</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">7</span>
               <span class="gaff-name">Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:26%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:25%;background:#19486A44;border-left:3px solid #19486A"></div></div>
               <span class="gaff-count" style="color:#19486A;font-weight:700">9</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">8</span>
               <span class="gaff-name">Universitas Udayana</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:26%;background:#19486A44;border-left:3px solid #19486A"></div></div>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:25%;background:#19486A44;border-left:3px solid #19486A"></div></div>
               <span class="gaff-count" style="color:#19486A;font-weight:700">9</span>
             </div>
           </div>
@@ -1372,49 +1367,49 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="gaff-rank">1</span>
               <span class="gaff-name">Institut Teknologi Bandung</span>
               <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:100%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">56</span>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">61</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">2</span>
               <span class="gaff-name">Universitas Indonesia</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:95%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">53</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:97%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">59</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">3</span>
               <span class="gaff-name">Universitas Gadjah Mada</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:45%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">25</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:52%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">32</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">4</span>
-              <span class="gaff-name">Universitas Padjadjaran</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:38%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
+              <span class="gaff-name">Universitas Sebelas Maret</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:34%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
               <span class="gaff-count" style="color:#FD9D24;font-weight:700">21</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">5</span>
-              <span class="gaff-name">Universitas Sebelas Maret</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:36%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">20</span>
+              <span class="gaff-name">Universitas Padjadjaran</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:34%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">21</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">6</span>
-              <span class="gaff-name">Universitas Pertamina</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:27%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">15</span>
+              <span class="gaff-name">IPB University</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:28%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">17</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">7</span>
-              <span class="gaff-name">IPB University</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:25%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">14</span>
+              <span class="gaff-name">Universitas Diponegoro</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:28%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">17</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">8</span>
-              <span class="gaff-name">Universitas Diponegoro</span>
+              <span class="gaff-name">Universitas Pertamina</span>
               <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:25%;background:#FD9D2444;border-left:3px solid #FD9D24"></div></div>
-              <span class="gaff-count" style="color:#FD9D24;font-weight:700">14</span>
+              <span class="gaff-count" style="color:#FD9D24;font-weight:700">15</span>
             </div>
           </div>
         </div>
@@ -1440,51 +1435,51 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
             
             <div class="gaff-row">
               <span class="gaff-rank">1</span>
-              <span class="gaff-name">Universitas Indonesia</span>
+              <span class="gaff-name">Universitas Gadjah Mada</span>
               <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:100%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
               <span class="gaff-count" style="color:#FF3A21;font-weight:700">28</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">2</span>
-              <span class="gaff-name">Universitas Gadjah Mada</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:96%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
-              <span class="gaff-count" style="color:#FF3A21;font-weight:700">27</span>
+              <span class="gaff-name">Universitas Indonesia</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:100%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
+              <span class="gaff-count" style="color:#FF3A21;font-weight:700">28</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">3</span>
               <span class="gaff-name">Universitas Airlangga</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:89%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
-              <span class="gaff-count" style="color:#FF3A21;font-weight:700">25</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:96%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
+              <span class="gaff-count" style="color:#FF3A21;font-weight:700">27</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">4</span>
-              <span class="gaff-name">Universitas Islam Negeri Syarif Hidayatullah Jakarta</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:61%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
-              <span class="gaff-count" style="color:#FF3A21;font-weight:700">17</span>
+              <span class="gaff-name">Universitas Islam Negeri Sunan Kalijaga, Yogyakarta</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:86%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
+              <span class="gaff-count" style="color:#FF3A21;font-weight:700">24</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">5</span>
-              <span class="gaff-name">Universitas Islam Negeri Sunan Kalijaga, Yogyakarta</span>
+              <span class="gaff-name">Universitas Islam Negeri Syarif Hidayatullah Jakarta</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:71%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
+              <span class="gaff-count" style="color:#FF3A21;font-weight:700">20</span>
+            </div>
+            <div class="gaff-row">
+              <span class="gaff-rank">6</span>
+              <span class="gaff-name">Universitas Islam Negeri Maulana Malik Ibrahim Malang</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:54%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
+              <span class="gaff-count" style="color:#FF3A21;font-weight:700">15</span>
+            </div>
+            <div class="gaff-row">
+              <span class="gaff-rank">7</span>
+              <span class="gaff-name">Universitas Padjadjaran</span>
               <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:50%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
               <span class="gaff-count" style="color:#FF3A21;font-weight:700">14</span>
             </div>
             <div class="gaff-row">
-              <span class="gaff-rank">6</span>
-              <span class="gaff-name">Universitas Padjadjaran</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:43%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
-              <span class="gaff-count" style="color:#FF3A21;font-weight:700">12</span>
-            </div>
-            <div class="gaff-row">
-              <span class="gaff-rank">7</span>
-              <span class="gaff-name">Universitas Sumatera Utara</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:39%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
-              <span class="gaff-count" style="color:#FF3A21;font-weight:700">11</span>
-            </div>
-            <div class="gaff-row">
               <span class="gaff-rank">8</span>
-              <span class="gaff-name">Universitas Negeri Yogyakarta</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:39%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
-              <span class="gaff-count" style="color:#FF3A21;font-weight:700">11</span>
+              <span class="gaff-name">UIN Sunan Gunung Djati</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:50%;background:#FF3A2144;border-left:3px solid #FF3A21"></div></div>
+              <span class="gaff-count" style="color:#FF3A21;font-weight:700">14</span>
             </div>
           </div>
         </div>
@@ -1512,67 +1507,67 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
               <span class="gaff-rank">1</span>
               <span class="gaff-name">Universitas Indonesia</span>
               <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:100%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">43</span>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">44</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">2</span>
-              <span class="gaff-name">Universitas Padjadjaran</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:93%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">40</span>
+              <span class="gaff-name">Universitas Airlangga</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:98%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">43</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">3</span>
-              <span class="gaff-name">Universitas Airlangga</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:91%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">39</span>
+              <span class="gaff-name">Universitas Padjadjaran</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:95%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">42</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">4</span>
               <span class="gaff-name">Universitas Gadjah Mada</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:88%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">38</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:89%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">39</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">5</span>
               <span class="gaff-name">Institut Teknologi Bandung</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:42%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">18</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:43%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">19</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">6</span>
               <span class="gaff-name">Universitas Sebelas Maret</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:37%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">16</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:39%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">17</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">7</span>
               <span class="gaff-name">Hasanuddin University</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:35%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">15</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:36%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">16</span>
             </div>
             <div class="gaff-row">
               <span class="gaff-rank">8</span>
               <span class="gaff-name">Brawijaya University</span>
-              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:33%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
-              <span class="gaff-count" style="color:#DD1367;font-weight:700">14</span>
+              <div class="gaff-bar-wrap"><div class="gaff-bar-fill" style="width:36%;background:#DD136744;border-left:3px solid #DD1367"></div></div>
+              <span class="gaff-count" style="color:#DD1367;font-weight:700">16</span>
             </div>
           </div>
         </div>
 </div>
 </div><!-- /tab-gaps -->
 
-<!-- â•â• TAB: Journals â•â• -->
+<!-- ══ TAB: Journals ══ -->
 <div class="tab-panel" id="tab-journals">
 
 <div class="sec">Top Journals per SDG &mdash; CiteScore Metrics</div>
 <div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:12px;padding:14px 20px;margin-bottom:20px;font-size:13px">
   <strong style="color:#0369a1">&#x1F4CA; Journal metrics as presented by Scopus / SCImago</strong> &mdash;
-  <b>SJR Quartile</b>: Q1â€“Q4 ranking within subject category (SCImago Journal Rank 2025) &nbsp;&bull;&nbsp;
+  <b>SJR Quartile</b>: Q1–Q4 ranking within subject category (SCImago Journal Rank 2025) &nbsp;&bull;&nbsp;
   <b>CiteScore 2025</b>: avg citations per document over 4 years &nbsp;&bull;&nbsp;
   <b>CS Tracker</b>: year-to-date CiteScore estimate &nbsp;&bull;&nbsp;
   <b>SJR</b>: SCImago Journal Rank &nbsp;&bull;&nbsp;
   <b>SNIP</b>: Source Normalized Impact per Paper.
-  <span style="color:#64748b;font-size:11px">Showing <strong>Q1 journals only</strong> (SCImago 2025). Paper counts are sampled from 6 of 48 Q1 batches â€” rankings are indicative, not exact totals.</span>
+  <span style="color:#64748b;font-size:11px">Showing <strong>Q1 journals only</strong> (SCImago 2025). Paper counts are sampled from 6 of 48 Q1 batches — rankings are indicative, not exact totals.</span>
 </div>
 <div class="jnl-grid">
   
@@ -1580,7 +1575,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-01.png" class="jnl-icon" alt="SDG 1"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#E5243B">SDG 1 â€” No Poverty</div>
+              <div class="jnl-sdgn" style="color:#E5243B">SDG 1 — No Poverty</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>1,714</b>total papers</div>
@@ -1654,7 +1649,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-02.png" class="jnl-icon" alt="SDG 2"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#DDA63A">SDG 2 â€” Zero Hunger</div>
+              <div class="jnl-sdgn" style="color:#DDA63A">SDG 2 — Zero Hunger</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>1,415</b>total papers</div>
@@ -1728,7 +1723,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-03.png" class="jnl-icon" alt="SDG 3"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#4C9F38">SDG 3 â€” Good Health & Well-being</div>
+              <div class="jnl-sdgn" style="color:#4C9F38">SDG 3 — Good Health & Well-being</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>6,634</b>total papers</div>
@@ -1802,7 +1797,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-04.png" class="jnl-icon" alt="SDG 4"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#C5192D">SDG 4 â€” Quality Education</div>
+              <div class="jnl-sdgn" style="color:#C5192D">SDG 4 — Quality Education</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>3,495</b>total papers</div>
@@ -1876,7 +1871,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-05.png" class="jnl-icon" alt="SDG 5"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#FF3A21">SDG 5 â€” Gender Equality</div>
+              <div class="jnl-sdgn" style="color:#FF3A21">SDG 5 — Gender Equality</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>494</b>total papers</div>
@@ -1950,7 +1945,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-06.png" class="jnl-icon" alt="SDG 6"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#26BDE2">SDG 6 â€” Clean Water & Sanitation</div>
+              <div class="jnl-sdgn" style="color:#26BDE2">SDG 6 — Clean Water & Sanitation</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>2,312</b>total papers</div>
@@ -2024,7 +2019,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-07.png" class="jnl-icon" alt="SDG 7"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#FCC30B">SDG 7 â€” Affordable & Clean Energy</div>
+              <div class="jnl-sdgn" style="color:#FCC30B">SDG 7 — Affordable & Clean Energy</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>1,920</b>total papers</div>
@@ -2098,7 +2093,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-08.png" class="jnl-icon" alt="SDG 8"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#A21942">SDG 8 â€” Decent Work & Economic Growth</div>
+              <div class="jnl-sdgn" style="color:#A21942">SDG 8 — Decent Work & Economic Growth</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>4,288</b>total papers</div>
@@ -2172,7 +2167,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-09.png" class="jnl-icon" alt="SDG 9"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#FD6925">SDG 9 â€” Industry, Innovation & Infrastructure</div>
+              <div class="jnl-sdgn" style="color:#FD6925">SDG 9 — Industry, Innovation & Infrastructure</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>5,651</b>total papers</div>
@@ -2246,7 +2241,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-10.png" class="jnl-icon" alt="SDG 10"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#DD1367">SDG 10 â€” Reduced Inequalities</div>
+              <div class="jnl-sdgn" style="color:#DD1367">SDG 10 — Reduced Inequalities</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>558</b>total papers</div>
@@ -2320,7 +2315,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-11.png" class="jnl-icon" alt="SDG 11"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#FD9D24">SDG 11 â€” Sustainable Cities & Communities</div>
+              <div class="jnl-sdgn" style="color:#FD9D24">SDG 11 — Sustainable Cities & Communities</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>437</b>total papers</div>
@@ -2394,7 +2389,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-12.png" class="jnl-icon" alt="SDG 12"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#BF8B2E">SDG 12 â€” Responsible Consumption & Production</div>
+              <div class="jnl-sdgn" style="color:#BF8B2E">SDG 12 — Responsible Consumption & Production</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>1,664</b>total papers</div>
@@ -2468,7 +2463,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-13.png" class="jnl-icon" alt="SDG 13"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#3F7E44">SDG 13 â€” Climate Action</div>
+              <div class="jnl-sdgn" style="color:#3F7E44">SDG 13 — Climate Action</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>3,094</b>total papers</div>
@@ -2542,7 +2537,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-14.png" class="jnl-icon" alt="SDG 14"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#0A97D9">SDG 14 â€” Life Below Water</div>
+              <div class="jnl-sdgn" style="color:#0A97D9">SDG 14 — Life Below Water</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>2,565</b>total papers</div>
@@ -2616,7 +2611,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-15.png" class="jnl-icon" alt="SDG 15"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#56C02B">SDG 15 â€” Life on Land</div>
+              <div class="jnl-sdgn" style="color:#56C02B">SDG 15 — Life on Land</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>5,258</b>total papers</div>
@@ -2690,7 +2685,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-16.png" class="jnl-icon" alt="SDG 16"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#00689D">SDG 16 â€” Peace, Justice & Strong Institutions</div>
+              <div class="jnl-sdgn" style="color:#00689D">SDG 16 — Peace, Justice & Strong Institutions</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>5,203</b>total papers</div>
@@ -2764,7 +2759,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
           <div class="jnl-head">
             <img src="img/sdg-17.png" class="jnl-icon" alt="SDG 17"/>
             <div class="jnl-title">
-              <div class="jnl-sdgn" style="color:#19486A">SDG 17 â€” Partnerships for the Goals</div>
+              <div class="jnl-sdgn" style="color:#19486A">SDG 17 — Partnerships for the Goals</div>
               <div class="jnl-lbl">Top journals by Indonesian paper count</div>
             </div>
             <div class="jnl-total"><b>286</b>total papers</div>
@@ -2837,16 +2832,16 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 
 </div><!-- /tab-journals -->
 
-<!-- â•â• TAB: Institutions â•â• -->
+<!-- ══ TAB: Institutions ══ -->
 <div class="tab-panel" id="tab-institutions">
 <div class="sec">Institutional Contributions</div>
 <div class="chart-card" style="margin-bottom:24px">
-  <h3>Top 20 Indonesian Universities â€” All SDGs Combined <span>universities only &middot; exact counts via Scopus facets</span></h3>
+  <h3>Top 20 Indonesian Universities — All SDGs Combined <span>universities only &middot; exact counts via Scopus facets</span></h3>
   <div style="position:relative;height:500px"><canvas id="affBar"></canvas></div>
 </div>
 </div><!-- /tab-institutions -->
 
-<!-- â•â• TAB: Methodology â•â• -->
+<!-- ══ TAB: Methodology ══ -->
 <div class="tab-panel" id="tab-methodology">
 <div class="sec">Methodology</div>
 <div class="method-note">
@@ -2857,8 +2852,8 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 <div class="method-grid">
   <div class="method-card">
     <h4>&#x1F3AF; Objective &amp; Scope</h4>
-    <p>The goal is to assess <strong>research strength</strong> â€” the capacity of Indonesian academia to produce
-    internationally competitive work on each SDG â€” rather than raw publication volume.
+    <p>The goal is to assess <strong>research strength</strong> — the capacity of Indonesian academia to produce
+    internationally competitive work on each SDG — rather than raw publication volume.
     The analysis covers all Scopus-indexed journal articles with at least one Indonesian affiliation,
     published from 2015 onwards.</p>
   </div>
@@ -2867,25 +2862,25 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
     <p>The analysis is restricted to <strong>Q1-ranked journals</strong> (top quartile by SCImago Journal Rank, 2025 edition)
     because Q1 journals represent the most rigorous peer-reviewed venues in each field.
     A paper in a Q1 journal signals competitive quality, not just publication.
-    Restricting to Q1 ensures that a gap reflects a genuine research capacity deficit â€”
+    Restricting to Q1 ensures that a gap reflects a genuine research capacity deficit —
     not merely low submission rates to lower-tier outlets.</p>
   </div>
   <div class="method-card">
     <h4>&#x1F6AB; Quality Filters Applied</h4>
     <ul>
-      <li><strong>Q1 journals only</strong> â€” SCImago 2025, 9,470 journals across all disciplines</li>
-      <li><strong>Active journals only</strong> â€” 1,132 discontinued titles (Elsevier Discontinued List, May 2026) excluded</li>
-      <li><strong>Journal articles only</strong> â€” conference proceedings, books, and trade publications excluded (<code>SRCTYPE=j</code>)</li>
+      <li><strong>Q1 journals only</strong> — SCImago 2025, 9,470 journals across all disciplines</li>
+      <li><strong>Active journals only</strong> — 1,132 discontinued titles (Elsevier Discontinued List, May 2026) excluded</li>
+      <li><strong>Journal articles only</strong> — conference proceedings, books, and trade publications excluded (<code>SRCTYPE=j</code>)</li>
       <li><strong>Period:</strong> 2015 to present (<code>PUBYEAR &gt; 2014</code>)</li>
       <li><strong>Affiliation:</strong> at least one Indonesian author (<code>AFFILCOUNTRY(indonesia)</code>)</li>
     </ul>
   </div>
   <div class="method-card">
     <h4>&#x1F5FA; SDG Keyword Mapping</h4>
-    <p>Each paper is mapped to one or more SDGs using the <strong>Elsevier Aurora SDG keyword framework</strong> â€”
+    <p>Each paper is mapped to one or more SDGs using the <strong>Elsevier Aurora SDG keyword framework</strong> —
     a curated set of title, abstract, and keyword search strings (<code>TITLE-ABS-KEY</code>) designed for Scopus-based
     SDG bibliometric analysis. A single paper may match multiple SDGs (e.g., a study on clean energy access for
-    poverty reduction maps to both SDG 1 and SDG 7). <strong>No deduplication is applied</strong> â€”
+    poverty reduction maps to both SDG 1 and SDG 7). <strong>No deduplication is applied</strong> —
     consistent with the Aurora framework, where SDG coverage is not mutually exclusive.</p>
   </div>
   <div class="method-card">
@@ -2894,14 +2889,14 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
     <strong>1.0% of total Indonesian Q1 output</strong> (75,892 papers).
     This threshold identifies SDGs where Indonesia's high-quality research engagement is
     disproportionately low relative to its overall output. The percentage for each SDG
-    represents the share of national Q1 production addressing that goal â€” not a slice of a zero-sum pie.</p>
+    represents the share of national Q1 production addressing that goal — not a slice of a zero-sum pie.</p>
   </div>
   <div class="method-card">
     <h4>&#x1F4DD; Limitations</h4>
     <ul>
       <li>Results depend on the completeness of SCImago 2025 quartile rankings</li>
       <li>The Aurora keyword framework may undercount thematic work using non-standard terminology</li>
-      <li><strong>Affiliation rankings are co-authorship frequency counts</strong> from 25 records per Q1 batch (all 48 batches) â€” proportional rankings, not exact paper totals; results are fully reproducible (no random sampling)</li>
+      <li><strong>Affiliation rankings are co-authorship frequency counts</strong> from 25 records per Q1 batch (all 48 batches) — proportional rankings, not exact paper totals; results are fully reproducible (no random sampling)</li>
       <li>The Scopus facets API returns only 3 affiliations regardless of request size and cannot be used for comprehensive university ranking</li>
       <li>Paper-SDG overlap is intentional; SDG counts sum to more than the 75,892 total</li>
     </ul>
@@ -2911,7 +2906,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 
 </main>
 
-<!-- â”€â”€ Footer â”€â”€ -->
+<!-- ── Footer ── -->
 <footer>
   <div class="footer-logos">
     <img src="img/logo-sdgcenter-unpad.png" class="sdgcenter-footer" alt="SDG Center UNPAD" style="filter:none;opacity:1" />
@@ -2935,29 +2930,29 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 
 <script>
 const SDG   = [
-{n:1,label:"No Poverty",count:1714,pct:2.26,color:"#E5243B",tier:"MODERATE",affs:[{"name": "Universitas Gadjah Mada", "count": 86}, {"name": "Universitas Indonesia", "count": 84}, {"name": "IPB University", "count": 59}, {"name": "Hasanuddin University", "count": 44}, {"name": "Universitas Padjadjaran", "count": 39}, {"name": "Universitas Airlangga", "count": 36}, {"name": "Brawijaya University", "count": 29}, {"name": "Institut Teknologi Bandung", "count": 26}, {"name": "Universitas Sebelas Maret", "count": 24}, {"name": "Fakultas Ekonomi dan Bisnis, Universitas Indonesia", "count": 21}]},
-{n:2,label:"Zero Hunger",count:1415,pct:1.86,color:"#DDA63A",tier:"MODERATE",affs:[{"name": "Universitas Padjadjaran", "count": 98}, {"name": "Universitas Indonesia", "count": 79}, {"name": "Universitas Gadjah Mada", "count": 76}, {"name": "IPB University", "count": 76}, {"name": "Universitas Airlangga", "count": 49}, {"name": "Brawijaya University", "count": 48}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 42}, {"name": "Hasanuddin University", "count": 39}, {"name": "Universitas Diponegoro", "count": 33}, {"name": "Institut Teknologi Bandung", "count": 25}]},
-{n:3,label:"Good Health & Well-being",count:6634,pct:8.74,color:"#4C9F38",tier:"STRONG",affs:[{"name": "Universitas Indonesia", "count": 163}, {"name": "Universitas Airlangga", "count": 157}, {"name": "Universitas Padjadjaran", "count": 152}, {"name": "Universitas Gadjah Mada", "count": 118}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 72}, {"name": "Hasanuddin University", "count": 57}, {"name": "Brawijaya University", "count": 44}, {"name": "Universitas Sebelas Maret", "count": 40}, {"name": "Universitas Diponegoro", "count": 36}, {"name": "Universitas Udayana", "count": 28}]},
-{n:4,label:"Quality Education",count:3495,pct:4.61,color:"#C5192D",tier:"MODERATE",affs:[{"name": "Universitas Negeri Malang", "count": 72}, {"name": "Universitas Gadjah Mada", "count": 72}, {"name": "Universitas Indonesia", "count": 70}, {"name": "Universitas Negeri Yogyakarta", "count": 56}, {"name": "Universitas Airlangga", "count": 53}, {"name": "Universitas Pendidikan Indonesia", "count": 52}, {"name": "Universitas Padjadjaran", "count": 50}, {"name": "Universitas Sebelas Maret", "count": 42}, {"name": "Universitas Negeri Semarang", "count": 36}, {"name": "Universitas Negeri Surabaya", "count": 34}]},
-{n:5,label:"Gender Equality",count:494,pct:0.65,color:"#FF3A21",tier:"GAP",affs:[{"name": "Universitas Indonesia", "count": 28}, {"name": "Universitas Gadjah Mada", "count": 27}, {"name": "Universitas Airlangga", "count": 25}, {"name": "Universitas Islam Negeri Syarif Hidayatullah Jakarta", "count": 17}, {"name": "Universitas Islam Negeri Sunan Kalijaga, Yogyakarta", "count": 14}, {"name": "Universitas Padjadjaran", "count": 12}, {"name": "Universitas Sumatera Utara", "count": 11}, {"name": "Universitas Negeri Yogyakarta", "count": 11}, {"name": "UIN Sunan Gunung Djati", "count": 11}, {"name": "Universitas Sebelas Maret", "count": 10}]},
-{n:6,label:"Clean Water & Sanitation",count:2312,pct:3.05,color:"#26BDE2",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 120}, {"name": "Universitas Gadjah Mada", "count": 101}, {"name": "Universitas Indonesia", "count": 81}, {"name": "Universitas Airlangga", "count": 67}, {"name": "Universitas Diponegoro", "count": 59}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 58}, {"name": "Brawijaya University", "count": 54}, {"name": "Universitas Padjadjaran", "count": 53}, {"name": "IPB University", "count": 45}, {"name": "Hasanuddin University", "count": 40}]},
-{n:7,label:"Affordable & Clean Energy",count:1920,pct:2.53,color:"#FCC30B",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 126}, {"name": "Universitas Indonesia", "count": 89}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 80}, {"name": "Universitas Gadjah Mada", "count": 72}, {"name": "Universitas Airlangga", "count": 56}, {"name": "Universitas Sebelas Maret", "count": 52}, {"name": "Universitas Diponegoro", "count": 35}, {"name": "Universitas Negeri Malang", "count": 29}, {"name": "Universitas Padjadjaran", "count": 29}, {"name": "IPB University", "count": 28}]},
-{n:8,label:"Decent Work & Economic Growth",count:4288,pct:5.65,color:"#A21942",tier:"STRONG",affs:[{"name": "Universitas Gadjah Mada", "count": 87}, {"name": "Universitas Indonesia", "count": 78}, {"name": "Universitas Airlangga", "count": 76}, {"name": "Universitas Padjadjaran", "count": 75}, {"name": "Institut Teknologi Bandung", "count": 64}, {"name": "Brawijaya University", "count": 58}, {"name": "IPB University", "count": 56}, {"name": "Universitas Sebelas Maret", "count": 42}, {"name": "Universitas Negeri Malang", "count": 32}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 29}]},
-{n:9,label:"Industry, Innovation & Infrastructure",count:5651,pct:7.45,color:"#FD6925",tier:"STRONG",affs:[{"name": "Universitas Gadjah Mada", "count": 90}, {"name": "Universitas Indonesia", "count": 77}, {"name": "Universitas Padjadjaran", "count": 76}, {"name": "Institut Teknologi Bandung", "count": 71}, {"name": "Universitas Airlangga", "count": 67}, {"name": "Brawijaya University", "count": 42}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 41}, {"name": "Universitas Sebelas Maret", "count": 40}, {"name": "IPB University", "count": 37}, {"name": "Hasanuddin University", "count": 36}]},
-{n:10,label:"Reduced Inequalities",count:558,pct:0.74,color:"#DD1367",tier:"GAP",affs:[{"name": "Universitas Indonesia", "count": 43}, {"name": "Universitas Padjadjaran", "count": 40}, {"name": "Universitas Airlangga", "count": 39}, {"name": "Universitas Gadjah Mada", "count": 38}, {"name": "Institut Teknologi Bandung", "count": 18}, {"name": "Universitas Sebelas Maret", "count": 16}, {"name": "Hasanuddin University", "count": 15}, {"name": "Brawijaya University", "count": 14}, {"name": "Universitas Udayana", "count": 14}, {"name": "Universitas Negeri Malang", "count": 12}]},
-{n:11,label:"Sustainable Cities & Communities",count:437,pct:0.58,color:"#FD9D24",tier:"GAP",affs:[{"name": "Institut Teknologi Bandung", "count": 56}, {"name": "Universitas Indonesia", "count": 53}, {"name": "Universitas Gadjah Mada", "count": 25}, {"name": "Universitas Padjadjaran", "count": 21}, {"name": "Universitas Sebelas Maret", "count": 20}, {"name": "Universitas Pertamina", "count": 15}, {"name": "IPB University", "count": 14}, {"name": "Universitas Diponegoro", "count": 14}, {"name": "Brawijaya University", "count": 13}, {"name": "Hasanuddin University", "count": 12}]},
-{n:12,label:"Responsible Consumption & Production",count:1664,pct:2.19,color:"#BF8B2E",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 84}, {"name": "Universitas Gadjah Mada", "count": 67}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 65}, {"name": "Universitas Airlangga", "count": 58}, {"name": "Brawijaya University", "count": 57}, {"name": "Universitas Indonesia", "count": 56}, {"name": "Universitas Diponegoro", "count": 47}, {"name": "IPB University", "count": 46}, {"name": "Universitas Sebelas Maret", "count": 36}, {"name": "Hasanuddin University", "count": 35}]},
-{n:13,label:"Climate Action",count:3094,pct:4.08,color:"#3F7E44",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 94}, {"name": "IPB University", "count": 92}, {"name": "Universitas Gadjah Mada", "count": 91}, {"name": "Universitas Indonesia", "count": 91}, {"name": "Universitas Sebelas Maret", "count": 59}, {"name": "Universitas Diponegoro", "count": 54}, {"name": "Universitas Airlangga", "count": 45}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 43}, {"name": "Brawijaya University", "count": 42}, {"name": "Hasanuddin University", "count": 41}]},
-{n:14,label:"Life Below Water",count:2565,pct:3.38,color:"#0A97D9",tier:"MODERATE",affs:[{"name": "IPB University", "count": 129}, {"name": "Institut Teknologi Bandung", "count": 115}, {"name": "Hasanuddin University", "count": 71}, {"name": "Universitas Diponegoro", "count": 62}, {"name": "Universitas Gadjah Mada", "count": 59}, {"name": "Universitas Indonesia", "count": 41}, {"name": "Universitas Padjadjaran", "count": 35}, {"name": "Universitas Syiah Kuala", "count": 35}, {"name": "Universitas Airlangga", "count": 32}, {"name": "Universitas Udayana", "count": 29}]},
-{n:15,label:"Life on Land",count:5258,pct:6.93,color:"#56C02B",tier:"STRONG",affs:[{"name": "IPB University", "count": 136}, {"name": "Universitas Gadjah Mada", "count": 96}, {"name": "Institut Teknologi Bandung", "count": 73}, {"name": "Universitas Indonesia", "count": 72}, {"name": "Universitas Airlangga", "count": 53}, {"name": "Brawijaya University", "count": 52}, {"name": "Hasanuddin University", "count": 46}, {"name": "Universitas Padjadjaran", "count": 42}, {"name": "Universitas Diponegoro", "count": 35}, {"name": "Universitas Sebelas Maret", "count": 27}]},
-{n:16,label:"Peace, Justice & Strong Institutions",count:5203,pct:6.86,color:"#00689D",tier:"STRONG",affs:[{"name": "Universitas Gadjah Mada", "count": 98}, {"name": "Universitas Indonesia", "count": 80}, {"name": "Universitas Airlangga", "count": 63}, {"name": "Universitas Padjadjaran", "count": 47}, {"name": "Brawijaya University", "count": 43}, {"name": "Universitas Sebelas Maret", "count": 37}, {"name": "IPB University", "count": 36}, {"name": "Hasanuddin University", "count": 34}, {"name": "Institut Teknologi Bandung", "count": 34}, {"name": "Universitas Diponegoro", "count": 27}]},
-{n:17,label:"Partnerships for the Goals",count:286,pct:0.38,color:"#19486A",tier:"GAP",affs:[{"name": "Universitas Gadjah Mada", "count": 35}, {"name": "Universitas Indonesia", "count": 25}, {"name": "IPB University", "count": 15}, {"name": "Universitas Padjadjaran", "count": 13}, {"name": "Universitas Sebelas Maret", "count": 13}, {"name": "Hasanuddin University", "count": 12}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 9}, {"name": "Universitas Udayana", "count": 9}, {"name": "Universitas Diponegoro", "count": 8}, {"name": "Institut Teknologi Bandung", "count": 7}]}
+{n:1,label:"No Poverty",count:1714,pct:2.26,color:"#E5243B",tier:"MODERATE",affs:[{"name": "Universitas Gadjah Mada", "count": 138}, {"name": "Universitas Indonesia", "count": 122}, {"name": "IPB University", "count": 116}, {"name": "Hasanuddin University", "count": 86}, {"name": "Universitas Padjadjaran", "count": 69}, {"name": "Universitas Airlangga", "count": 68}, {"name": "Brawijaya University", "count": 48}, {"name": "Universitas Sebelas Maret", "count": 41}, {"name": "Institut Teknologi Bandung", "count": 35}, {"name": "Universitas Diponegoro", "count": 34}]},
+{n:2,label:"Zero Hunger",count:1415,pct:1.86,color:"#DDA63A",tier:"MODERATE",affs:[{"name": "Universitas Padjadjaran", "count": 152}, {"name": "Universitas Indonesia", "count": 144}, {"name": "Universitas Gadjah Mada", "count": 136}, {"name": "IPB University", "count": 109}, {"name": "Universitas Airlangga", "count": 106}, {"name": "Brawijaya University", "count": 77}, {"name": "Hasanuddin University", "count": 63}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 59}, {"name": "Universitas Diponegoro", "count": 54}, {"name": "Universitas Sebelas Maret", "count": 42}]},
+{n:3,label:"Good Health & Well-being",count:6634,pct:8.74,color:"#4C9F38",tier:"STRONG",affs:[{"name": "Universitas Indonesia", "count": 971}, {"name": "Universitas Airlangga", "count": 899}, {"name": "Universitas Gadjah Mada", "count": 797}, {"name": "Universitas Padjadjaran", "count": 779}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 440}, {"name": "Hasanuddin University", "count": 246}, {"name": "Brawijaya University", "count": 205}, {"name": "Universitas Udayana", "count": 204}, {"name": "Universitas Syiah Kuala", "count": 167}, {"name": "Universitas Diponegoro", "count": 164}]},
+{n:4,label:"Quality Education",count:3495,pct:4.61,color:"#C5192D",tier:"MODERATE",affs:[{"name": "Universitas Negeri Malang", "count": 225}, {"name": "Universitas Pendidikan Indonesia", "count": 192}, {"name": "Universitas Negeri Yogyakarta", "count": 191}, {"name": "Universitas Indonesia", "count": 173}, {"name": "Universitas Airlangga", "count": 158}, {"name": "Universitas Gadjah Mada", "count": 154}, {"name": "Universitas Sebelas Maret", "count": 126}, {"name": "Universitas Negeri Makassar", "count": 120}, {"name": "Universitas Padjadjaran", "count": 104}, {"name": "Universitas Negeri Surabaya", "count": 100}]},
+{n:5,label:"Gender Equality",count:494,pct:0.65,color:"#FF3A21",tier:"GAP",affs:[{"name": "Universitas Gadjah Mada", "count": 28}, {"name": "Universitas Indonesia", "count": 28}, {"name": "Universitas Airlangga", "count": 27}, {"name": "Universitas Islam Negeri Sunan Kalijaga, Yogyakarta", "count": 24}, {"name": "Universitas Islam Negeri Syarif Hidayatullah Jakarta", "count": 20}, {"name": "Universitas Islam Negeri Maulana Malik Ibrahim Malang", "count": 15}, {"name": "Universitas Padjadjaran", "count": 14}, {"name": "UIN Sunan Gunung Djati", "count": 14}, {"name": "Universitas Sumatera Utara", "count": 12}, {"name": "Universitas Islam Negeri Ar-Raniry", "count": 12}]},
+{n:6,label:"Clean Water & Sanitation",count:2312,pct:3.05,color:"#26BDE2",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 235}, {"name": "Universitas Gadjah Mada", "count": 191}, {"name": "Universitas Airlangga", "count": 185}, {"name": "Universitas Indonesia", "count": 156}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 139}, {"name": "Universitas Diponegoro", "count": 139}, {"name": "IPB University", "count": 118}, {"name": "Brawijaya University", "count": 105}, {"name": "Universitas Padjadjaran", "count": 96}, {"name": "Hasanuddin University", "count": 87}]},
+{n:7,label:"Affordable & Clean Energy",count:1920,pct:2.53,color:"#FCC30B",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 245}, {"name": "Universitas Indonesia", "count": 182}, {"name": "Universitas Gadjah Mada", "count": 159}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 133}, {"name": "Universitas Sebelas Maret", "count": 111}, {"name": "Universitas Airlangga", "count": 105}, {"name": "Universitas Diponegoro", "count": 66}, {"name": "Universitas Syiah Kuala", "count": 64}, {"name": "Universitas Sumatera Utara", "count": 54}, {"name": "Brawijaya University", "count": 50}]},
+{n:8,label:"Decent Work & Economic Growth",count:4288,pct:5.65,color:"#A21942",tier:"STRONG",affs:[{"name": "Universitas Gadjah Mada", "count": 299}, {"name": "Universitas Indonesia", "count": 299}, {"name": "Universitas Airlangga", "count": 290}, {"name": "Universitas Padjadjaran", "count": 236}, {"name": "IPB University", "count": 195}, {"name": "Institut Teknologi Bandung", "count": 180}, {"name": "Brawijaya University", "count": 159}, {"name": "Universitas Udayana", "count": 132}, {"name": "Universitas Sebelas Maret", "count": 129}, {"name": "Universitas Negeri Malang", "count": 115}]},
+{n:9,label:"Industry, Innovation & Infrastructure",count:5651,pct:7.45,color:"#FD6925",tier:"STRONG",affs:[{"name": "Institut Teknologi Bandung", "count": 397}, {"name": "Universitas Indonesia", "count": 395}, {"name": "Universitas Gadjah Mada", "count": 385}, {"name": "Universitas Airlangga", "count": 292}, {"name": "Universitas Padjadjaran", "count": 254}, {"name": "Universitas Sebelas Maret", "count": 202}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 198}, {"name": "Brawijaya University", "count": 186}, {"name": "Universitas Diponegoro", "count": 171}, {"name": "Bina Nusantara University", "count": 171}]},
+{n:10,label:"Reduced Inequalities",count:558,pct:0.74,color:"#DD1367",tier:"GAP",affs:[{"name": "Universitas Indonesia", "count": 44}, {"name": "Universitas Airlangga", "count": 43}, {"name": "Universitas Padjadjaran", "count": 42}, {"name": "Universitas Gadjah Mada", "count": 39}, {"name": "Institut Teknologi Bandung", "count": 19}, {"name": "Universitas Sebelas Maret", "count": 17}, {"name": "Hasanuddin University", "count": 16}, {"name": "Brawijaya University", "count": 16}, {"name": "Universitas Udayana", "count": 15}, {"name": "Universitas Syiah Kuala", "count": 13}]},
+{n:11,label:"Sustainable Cities & Communities",count:437,pct:0.58,color:"#FD9D24",tier:"GAP",affs:[{"name": "Institut Teknologi Bandung", "count": 61}, {"name": "Universitas Indonesia", "count": 59}, {"name": "Universitas Gadjah Mada", "count": 32}, {"name": "Universitas Sebelas Maret", "count": 21}, {"name": "Universitas Padjadjaran", "count": 21}, {"name": "IPB University", "count": 17}, {"name": "Universitas Diponegoro", "count": 17}, {"name": "Universitas Pertamina", "count": 15}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 13}, {"name": "Brawijaya University", "count": 13}]},
+{n:12,label:"Responsible Consumption & Production",count:1664,pct:2.19,color:"#BF8B2E",tier:"MODERATE",affs:[{"name": "Institut Teknologi Bandung", "count": 166}, {"name": "Universitas Indonesia", "count": 123}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 120}, {"name": "Universitas Gadjah Mada", "count": 111}, {"name": "IPB University", "count": 96}, {"name": "Universitas Airlangga", "count": 93}, {"name": "Universitas Diponegoro", "count": 90}, {"name": "Brawijaya University", "count": 90}, {"name": "Universitas Sebelas Maret", "count": 61}, {"name": "Universitas Padjadjaran", "count": 56}]},
+{n:13,label:"Climate Action",count:3094,pct:4.08,color:"#3F7E44",tier:"MODERATE",affs:[{"name": "IPB University", "count": 285}, {"name": "Universitas Gadjah Mada", "count": 237}, {"name": "Institut Teknologi Bandung", "count": 217}, {"name": "Universitas Indonesia", "count": 196}, {"name": "Universitas Diponegoro", "count": 118}, {"name": "Universitas Airlangga", "count": 110}, {"name": "Universitas Padjadjaran", "count": 109}, {"name": "Hasanuddin University", "count": 101}, {"name": "Universitas Sebelas Maret", "count": 101}, {"name": "Brawijaya University", "count": 93}]},
+{n:14,label:"Life Below Water",count:2565,pct:3.38,color:"#0A97D9",tier:"MODERATE",affs:[{"name": "IPB University", "count": 323}, {"name": "Institut Teknologi Bandung", "count": 246}, {"name": "Hasanuddin University", "count": 185}, {"name": "Universitas Diponegoro", "count": 153}, {"name": "Universitas Gadjah Mada", "count": 129}, {"name": "Universitas Syiah Kuala", "count": 100}, {"name": "Universitas Padjadjaran", "count": 94}, {"name": "Universitas Indonesia", "count": 89}, {"name": "Brawijaya University", "count": 78}, {"name": "Universitas Udayana", "count": 63}]},
+{n:15,label:"Life on Land",count:5258,pct:6.93,color:"#56C02B",tier:"STRONG",affs:[{"name": "IPB University", "count": 713}, {"name": "Universitas Gadjah Mada", "count": 379}, {"name": "Universitas Indonesia", "count": 267}, {"name": "Institut Teknologi Bandung", "count": 255}, {"name": "Hasanuddin University", "count": 215}, {"name": "Brawijaya University", "count": 205}, {"name": "Universitas Padjadjaran", "count": 149}, {"name": "Universitas Diponegoro", "count": 141}, {"name": "Universitas Airlangga", "count": 138}, {"name": "Universitas Sumatera Utara", "count": 92}]},
+{n:16,label:"Peace, Justice & Strong Institutions",count:5203,pct:6.86,color:"#00689D",tier:"STRONG",affs:[{"name": "Universitas Gadjah Mada", "count": 341}, {"name": "Universitas Indonesia", "count": 280}, {"name": "Universitas Airlangga", "count": 202}, {"name": "Universitas Padjadjaran", "count": 169}, {"name": "Universitas Sebelas Maret", "count": 162}, {"name": "Brawijaya University", "count": 155}, {"name": "Hasanuddin University", "count": 144}, {"name": "IPB University", "count": 125}, {"name": "Universitas Islam Negeri Sunan Kalijaga, Yogyakarta", "count": 123}, {"name": "Universitas Diponegoro", "count": 113}]},
+{n:17,label:"Partnerships for the Goals",count:286,pct:0.38,color:"#19486A",tier:"GAP",affs:[{"name": "Universitas Gadjah Mada", "count": 36}, {"name": "Universitas Indonesia", "count": 26}, {"name": "IPB University", "count": 15}, {"name": "Universitas Padjadjaran", "count": 13}, {"name": "Hasanuddin University", "count": 13}, {"name": "Universitas Sebelas Maret", "count": 13}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 9}, {"name": "Universitas Udayana", "count": 9}, {"name": "Universitas Diponegoro", "count": 8}, {"name": "Institut Teknologi Bandung", "count": 7}]}
 ];
 const TOTAL = 75892;
-const OA    = [{"name": "Universitas Gadjah Mada", "count": 149}, {"name": "Universitas Indonesia", "count": 102}, {"name": "Universitas Airlangga", "count": 95}, {"name": "Universitas Padjadjaran", "count": 76}, {"name": "Institut Teknologi Bandung", "count": 70}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 58}, {"name": "Universitas Diponegoro", "count": 54}, {"name": "Brawijaya University", "count": 54}, {"name": "IPB University", "count": 49}, {"name": "Hasanuddin University", "count": 49}, {"name": "Universitas Sebelas Maret", "count": 44}, {"name": "Universitas Negeri Malang", "count": 40}, {"name": "Universitas Sumatera Utara", "count": 26}, {"name": "Universitas Pendidikan Indonesia", "count": 26}, {"name": "Universitas Negeri Surabaya", "count": 22}, {"name": "Universitas Negeri Yogyakarta", "count": 20}, {"name": "Universitas Sriwijaya", "count": 19}, {"name": "Bina Nusantara University", "count": 18}, {"name": "Institut Teknologi Sumatera (ITERA)", "count": 17}, {"name": "Universitas Andalas", "count": 16}];
+const OA    = [{"name": "Universitas Gadjah Mada", "count": 2553}, {"name": "Universitas Indonesia", "count": 2496}, {"name": "Universitas Airlangga", "count": 2014}, {"name": "Universitas Padjadjaran", "count": 1693}, {"name": "Institut Teknologi Bandung", "count": 1649}, {"name": "IPB University", "count": 1467}, {"name": "Brawijaya University", "count": 1070}, {"name": "Hasanuddin University", "count": 987}, {"name": "Universitas Diponegoro", "count": 941}, {"name": "Universitas Sebelas Maret", "count": 896}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 798}, {"name": "Universitas Syiah Kuala", "count": 692}, {"name": "Universitas Negeri Malang", "count": 628}, {"name": "Universitas Sumatera Utara", "count": 602}, {"name": "Universitas Udayana", "count": 538}, {"name": "Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo", "count": 536}, {"name": "Universitas Pendidikan Indonesia", "count": 510}, {"name": "Bina Nusantara University", "count": 479}, {"name": "Universitas Negeri Yogyakarta", "count": 376}, {"name": "Universitas Andalas", "count": 364}];
 const GAP_T = 1.0;
 
-// â”€â”€ KPIs â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── KPIs ──────────────────────────────────────────────────────────────────────
 const strong   = SDG.filter(d=>d.pct>=5);
 const moderate = SDG.filter(d=>d.pct>=1&&d.pct<5);
 const gaps     = SDG.filter(d=>d.pct<1);
@@ -2966,12 +2961,12 @@ const worst    = [...gaps].sort((a,b)=>a.pct-b.pct)[0];
 document.getElementById('kpi-strong').textContent    = strong.length;
 document.getElementById('kpi-strong-sub').textContent= strong.map(d=>'SDG '+d.n).join(', ');
 document.getElementById('kpi-mod').textContent       = moderate.length;
-document.getElementById('kpi-mod-sub').textContent   = moderate.map(d=>'SDG '+d.n).join(' Â· ');
+document.getElementById('kpi-mod-sub').textContent   = moderate.map(d=>'SDG '+d.n).join(' · ');
 document.getElementById('kpi-gap').textContent       = gaps.length;
-document.getElementById('kpi-gap-sub').textContent   = gaps.map(d=>'SDG '+d.n+' ('+d.pct+'%)').join(' Â· ');
+document.getElementById('kpi-gap-sub').textContent   = gaps.map(d=>'SDG '+d.n+' ('+d.pct+'%)').join(' · ');
 if(worst){
   document.getElementById('kpi-worst').textContent    = worst.pct+'%';
-  document.getElementById('kpi-worst-sub').textContent= 'SDG '+worst.n+' â€“ '+worst.label+' ('+worst.count.toLocaleString()+' papers)';
+  document.getElementById('kpi-worst-sub').textContent= 'SDG '+worst.n+' – '+worst.label+' ('+worst.count.toLocaleString()+' papers)';
 }
 if(OA.length){
   const top = OA[0];
@@ -2980,7 +2975,7 @@ if(OA.length){
   document.getElementById('kpi-lead-univ-sub').textContent= top.count.toLocaleString()+' papers (universities only)';
 }
 
-// â”€â”€ Heatmap â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Heatmap ───────────────────────────────────────────────────────────────────
 const hmGrid = document.getElementById('heatmap');
 SDG.forEach(d=>{
   const cell = document.createElement('div');
@@ -2995,7 +2990,7 @@ SDG.forEach(d=>{
   hmGrid.appendChild(cell);
 });
 
-// â”€â”€ Bar chart â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Bar chart ─────────────────────────────────────────────────────────────────
 const barLabels  = ["SDG 3", "SDG 9", "SDG 15", "SDG 16", "SDG 8", "SDG 4", "SDG 13", "SDG 14", "SDG 6", "SDG 7", "SDG 1", "SDG 12", "SDG 2", "SDG 10", "SDG 5", "SDG 11", "SDG 17"];
 const barCounts  = [6634, 5651, 5258, 5203, 4288, 3495, 3094, 2565, 2312, 1920, 1714, 1664, 1415, 558, 494, 437, 286];
 const barColors  = ["#4C9F38cc", "#FD6925cc", "#56C02Bcc", "#00689Dcc", "#A21942cc", "#C5192Dcc", "#3F7E44cc", "#0A97D9cc", "#26BDE2cc", "#FCC30Bcc", "#E5243Bcc", "#BF8B2Ecc", "#DDA63Acc", "#DD1367cc", "#FF3A21cc", "#FD9D24cc", "#19486Acc"];
@@ -3027,14 +3022,14 @@ new Chart(document.getElementById('barChart'),{
   }
 });
 
-// â”€â”€ Tier donut â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Tier donut ────────────────────────────────────────────────────────────────
 const sp = SDG.reduce((s,d)=>d.pct>=5?s+d.count:s,0);
 const mp = SDG.reduce((s,d)=>d.pct>=1&&d.pct<5?s+d.count:s,0);
 const gp = SDG.reduce((s,d)=>d.pct<1?s+d.count:s,0);
 new Chart(document.getElementById('tierDonut'),{
   type:'doughnut',
   data:{
-    labels:['Strong (â‰¥5%)','Moderate (1â€“5%)','Gap (<1%)'],
+    labels:['Strong (≥5%)','Moderate (1–5%)','Gap (<1%)'],
     datasets:[{
       data:[sp,mp,gp],
       backgroundColor:['#16a34a99','#d9770699','#dc262699'],
@@ -3050,7 +3045,7 @@ new Chart(document.getElementById('tierDonut'),{
   }
 });
 
-// â”€â”€ Gap donut â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Gap donut ─────────────────────────────────────────────────────────────────
 new Chart(document.getElementById('gapDonut'),{
   type:'doughnut',
   data:{
@@ -3070,7 +3065,7 @@ new Chart(document.getElementById('gapDonut'),{
   }
 });
 
-// â”€â”€ Overall affiliation bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Overall affiliation bar ───────────────────────────────────────────────────
 new Chart(document.getElementById('affBar'),{
   type:'bar',
   data:{
@@ -3095,10 +3090,10 @@ new Chart(document.getElementById('affBar'),{
   }
 });
 
-// â”€â”€ Tooltip â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Tooltip ───────────────────────────────────────────────────────────────────
 const ttEl = document.getElementById('tooltip');
 function showTT(e,d){
-  ttEl.innerHTML=`<strong>SDG ${d.n} â€” ${d.label}</strong>
+  ttEl.innerHTML=`<strong>SDG ${d.n} — ${d.label}</strong>
     <span style="color:#94a3b8">Publications:</span> <b>${d.count.toLocaleString()}</b><br>
     <span style="color:#94a3b8">Share:</span> <b style="color:${d.color}">${d.pct}%</b> of national Q1 output<br>
     <span style="color:#94a3b8">Tier:</span> <b style="color:${d.pct>=5?'#16a34a':d.pct>=1?'#d97706':'#dc2626'}">${d.tier}</b>`;
@@ -3107,7 +3102,7 @@ function showTT(e,d){
 function moveTT(e){ttEl.style.left=(e.clientX+12)+'px';ttEl.style.top=(e.clientY+12)+'px';}
 function hideTT(){ttEl.classList.remove('show');}
 
-// â”€â”€ Tab switching â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ── Tab switching ─────────────────────────────────────────────────────────────
 document.querySelectorAll('.tab-btn').forEach(btn=>{
   btn.addEventListener('click',()=>{
     document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
