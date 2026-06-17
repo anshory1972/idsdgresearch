@@ -292,11 +292,6 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
     <div class="kv" style="color:#dc2626;font-size:22px" id="kpi-worst">&mdash;</div>
     <div class="ks" id="kpi-worst-sub"></div>
   </div>
-  <div class="kpi-card accent">
-    <div class="kl">Leading University</div>
-    <div class="kv" style="font-size:17px;margin-top:8px" id="kpi-lead-univ">&mdash;</div>
-    <div class="ks" id="kpi-lead-univ-sub">universities only</div>
-  </div>
 </div>
 
 <div class="sec">SDG Coverage Heatmap</div>
@@ -2966,12 +2961,6 @@ if(worst){
   document.getElementById('kpi-worst').textContent    = worst.pct+'%';
   document.getElementById('kpi-worst-sub').textContent= 'SDG '+worst.n+' &ndash; '+worst.label+' ('+worst.count.toLocaleString()+' papers)';
 }
-if(OA.length){
-  const top = OA[0];
-  const shortName = top.name.replace(/^universitas /i,'Univ. ').replace(/^university of /i,'Univ. ');
-  document.getElementById('kpi-lead-univ').textContent    = shortName;
-  document.getElementById('kpi-lead-univ-sub').textContent= top.count.toLocaleString()+' papers (universities only)';
-}
 
 // ── Heatmap ───────────────────────────────────────────────────────────────────
 const hmGrid = document.getElementById('heatmap');
@@ -2989,11 +2978,12 @@ SDG.forEach(d=>{
 });
 
 // ── Bar chart ─────────────────────────────────────────────────────────────────
-const barLabels  = ["SDG 3", "SDG 9", "SDG 15", "SDG 16", "SDG 8", "SDG 4", "SDG 13", "SDG 14", "SDG 6", "SDG 7", "SDG 1", "SDG 12", "SDG 2", "SDG 10", "SDG 5", "SDG 11", "SDG 17"];
-const barCounts  = [6634, 5651, 5258, 5203, 4288, 3495, 3094, 2565, 2312, 1920, 1714, 1664, 1415, 558, 494, 437, 286];
-const barColors  = ["#4C9F38cc", "#FD6925cc", "#56C02Bcc", "#00689Dcc", "#A21942cc", "#C5192Dcc", "#3F7E44cc", "#0A97D9cc", "#26BDE2cc", "#FCC30Bcc", "#E5243Bcc", "#BF8B2Ecc", "#DDA63Acc", "#DD1367cc", "#FF3A21cc", "#FD9D24cc", "#19486Acc"];
-const barBorders = ["#4C9F38", "#FD6925", "#56C02B", "#00689D", "#A21942", "#C5192D", "#3F7E44", "#0A97D9", "#26BDE2", "#FCC30B", "#E5243B", "#BF8B2E", "#DDA63A", "#DD1367", "#FF3A21", "#FD9D24", "#19486A"];
-const barPcts    = [8.74, 7.45, 6.93, 6.86, 5.65, 4.61, 4.08, 3.38, 3.05, 2.53, 2.26, 2.19, 1.86, 0.74, 0.65, 0.58, 0.38];
+const _bs        = [...SDG].sort((a,b)=>b.count-a.count);
+const barLabels  = _bs.map(d=>`SDG ${d.n} — ${d.label}`);
+const barCounts  = _bs.map(d=>d.count);
+const barColors  = _bs.map(d=>d.color+'cc');
+const barBorders = _bs.map(d=>d.color);
+const barPcts    = _bs.map(d=>d.pct);
 
 new Chart(document.getElementById('barChart'),{
   type:'bar',
