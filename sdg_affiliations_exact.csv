@@ -1,0 +1,426 @@
+sdg_num,sdg_label,rank,affiliation,exact_count
+1,No Poverty,1,Universitas Gadjah Mada,86
+1,No Poverty,2,Universitas Indonesia,84
+1,No Poverty,3,IPB University,59
+1,No Poverty,4,Hasanuddin University,44
+1,No Poverty,5,Universitas Padjadjaran,39
+1,No Poverty,6,Universitas Airlangga,36
+1,No Poverty,7,Brawijaya University,29
+1,No Poverty,8,Institut Teknologi Bandung,26
+1,No Poverty,9,Universitas Sebelas Maret,24
+1,No Poverty,10,"Fakultas Ekonomi dan Bisnis, Universitas Indonesia",21
+1,No Poverty,11,Universitas Diponegoro,20
+1,No Poverty,12,Universitas Sumatera Utara,16
+1,No Poverty,13,Universitas Negeri Malang,15
+1,No Poverty,14,Universitas Udayana,15
+1,No Poverty,15,Institut Teknologi Sepuluh Nopember,12
+1,No Poverty,16,"Universitas Islam Negeri Sunan Kalijaga, Yogyakarta",11
+1,No Poverty,17,Universitas Syiah Kuala,11
+1,No Poverty,18,Universitas Riau,10
+1,No Poverty,19,Universitas Pendidikan Indonesia,10
+1,No Poverty,20,Universitas Muhammadiyah Yogyakarta,10
+1,No Poverty,21,Universitas Andalas,9
+1,No Poverty,22,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",9
+1,No Poverty,23,Universitas Jambi,8
+1,No Poverty,24,Universitas Sriwijaya,8
+1,No Poverty,25,Bina Nusantara University,7
+2,Zero Hunger,1,Universitas Padjadjaran,98
+2,Zero Hunger,2,Universitas Indonesia,79
+2,Zero Hunger,3,Universitas Gadjah Mada,76
+2,Zero Hunger,4,IPB University,76
+2,Zero Hunger,5,Universitas Airlangga,49
+2,Zero Hunger,6,Brawijaya University,48
+2,Zero Hunger,7,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",42
+2,Zero Hunger,8,Hasanuddin University,39
+2,Zero Hunger,9,Universitas Diponegoro,33
+2,Zero Hunger,10,Institut Teknologi Bandung,25
+2,Zero Hunger,11,Universitas Sebelas Maret,24
+2,Zero Hunger,12,Universitas Sumatera Utara,23
+2,Zero Hunger,13,Universitas Andalas,17
+2,Zero Hunger,14,Institut Teknologi Sepuluh Nopember,16
+2,Zero Hunger,15,Universitas Syiah Kuala,16
+2,Zero Hunger,16,Bina Nusantara University,15
+2,Zero Hunger,17,Universitas Udayana,11
+2,Zero Hunger,18,Universitas Sam Ratulangi,8
+2,Zero Hunger,19,Universitas Muhammadiyah Yogyakarta,8
+2,Zero Hunger,20,Universitas Sriwijaya,8
+2,Zero Hunger,21,Universitas Muhammadiyah Surakarta,8
+2,Zero Hunger,22,Universitas Islam Negeri Syarif Hidayatullah Jakarta,7
+2,Zero Hunger,23,Universitas Negeri Malang,6
+2,Zero Hunger,24,Universitas Tanjungpura,6
+2,Zero Hunger,25,Universitas Katolik Indonesia Atma Jaya,6
+3,Good Health & Well-being,1,Universitas Indonesia,163
+3,Good Health & Well-being,2,Universitas Airlangga,157
+3,Good Health & Well-being,3,Universitas Padjadjaran,152
+3,Good Health & Well-being,4,Universitas Gadjah Mada,118
+3,Good Health & Well-being,5,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",72
+3,Good Health & Well-being,6,Hasanuddin University,57
+3,Good Health & Well-being,7,Brawijaya University,44
+3,Good Health & Well-being,8,Universitas Sebelas Maret,40
+3,Good Health & Well-being,9,Universitas Diponegoro,36
+3,Good Health & Well-being,10,Universitas Udayana,28
+3,Good Health & Well-being,11,Universitas Katolik Indonesia Atma Jaya,25
+3,Good Health & Well-being,12,Universitas Sumatera Utara,24
+3,Good Health & Well-being,13,Universitas Negeri Surabaya,23
+3,Good Health & Well-being,14,Universitas Syiah Kuala,22
+3,Good Health & Well-being,15,Universitas Pelita Harapan,21
+3,Good Health & Well-being,16,Universitas Negeri Malang,20
+3,Good Health & Well-being,17,Universitas Andalas,19
+3,Good Health & Well-being,18,Institut Teknologi Bandung,18
+3,Good Health & Well-being,19,Universitas Riau,18
+3,Good Health & Well-being,20,Universitas Sriwijaya,17
+3,Good Health & Well-being,21,Institut Teknologi Sepuluh Nopember,16
+3,Good Health & Well-being,22,Universitas Sam Ratulangi,16
+3,Good Health & Well-being,23,Universitas Jember,15
+3,Good Health & Well-being,24,Universitas Pendidikan Indonesia,14
+3,Good Health & Well-being,25,IPB University,14
+4,Quality Education,1,Universitas Negeri Malang,72
+4,Quality Education,2,Universitas Gadjah Mada,72
+4,Quality Education,3,Universitas Indonesia,70
+4,Quality Education,4,Universitas Negeri Yogyakarta,56
+4,Quality Education,5,Universitas Airlangga,53
+4,Quality Education,6,Universitas Pendidikan Indonesia,52
+4,Quality Education,7,Universitas Padjadjaran,50
+4,Quality Education,8,Universitas Sebelas Maret,42
+4,Quality Education,9,Universitas Negeri Semarang,36
+4,Quality Education,10,Universitas Negeri Surabaya,34
+4,Quality Education,11,Universitas Negeri Makassar,33
+4,Quality Education,12,Universitas Negeri Jakarta,29
+4,Quality Education,13,Brawijaya University,28
+4,Quality Education,14,Universitas Negeri Padang,26
+4,Quality Education,15,Hasanuddin University,26
+4,Quality Education,16,Bina Nusantara University,21
+4,Quality Education,17,Universitas Diponegoro,19
+4,Quality Education,18,Universitas Muhammadiyah Surakarta,17
+4,Quality Education,19,Telkom University,16
+4,Quality Education,20,Institut Teknologi Sepuluh Nopember,15
+4,Quality Education,21,Universitas Syiah Kuala,13
+4,Quality Education,22,"Universitas Islam Negeri Sunan Kalijaga, Yogyakarta",13
+4,Quality Education,23,UIN Sunan Ampel Surabaya,13
+4,Quality Education,24,Universitas Islam Negeri Syarif Hidayatullah Jakarta,13
+4,Quality Education,25,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",12
+5,Gender Equality,1,Universitas Indonesia,28
+5,Gender Equality,2,Universitas Gadjah Mada,27
+5,Gender Equality,3,Universitas Airlangga,25
+5,Gender Equality,4,Universitas Islam Negeri Syarif Hidayatullah Jakarta,17
+5,Gender Equality,5,"Universitas Islam Negeri Sunan Kalijaga, Yogyakarta",14
+5,Gender Equality,6,Universitas Padjadjaran,12
+5,Gender Equality,7,Universitas Sumatera Utara,11
+5,Gender Equality,8,Universitas Negeri Yogyakarta,11
+5,Gender Equality,9,UIN Sunan Gunung Djati,11
+5,Gender Equality,10,Universitas Sebelas Maret,10
+5,Gender Equality,11,Universitas Pendidikan Indonesia,10
+5,Gender Equality,12,UIN Sunan Ampel Surabaya,9
+5,Gender Equality,13,Universitas Islam Negeri Maulana Malik Ibrahim Malang,9
+5,Gender Equality,14,Universitas Islam Negeri Ar-Raniry,9
+5,Gender Equality,15,Hasanuddin University,8
+5,Gender Equality,16,Bina Nusantara University,8
+5,Gender Equality,17,Universitas Negeri Padang,8
+5,Gender Equality,18,Brawijaya University,7
+5,Gender Equality,19,Universitas Negeri Malang,7
+5,Gender Equality,20,Universitas Syiah Kuala,7
+5,Gender Equality,21,Institut Teknologi Sepuluh Nopember,6
+5,Gender Equality,22,Satya Wacana Christian University,6
+5,Gender Equality,23,Universitas Negeri Semarang,6
+5,Gender Equality,24,Universitas Islam Negeri Raden Fatah Palembang,5
+5,Gender Equality,25,Institut Teknologi Bandung,5
+6,Clean Water & Sanitation,1,Institut Teknologi Bandung,120
+6,Clean Water & Sanitation,2,Universitas Gadjah Mada,101
+6,Clean Water & Sanitation,3,Universitas Indonesia,81
+6,Clean Water & Sanitation,4,Universitas Airlangga,67
+6,Clean Water & Sanitation,5,Universitas Diponegoro,59
+6,Clean Water & Sanitation,6,Institut Teknologi Sepuluh Nopember,58
+6,Clean Water & Sanitation,7,Brawijaya University,54
+6,Clean Water & Sanitation,8,Universitas Padjadjaran,53
+6,Clean Water & Sanitation,9,IPB University,45
+6,Clean Water & Sanitation,10,Hasanuddin University,40
+6,Clean Water & Sanitation,11,Universitas Syiah Kuala,32
+6,Clean Water & Sanitation,12,Universitas Sebelas Maret,32
+6,Clean Water & Sanitation,13,Universitas Negeri Malang,29
+6,Clean Water & Sanitation,14,Institut Teknologi Sumatera (ITERA),27
+6,Clean Water & Sanitation,15,Universitas Sriwijaya,21
+6,Clean Water & Sanitation,16,Universitas Sumatera Utara,21
+6,Clean Water & Sanitation,17,Universitas Udayana,19
+6,Clean Water & Sanitation,18,Widya Mandala Surabaya Catholic University,13
+6,Clean Water & Sanitation,19,Universitas Palangka Raya,12
+6,Clean Water & Sanitation,20,Universitas Andalas,12
+6,Clean Water & Sanitation,21,Universitas Pertamina,12
+6,Clean Water & Sanitation,22,Universitas Mulawarman,11
+6,Clean Water & Sanitation,23,Universitas Pendidikan Indonesia,10
+6,Clean Water & Sanitation,24,Universitas Islam Indonesia,10
+6,Clean Water & Sanitation,25,Universitas Pembangunan Nasional “Veteran” Yogyakarta,10
+7,Affordable & Clean Energy,1,Institut Teknologi Bandung,126
+7,Affordable & Clean Energy,2,Universitas Indonesia,89
+7,Affordable & Clean Energy,3,Institut Teknologi Sepuluh Nopember,80
+7,Affordable & Clean Energy,4,Universitas Gadjah Mada,72
+7,Affordable & Clean Energy,5,Universitas Airlangga,56
+7,Affordable & Clean Energy,6,Universitas Sebelas Maret,52
+7,Affordable & Clean Energy,7,Universitas Diponegoro,35
+7,Affordable & Clean Energy,8,Universitas Negeri Malang,29
+7,Affordable & Clean Energy,9,Universitas Padjadjaran,29
+7,Affordable & Clean Energy,10,IPB University,28
+7,Affordable & Clean Energy,11,Brawijaya University,27
+7,Affordable & Clean Energy,12,Universitas Pendidikan Indonesia,26
+7,Affordable & Clean Energy,13,Universitas Sumatera Utara,24
+7,Affordable & Clean Energy,14,Universitas Syiah Kuala,23
+7,Affordable & Clean Energy,15,Telkom University,16
+7,Affordable & Clean Energy,16,Universitas Islam Indonesia,16
+7,Affordable & Clean Energy,17,Universitas Andalas,16
+7,Affordable & Clean Energy,18,Universitas Negeri Padang,16
+7,Affordable & Clean Energy,19,Universitas Pertamina,14
+7,Affordable & Clean Energy,20,Hasanuddin University,14
+7,Affordable & Clean Energy,21,Institut Teknologi Sumatera (ITERA),14
+7,Affordable & Clean Energy,22,"Fakultas Ekonomi dan Bisnis, Universitas Indonesia",10
+7,Affordable & Clean Energy,23,Universitas Lampung,10
+7,Affordable & Clean Energy,24,Bina Nusantara University,9
+7,Affordable & Clean Energy,25,Universitas Sam Ratulangi,9
+8,Decent Work & Economic Growth,1,Universitas Gadjah Mada,87
+8,Decent Work & Economic Growth,2,Universitas Indonesia,78
+8,Decent Work & Economic Growth,3,Universitas Airlangga,76
+8,Decent Work & Economic Growth,4,Universitas Padjadjaran,75
+8,Decent Work & Economic Growth,5,Institut Teknologi Bandung,64
+8,Decent Work & Economic Growth,6,Brawijaya University,58
+8,Decent Work & Economic Growth,7,IPB University,56
+8,Decent Work & Economic Growth,8,Universitas Sebelas Maret,42
+8,Decent Work & Economic Growth,9,Universitas Negeri Malang,32
+8,Decent Work & Economic Growth,10,Institut Teknologi Sepuluh Nopember,29
+8,Decent Work & Economic Growth,11,Universitas Sumatera Utara,28
+8,Decent Work & Economic Growth,12,Universitas Diponegoro,27
+8,Decent Work & Economic Growth,13,Universitas Udayana,24
+8,Decent Work & Economic Growth,14,Hasanuddin University,24
+8,Decent Work & Economic Growth,15,Universitas Pendidikan Indonesia,21
+8,Decent Work & Economic Growth,16,Bina Nusantara University,19
+8,Decent Work & Economic Growth,17,Universitas Pertamina,18
+8,Decent Work & Economic Growth,18,"Fakultas Ekonomi dan Bisnis, Universitas Indonesia",17
+8,Decent Work & Economic Growth,19,Universitas Syiah Kuala,15
+8,Decent Work & Economic Growth,20,Universitas Negeri Padang,14
+8,Decent Work & Economic Growth,21,Telkom University,12
+8,Decent Work & Economic Growth,22,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",11
+8,Decent Work & Economic Growth,23,Universitas Negeri Yogyakarta,11
+8,Decent Work & Economic Growth,24,Universitas Negeri Semarang,11
+8,Decent Work & Economic Growth,25,Universitas Islam Internasional Indonesia,10
+9,"Industry, Innovation & Infrastructure",1,Universitas Gadjah Mada,90
+9,"Industry, Innovation & Infrastructure",2,Universitas Indonesia,77
+9,"Industry, Innovation & Infrastructure",3,Universitas Padjadjaran,76
+9,"Industry, Innovation & Infrastructure",4,Institut Teknologi Bandung,71
+9,"Industry, Innovation & Infrastructure",5,Universitas Airlangga,67
+9,"Industry, Innovation & Infrastructure",6,Brawijaya University,42
+9,"Industry, Innovation & Infrastructure",7,Institut Teknologi Sepuluh Nopember,41
+9,"Industry, Innovation & Infrastructure",8,Universitas Sebelas Maret,40
+9,"Industry, Innovation & Infrastructure",9,IPB University,37
+9,"Industry, Innovation & Infrastructure",10,Hasanuddin University,36
+9,"Industry, Innovation & Infrastructure",11,Universitas Diponegoro,36
+9,"Industry, Innovation & Infrastructure",12,Universitas Pendidikan Indonesia,30
+9,"Industry, Innovation & Infrastructure",13,Telkom University,29
+9,"Industry, Innovation & Infrastructure",14,Universitas Negeri Malang,26
+9,"Industry, Innovation & Infrastructure",15,Universitas Sumatera Utara,24
+9,"Industry, Innovation & Infrastructure",16,Bina Nusantara University,24
+9,"Industry, Innovation & Infrastructure",17,Universitas Negeri Yogyakarta,20
+9,"Industry, Innovation & Infrastructure",18,Universitas Negeri Surabaya,19
+9,"Industry, Innovation & Infrastructure",19,Universitas Negeri Padang,18
+9,"Industry, Innovation & Infrastructure",20,Universitas Andalas,17
+9,"Industry, Innovation & Infrastructure",21,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",16
+9,"Industry, Innovation & Infrastructure",22,Universitas Negeri Jakarta,16
+9,"Industry, Innovation & Infrastructure",23,Universitas Pertamina,16
+9,"Industry, Innovation & Infrastructure",24,Universitas Syiah Kuala,14
+9,"Industry, Innovation & Infrastructure",25,Universitas Negeri Semarang,14
+10,Reduced Inequalities,1,Universitas Indonesia,43
+10,Reduced Inequalities,2,Universitas Padjadjaran,40
+10,Reduced Inequalities,3,Universitas Airlangga,39
+10,Reduced Inequalities,4,Universitas Gadjah Mada,38
+10,Reduced Inequalities,5,Institut Teknologi Bandung,18
+10,Reduced Inequalities,6,Universitas Sebelas Maret,16
+10,Reduced Inequalities,7,Hasanuddin University,15
+10,Reduced Inequalities,8,Brawijaya University,14
+10,Reduced Inequalities,9,Universitas Udayana,14
+10,Reduced Inequalities,10,Universitas Negeri Malang,12
+10,Reduced Inequalities,11,Universitas Syiah Kuala,12
+10,Reduced Inequalities,12,IPB University,12
+10,Reduced Inequalities,13,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",10
+10,Reduced Inequalities,14,Universitas Riau,9
+10,Reduced Inequalities,15,Universitas Negeri Semarang,9
+10,Reduced Inequalities,16,Institut Teknologi Sepuluh Nopember,8
+10,Reduced Inequalities,17,Bina Nusantara University,7
+10,Reduced Inequalities,18,Universitas Jenderal Soedirman,7
+10,Reduced Inequalities,19,Monash University Indonesia,6
+10,Reduced Inequalities,20,Universitas Sriwijaya,6
+10,Reduced Inequalities,21,Universitas Diponegoro,6
+10,Reduced Inequalities,22,Universitas Muhammadiyah Yogyakarta,6
+10,Reduced Inequalities,23,Universitas Sumatera Utara,6
+10,Reduced Inequalities,24,Institut Agama Islam Negeri Langsa,5
+10,Reduced Inequalities,25,Universitas Islam Indonesia,5
+11,Sustainable Cities & Communities,1,Institut Teknologi Bandung,56
+11,Sustainable Cities & Communities,2,Universitas Indonesia,53
+11,Sustainable Cities & Communities,3,Universitas Gadjah Mada,25
+11,Sustainable Cities & Communities,4,Universitas Padjadjaran,21
+11,Sustainable Cities & Communities,5,Universitas Sebelas Maret,20
+11,Sustainable Cities & Communities,6,Universitas Pertamina,15
+11,Sustainable Cities & Communities,7,IPB University,14
+11,Sustainable Cities & Communities,8,Universitas Diponegoro,14
+11,Sustainable Cities & Communities,9,Brawijaya University,13
+11,Sustainable Cities & Communities,10,Hasanuddin University,12
+11,Sustainable Cities & Communities,11,Universitas Airlangga,11
+11,Sustainable Cities & Communities,12,Institut Teknologi Sepuluh Nopember,10
+11,Sustainable Cities & Communities,13,Universitas Muhammadiyah Yogyakarta,8
+11,Sustainable Cities & Communities,14,Telkom University,7
+11,Sustainable Cities & Communities,15,Bina Nusantara University,7
+11,Sustainable Cities & Communities,16,Institut Teknologi Nasional Bandung,6
+11,Sustainable Cities & Communities,17,"Fakultas Ekonomi dan Bisnis, Universitas Indonesia",6
+11,Sustainable Cities & Communities,18,Universitas Pendidikan Indonesia,6
+11,Sustainable Cities & Communities,19,Universitas Sumatera Utara,6
+11,Sustainable Cities & Communities,20,Universitas Islam Negeri Maulana Malik Ibrahim Malang,5
+11,Sustainable Cities & Communities,21,Universitas Muhammadiyah Makassar,5
+11,Sustainable Cities & Communities,22,Universitas Andalas,4
+11,Sustainable Cities & Communities,23,Tarumanagara University,4
+11,Sustainable Cities & Communities,24,Universitas Sriwijaya,4
+11,Sustainable Cities & Communities,25,Universitas Tidar,4
+12,Responsible Consumption & Production,1,Institut Teknologi Bandung,84
+12,Responsible Consumption & Production,2,Universitas Gadjah Mada,67
+12,Responsible Consumption & Production,3,Institut Teknologi Sepuluh Nopember,65
+12,Responsible Consumption & Production,4,Universitas Airlangga,58
+12,Responsible Consumption & Production,5,Brawijaya University,57
+12,Responsible Consumption & Production,6,Universitas Indonesia,56
+12,Responsible Consumption & Production,7,Universitas Diponegoro,47
+12,Responsible Consumption & Production,8,IPB University,46
+12,Responsible Consumption & Production,9,Universitas Sebelas Maret,36
+12,Responsible Consumption & Production,10,Hasanuddin University,35
+12,Responsible Consumption & Production,11,Universitas Padjadjaran,31
+12,Responsible Consumption & Production,12,Universitas Sumatera Utara,28
+12,Responsible Consumption & Production,13,Universitas Pendidikan Indonesia,22
+12,Responsible Consumption & Production,14,Universitas Syiah Kuala,20
+12,Responsible Consumption & Production,15,Universitas Andalas,19
+12,Responsible Consumption & Production,16,Universitas Negeri Malang,18
+12,Responsible Consumption & Production,17,Bina Nusantara University,17
+12,Responsible Consumption & Production,18,Institut Teknologi Sumatera (ITERA),16
+12,Responsible Consumption & Production,19,Universitas Udayana,15
+12,Responsible Consumption & Production,20,Universitas Pertamina,15
+12,Responsible Consumption & Production,21,Universitas Sriwijaya,13
+12,Responsible Consumption & Production,22,Universitas Muhammadiyah Malang,11
+12,Responsible Consumption & Production,23,Universitas Jember,11
+12,Responsible Consumption & Production,24,Universitas Esa Unggul,9
+12,Responsible Consumption & Production,25,Universitas Jenderal Soedirman,8
+13,Climate Action,1,Institut Teknologi Bandung,94
+13,Climate Action,2,IPB University,92
+13,Climate Action,3,Universitas Gadjah Mada,91
+13,Climate Action,4,Universitas Indonesia,91
+13,Climate Action,5,Universitas Sebelas Maret,59
+13,Climate Action,6,Universitas Diponegoro,54
+13,Climate Action,7,Universitas Airlangga,45
+13,Climate Action,8,Institut Teknologi Sepuluh Nopember,43
+13,Climate Action,9,Brawijaya University,42
+13,Climate Action,10,Hasanuddin University,41
+13,Climate Action,11,Universitas Padjadjaran,41
+13,Climate Action,12,Universitas Pendidikan Indonesia,23
+13,Climate Action,13,Universitas Sumatera Utara,22
+13,Climate Action,14,Universitas Andalas,18
+13,Climate Action,15,Universitas Negeri Malang,18
+13,Climate Action,16,Universitas Pertamina,17
+13,Climate Action,17,Universitas Udayana,15
+13,Climate Action,18,Universitas Islam Indonesia,14
+13,Climate Action,19,Universitas Syiah Kuala,14
+13,Climate Action,20,Telkom University,13
+13,Climate Action,21,Universitas Palangka Raya,13
+13,Climate Action,22,Universitas Negeri Padang,11
+13,Climate Action,23,Universitas Sriwijaya,11
+13,Climate Action,24,Universitas Jember,11
+13,Climate Action,25,University of Mataram,10
+14,Life Below Water,1,IPB University,129
+14,Life Below Water,2,Institut Teknologi Bandung,115
+14,Life Below Water,3,Hasanuddin University,71
+14,Life Below Water,4,Universitas Diponegoro,62
+14,Life Below Water,5,Universitas Gadjah Mada,59
+14,Life Below Water,6,Universitas Indonesia,41
+14,Life Below Water,7,Universitas Padjadjaran,35
+14,Life Below Water,8,Universitas Syiah Kuala,35
+14,Life Below Water,9,Universitas Airlangga,32
+14,Life Below Water,10,Universitas Udayana,29
+14,Life Below Water,11,Institut Teknologi Sepuluh Nopember,26
+14,Life Below Water,12,Brawijaya University,25
+14,Life Below Water,13,Universitas Sumatera Utara,22
+14,Life Below Water,14,Universitas Pattimura,17
+14,Life Below Water,15,Universitas Sam Ratulangi,17
+14,Life Below Water,16,Universitas Sebelas Maret,15
+14,Life Below Water,17,University of Mataram,14
+14,Life Below Water,18,Universitas Jenderal Soedirman,13
+14,Life Below Water,19,Universitas Tanjungpura,10
+14,Life Below Water,20,Universitas Sriwijaya,10
+14,Life Below Water,21,Universitas Riau,9
+14,Life Below Water,22,Universitas Pertamina,9
+14,Life Below Water,23,Telkom University,8
+14,Life Below Water,24,Institut Teknologi Sumatera (ITERA),8
+14,Life Below Water,25,Universitas Negeri Malang,7
+15,Life on Land,1,IPB University,136
+15,Life on Land,2,Universitas Gadjah Mada,96
+15,Life on Land,3,Institut Teknologi Bandung,73
+15,Life on Land,4,Universitas Indonesia,72
+15,Life on Land,5,Universitas Airlangga,53
+15,Life on Land,6,Brawijaya University,52
+15,Life on Land,7,Hasanuddin University,46
+15,Life on Land,8,Universitas Padjadjaran,42
+15,Life on Land,9,Universitas Diponegoro,35
+15,Life on Land,10,Universitas Sebelas Maret,27
+15,Life on Land,11,Institut Teknologi Sepuluh Nopember,26
+15,Life on Land,12,Universitas Sumatera Utara,23
+15,Life on Land,13,Universitas Udayana,20
+15,Life on Land,14,Universitas Negeri Malang,19
+15,Life on Land,15,Universitas Andalas,17
+15,Life on Land,16,Universitas Pendidikan Indonesia,17
+15,Life on Land,17,Universitas Jambi,17
+15,Life on Land,18,Universitas Syiah Kuala,16
+15,Life on Land,19,Universitas Tanjungpura,16
+15,Life on Land,20,Bina Nusantara University,15
+15,Life on Land,21,Universitas Jenderal Soedirman,12
+15,Life on Land,22,Telkom University,12
+15,Life on Land,23,Universitas Sriwijaya,11
+15,Life on Land,24,Universitas Negeri Padang,11
+15,Life on Land,25,Universitas Sam Ratulangi,10
+16,"Peace, Justice & Strong Institutions",1,Universitas Gadjah Mada,98
+16,"Peace, Justice & Strong Institutions",2,Universitas Indonesia,80
+16,"Peace, Justice & Strong Institutions",3,Universitas Airlangga,63
+16,"Peace, Justice & Strong Institutions",4,Universitas Padjadjaran,47
+16,"Peace, Justice & Strong Institutions",5,Brawijaya University,43
+16,"Peace, Justice & Strong Institutions",6,Universitas Sebelas Maret,37
+16,"Peace, Justice & Strong Institutions",7,IPB University,36
+16,"Peace, Justice & Strong Institutions",8,Hasanuddin University,34
+16,"Peace, Justice & Strong Institutions",9,Institut Teknologi Bandung,34
+16,"Peace, Justice & Strong Institutions",10,Universitas Diponegoro,27
+16,"Peace, Justice & Strong Institutions",11,"Fakultas Ekonomi dan Bisnis, Universitas Indonesia",18
+16,"Peace, Justice & Strong Institutions",12,Bina Nusantara University,18
+16,"Peace, Justice & Strong Institutions",13,Universitas Muhammadiyah Yogyakarta,18
+16,"Peace, Justice & Strong Institutions",14,Universitas Syiah Kuala,16
+16,"Peace, Justice & Strong Institutions",15,Universitas Negeri Yogyakarta,16
+16,"Peace, Justice & Strong Institutions",16,Universitas Islam Internasional Indonesia,15
+16,"Peace, Justice & Strong Institutions",17,Universitas Pendidikan Indonesia,14
+16,"Peace, Justice & Strong Institutions",18,Universitas Udayana,14
+16,"Peace, Justice & Strong Institutions",19,Universitas Negeri Surabaya,14
+16,"Peace, Justice & Strong Institutions",20,Universitas Islam Negeri Syarif Hidayatullah Jakarta,14
+16,"Peace, Justice & Strong Institutions",21,Universitas Muhammadiyah Surakarta,13
+16,"Peace, Justice & Strong Institutions",22,Institut Teknologi Sepuluh Nopember,13
+16,"Peace, Justice & Strong Institutions",23,Telkom University,13
+16,"Peace, Justice & Strong Institutions",24,Universitas Negeri Malang,12
+16,"Peace, Justice & Strong Institutions",25,Universitas Negeri Semarang,12
+17,Partnerships for the Goals,1,Universitas Gadjah Mada,35
+17,Partnerships for the Goals,2,Universitas Indonesia,25
+17,Partnerships for the Goals,3,IPB University,15
+17,Partnerships for the Goals,4,Universitas Padjadjaran,13
+17,Partnerships for the Goals,5,Universitas Sebelas Maret,13
+17,Partnerships for the Goals,6,Hasanuddin University,12
+17,Partnerships for the Goals,7,"Universitas Indonesia, RSUPN Dr. Cipto Mangunkusumo",9
+17,Partnerships for the Goals,8,Universitas Udayana,9
+17,Partnerships for the Goals,9,Universitas Diponegoro,8
+17,Partnerships for the Goals,10,Institut Teknologi Bandung,7
+17,Partnerships for the Goals,11,Universitas Airlangga,7
+17,Partnerships for the Goals,12,Brawijaya University,5
+17,Partnerships for the Goals,13,Universitas Pendidikan Indonesia,5
+17,Partnerships for the Goals,14,University of Mataram,4
+17,Partnerships for the Goals,15,Universitas Sumatera Utara,4
+17,Partnerships for the Goals,16,Universitas Negeri Malang,4
+17,Partnerships for the Goals,17,Universitas Pertamina,4
+17,Partnerships for the Goals,18,Universitas Sam Ratulangi,3
+17,Partnerships for the Goals,19,Universitas Riau,3
+17,Partnerships for the Goals,20,Universitas Lampung,3
+17,Partnerships for the Goals,21,Universitas Syiah Kuala,3
+17,Partnerships for the Goals,22,Universitas Islam Negeri Raden Intan Lampung,3
+17,Partnerships for the Goals,23,Universitas Jenderal Soedirman,2
+17,Partnerships for the Goals,24,Universitas Islam Negeri Syarif Hidayatullah Jakarta,2
+17,Partnerships for the Goals,25,Sumatra Institute of Technology,2
