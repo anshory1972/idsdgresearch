@@ -2968,7 +2968,7 @@ document.getElementById('kpi-gap').textContent       = gaps.length;
 document.getElementById('kpi-gap-sub').textContent   = gaps.map(d=>'SDG '+d.n+' ('+d.pct+'%)').join(' · ');
 if(worst){
   document.getElementById('kpi-worst').textContent    = worst.pct+'%';
-  document.getElementById('kpi-worst-sub').textContent= 'SDG '+worst.n+' &ndash; '+worst.label+' ('+worst.count.toLocaleString()+' papers)';
+  document.getElementById('kpi-worst-sub').innerHTML= 'SDG '+worst.n+' &ndash; '+worst.label+' ('+worst.count.toLocaleString()+' papers)';
 }
 
 // ── Heatmap ───────────────────────────────────────────────────────────────────
@@ -3026,7 +3026,7 @@ const gp = SDG.reduce((s,d)=>d.pct<1?s+d.count:s,0);
 new Chart(document.getElementById('tierDonut'),{
   type:'doughnut',
   data:{
-    labels:['Strong (≥5%)','Moderate (1&ndash;5%)','Gap (<1%)'],
+    labels:['Strong (≥5%)','Moderate (1–5%)','Gap (<1%)'],
     datasets:[{
       data:[sp,mp,gp],
       backgroundColor:['#16a34a99','#d9770699','#dc262699'],
