@@ -1,171 +1,171 @@
 sdg_num,sdg_label,rank,journal,papers_in_sdg,sjr_quartile,citescore,citescore_year,citescore_tracker,citescore_tracker_year,sjr,snip,scimago_categories
-1,No Poverty,1,International Journal of Environmental Research and Public Health,24,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-1,No Poverty,2,Plos One,19,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-1,No Poverty,3,Land Use Policy,14,Q1,14.0,2025,10.3,2026,1.686,1.956,"Forestry (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Nature and Landscape Conservation (Q1)"
-1,No Poverty,4,Small Scale Forestry,11,Q1,4.2,2025,3.8,2026,0.516,0.947,Forestry (Q1)
-1,No Poverty,5,Agricultural Systems,8,Q1,11.2,2025,8.6,2026,1.606,1.8,Agronomy and Crop Science (Q1); Animal Science and Zoology (Q1)
-1,No Poverty,6,Human Ecology,6,Q1,3.1,2025,2.8,2026,0.515,0.778,"Anthropology (Q1); Arts and Humanities (miscellaneous) (Q1); Ecology (Q2); Environmental Science (miscellaneous) (Q2); Health (social science) (Q2); Public Health, Environmental and Occupational Health (Q2); Sociology and Political Science (Q2); Health, Toxicology and Mutagenesis (Q3)"
-1,No Poverty,7,Management of Environmental Quality an International Journal,4,Q1,,,,,,,
-1,No Poverty,8,Plos Neglected Tropical Diseases,3,Q1,6.3,2025,4.7,2026,1.290,1.507,"Infectious Diseases (Q1); Pharmacology, Toxicology and Pharmaceutics (miscellaneous) (Q1); Public Health, Environmental and Occupational Health (Q1)"
-1,No Poverty,9,Asia Pacific Journal of Tourism Research,3,Q1,6.1,2025,5.9,2026,0.912,1.097,"Geography, Planning and Development (Q1); Tourism, Leisure and Hospitality Management (Q2)"
-1,No Poverty,10,Journal of Nutrition,3,Q1,6.4,2025,5.3,2026,1.208,1.143,Medicine (miscellaneous) (Q1); Nutrition and Dietetics (Q1)
-2,Zero Hunger,1,Plos One,36,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-2,Zero Hunger,2,International Journal of Environmental Research and Public Health,22,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-2,Zero Hunger,3,BMC Pediatrics,8,Q1,3.5,2025,2.8,2026,0.732,1.111,"Pediatrics, Perinatology and Child Health (Q1)"
-2,Zero Hunger,4,Agricultural Systems,6,Q1,11.2,2025,8.6,2026,1.606,1.8,Agronomy and Crop Science (Q1); Animal Science and Zoology (Q1)
-2,Zero Hunger,5,Agriculture and Human Values,6,Q1,7.3,2025,6.1,2026,1.216,1.661,"Agronomy and Crop Science (Q1); Geography, Planning and Development (Q1); Sociology and Political Science (Q1)"
-2,Zero Hunger,6,European Journal of Clinical Nutrition,4,Q1,7.5,2025,5.4,2026,1.045,1.098,Medicine (miscellaneous) (Q1); Nutrition and Dietetics (Q1)
-2,Zero Hunger,7,Agriculture Ecosystems and Environment,4,Q1,13.0,2025,10.2,2026,2.094,1.937,Agronomy and Crop Science (Q1); Animal Science and Zoology (Q1); Ecology (Q1)
-2,Zero Hunger,8,Human Ecology,3,Q1,3.1,2025,2.8,2026,0.515,0.778,"Anthropology (Q1); Arts and Humanities (miscellaneous) (Q1); Ecology (Q2); Environmental Science (miscellaneous) (Q2); Health (social science) (Q2); Public Health, Environmental and Occupational Health (Q2); Sociology and Political Science (Q2); Health, Toxicology and Mutagenesis (Q3)"
-2,Zero Hunger,9,BMC Pregnancy and Childbirth,3,Q1,4.8,2025,3.7,2026,1.066,1.435,Obstetrics and Gynecology (Q1)
-2,Zero Hunger,10,Philosophical Transactions of the Royal Society of London Series B Biological Sciences,3,Q1,,,,,,,
-3,Good Health & Well-being,1,Plos One,33,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-3,Good Health & Well-being,2,Asian Journal of Psychiatry,28,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
-3,Good Health & Well-being,3,International Journal of Environmental Research and Public Health,28,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-3,Good Health & Well-being,4,BMC Psychiatry,17,Q1,6.3,2025,5.6,2026,1.423,1.471,Psychiatry and Mental Health (Q1)
-3,Good Health & Well-being,5,BMC Pediatrics,11,Q1,3.5,2025,2.8,2026,0.732,1.111,"Pediatrics, Perinatology and Child Health (Q1)"
-3,Good Health & Well-being,6,BMC Pregnancy and Childbirth,9,Q1,4.8,2025,3.7,2026,1.066,1.435,Obstetrics and Gynecology (Q1)
-3,Good Health & Well-being,7,Journal of Adolescent Health,9,Q1,7.0,2025,5.2,2026,1.527,1.459,"Pediatrics, Perinatology and Child Health (Q1); Psychiatry and Mental Health (Q1); Public Health, Environmental and Occupational Health (Q1)"
-3,Good Health & Well-being,8,Current Psychology,8,Q1,6.2,2025,5.6,2026,0.960,1.17,Psychology (miscellaneous) (Q1)
-3,Good Health & Well-being,9,Journal of Fish Diseases,7,Q1,4.5,2025,3.7,2026,0.563,0.761,Veterinary (miscellaneous) (Q1); Aquatic Science (Q2)
-3,Good Health & Well-being,10,American Journal of Emergency Medicine,6,Q1,4.6,2025,3.5,2026,0.773,1.199,Emergency Medicine (Q1); Medicine (miscellaneous) (Q2)
-4,Quality Education,1,Plos One,20,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-4,Quality Education,2,Asian Journal of Psychiatry,20,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
-4,Quality Education,3,Education and Information Technologies,10,Q1,15.5,2025,16.7,2026,2.131,2.703,Education (Q1); E-learning (Q1); Library and Information Sciences (Q1)
-4,Quality Education,4,International Journal of Sustainability in Higher Education,9,Q1,9.8,2025,7.6,2026,1.014,1.911,Education (Q1); Human Factors and Ergonomics (Q1)
-4,Quality Education,5,International Journal of Science Education,8,Q1,5.3,2025,4.2,2026,0.875,1.674,Education (Q1)
-4,Quality Education,6,Interactive Learning Environments,7,Q1,17.8,2025,17.4,2026,2.240,2.622,Computer Science Applications (Q1); Education (Q1); E-learning (Q1)
-4,Quality Education,7,TQM Journal,4,Q1,12.8,2025,12.0,2026,0.971,1.663,"Business and International Management (Q1); Business, Management and Accounting (miscellaneous) (Q1); Decision Sciences (miscellaneous) (Q1); Strategy and Management (Q1)"
-4,Quality Education,8,Journal of Human Behavior in the Social Environment,4,Q1,3.7,2025,3.7,2026,0.462,0.809,Anthropology (Q1); Social Sciences (miscellaneous) (Q2)
-4,Quality Education,9,Current Psychology,4,Q1,6.2,2025,5.6,2026,0.960,1.17,Psychology (miscellaneous) (Q1)
-4,Quality Education,10,International Journal of Environmental Research and Public Health,4,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-5,Gender Equality,1,Plos One,5,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-5,Gender Equality,2,Gender in Management,3,Q1,6.8,2025,6.0,2026,0.822,1.351,"Business, Management and Accounting (miscellaneous) (Q1); Gender Studies (Q1)"
-5,Gender Equality,3,Journal of Adolescent Health,3,Q1,7.0,2025,5.2,2026,1.527,1.459,"Pediatrics, Perinatology and Child Health (Q1); Psychiatry and Mental Health (Q1); Public Health, Environmental and Occupational Health (Q1)"
-5,Gender Equality,4,International Journal of Environmental Research and Public Health,2,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-5,Gender Equality,5,Sexuality and Culture,2,Q1,3.1,2025,2.7,2026,0.676,1.181,Cultural Studies (Q1); Gender Studies (Q1)
-5,Gender Equality,6,Qualitative Research,1,Q1,10.5,2025,8.2,2026,1.968,3.163,History and Philosophy of Science (Q1); Social Sciences (miscellaneous) (Q1)
-5,Gender Equality,7,International Journal of Mathematical Education in Science and Technology,1,Q1,4.7,2025,3.1,2026,0.729,1.351,Education (Q1); Mathematics (miscellaneous) (Q1); Applied Mathematics (Q2)
-5,Gender Equality,8,Research in International Business and Finance,1,Q1,11.9,2025,9.6,2026,1.509,1.851,"Business, Management and Accounting (miscellaneous) (Q1); Finance (Q1)"
-5,Gender Equality,9,Journal of Vocational Behavior,1,Q1,10.2,2025,8.8,2026,3.075,2.325,Applied Psychology (Q1); Education (Q1); Life-span and Life-course Studies (Q1); Organizational Behavior and Human Resource Management (Q1)
-5,Gender Equality,10,Asia Pacific Journal of Tourism Research,1,Q1,6.1,2025,5.9,2026,0.912,1.097,"Geography, Planning and Development (Q1); Tourism, Leisure and Hospitality Management (Q2)"
-6,Clean Water & Sanitation,1,Plos One,27,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-6,Clean Water & Sanitation,2,International Journal of Environmental Research and Public Health,24,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-6,Clean Water & Sanitation,3,Separation and Purification Technology,14,Q1,14.3,2025,12.6,2026,1.564,1.498,Analytical Chemistry (Q1); Filtration and Separation (Q1)
-6,Clean Water & Sanitation,4,Process Safety and Environmental Protection,10,Q1,12.8,2025,11.9,2026,1.398,1.527,"Chemical Engineering (miscellaneous) (Q1); Environmental Chemistry (Q1); Environmental Engineering (Q1); Safety, Risk, Reliability and Quality (Q1)"
-6,Clean Water & Sanitation,5,Arabian Journal for Science and Engineering,9,Q1,7.1,2025,6.1,2026,0.545,0.991,Multidisciplinary (Q1)
-6,Clean Water & Sanitation,6,Global Change Biology,7,Q1,21.1,2025,17.4,2026,4.581,3.119,Ecology (Q1); Environmental Chemistry (Q1); Environmental Science (miscellaneous) (Q1); Global and Planetary Change (Q1)
-6,Clean Water & Sanitation,7,Journal of Alloys and Compounds,5,Q1,10.7,2025,8.9,2026,1.079,1.228,Materials Chemistry (Q1); Mechanical Engineering (Q1); Mechanics of Materials (Q1); Metals and Alloys (Q1)
-6,Clean Water & Sanitation,8,Plos Neglected Tropical Diseases,4,Q1,6.3,2025,4.7,2026,1.290,1.507,"Infectious Diseases (Q1); Pharmacology, Toxicology and Pharmaceutics (miscellaneous) (Q1); Public Health, Environmental and Occupational Health (Q1)"
-6,Clean Water & Sanitation,9,Agricultural and Forest Meteorology,4,Q1,11.1,2025,9.1,2026,2.047,1.649,Agronomy and Crop Science (Q1); Atmospheric Science (Q1); Forestry (Q1); Global and Planetary Change (Q1)
-6,Clean Water & Sanitation,10,Vacuum,4,Q1,7.6,2025,6.7,2026,0.770,1.117,"Condensed Matter Physics (Q1); Instrumentation (Q1); Surfaces, Coatings and Films (Q2)"
-7,Affordable & Clean Energy,1,Solar Energy,16,Q1,13.0,2025,11.7,2026,1.336,1.525,"Materials Science (miscellaneous) (Q1); Renewable Energy, Sustainability and the Environment (Q1)"
-7,Affordable & Clean Energy,2,Applied Thermal Engineering,11,Q1,10.9,2025,10.0,2026,1.556,1.812,Energy Engineering and Power Technology (Q1); Fluid Flow and Transfer Processes (Q1); Industrial and Manufacturing Engineering (Q1); Mechanical Engineering (Q1)
-7,Affordable & Clean Energy,3,Resources Policy,8,Q1,20.3,2025,18.6,2026,2.050,1.542,"Economics and Econometrics (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
-7,Affordable & Clean Energy,4,Industrial and Engineering Chemistry Research,6,Q1,6.6,2025,5.9,2026,0.756,0.891,Chemical Engineering (miscellaneous) (Q1); Industrial and Manufacturing Engineering (Q1); Chemistry (miscellaneous) (Q2)
-7,Affordable & Clean Energy,5,Alexandria Engineering Journal,6,Q1,12.9,2024,,,1.073,1.903,Engineering (miscellaneous) (Q1)
-7,Affordable & Clean Energy,6,Clean Technologies and Environmental Policy,5,Q1,8.0,2025,7.3,2026,0.885,1.187,"Business, Management and Accounting (miscellaneous) (Q1); Environmental Engineering (Q1); Economics and Econometrics (Q2); Environmental Chemistry (Q2); Management, Monitoring, Policy and Law (Q2)"
-7,Affordable & Clean Energy,7,Separation and Purification Technology,5,Q1,14.3,2025,12.6,2026,1.564,1.498,Analytical Chemistry (Q1); Filtration and Separation (Q1)
-7,Affordable & Clean Energy,8,Natural Resources Research,5,Q1,10.5,2025,8.8,2026,1.062,1.401,Environmental Science (miscellaneous) (Q1)
-7,Affordable & Clean Energy,9,Journal of Material Cycles and Waste Management,5,Q1,6.4,2025,6.2,2026,0.737,1.025,Mechanics of Materials (Q1); Waste Management and Disposal (Q2)
-7,Affordable & Clean Energy,10,Journal of Asian Architecture and Building Engineering,4,Q1,4.5,2025,4.4,2026,0.470,1.18,Architecture (Q1); Arts and Humanities (miscellaneous) (Q1); Cultural Studies (Q1); Building and Construction (Q2); Civil and Structural Engineering (Q2)
-8,Decent Work & Economic Growth,1,Plos One,26,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-8,Decent Work & Economic Growth,2,International Journal of Environmental Research and Public Health,25,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-8,Decent Work & Economic Growth,3,Asia Pacific Journal of Tourism Research,12,Q1,6.1,2025,5.9,2026,0.912,1.097,"Geography, Planning and Development (Q1); Tourism, Leisure and Hospitality Management (Q2)"
-8,Decent Work & Economic Growth,4,Resources Policy,10,Q1,20.3,2025,18.6,2026,2.050,1.542,"Economics and Econometrics (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
-8,Decent Work & Economic Growth,5,Human Resources for Health,7,Q1,8.1,2025,6.7,2026,1.527,2.024,"Public Administration (Q1); Public Health, Environmental and Occupational Health (Q1)"
-8,Decent Work & Economic Growth,6,Journal of Sustainable Tourism,7,Q1,22.8,2025,20.9,2026,2.381,3.101,"Geography, Planning and Development (Q1); Tourism, Leisure and Hospitality Management (Q1)"
-8,Decent Work & Economic Growth,7,Journal of Ecotourism,7,Q1,8.4,2025,8.8,2026,0.762,1.478,"Geography, Planning and Development (Q1); Tourism, Leisure and Hospitality Management (Q2)"
-8,Decent Work & Economic Growth,8,Kybernetes,6,Q1,7.7,2025,7.7,2026,0.654,0.978,Engineering (miscellaneous) (Q1); Library and Information Sciences (Q1); Social Sciences (miscellaneous) (Q1); Artificial Intelligence (Q2); Computer Science (miscellaneous) (Q2); Control and Systems Engineering (Q2); Electrical and Electronic Engineering (Q2); Human-Computer Interaction (Q2); Information Systems (Q2); Information Systems and Management (Q2); Management Information Systems (Q2); Management Science and Operations Research (Q2); Software (Q2); Strategy and Management (Q2); Theoretical Computer Science (Q2)
-8,Decent Work & Economic Growth,9,Bioscience,6,Q1,14.4,2025,11.2,2026,2.295,3.273,Agricultural and Biological Sciences (miscellaneous) (Q1)
-8,Decent Work & Economic Growth,10,Asian Journal of Psychiatry,5,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
-9,"Industry, Innovation & Infrastructure",1,Plos One,16,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-9,"Industry, Innovation & Infrastructure",2,Sensors Switzerland,14,Q1,,,,,,,
-9,"Industry, Innovation & Infrastructure",3,Asian Journal of Psychiatry,7,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
-9,"Industry, Innovation & Infrastructure",4,Technological Forecasting and Social Change,6,Q1,30.5,2025,23.0,2026,3.479,3.148,Applied Psychology (Q1); Business and International Management (Q1); Management of Technology and Innovation (Q1)
-9,"Industry, Innovation & Infrastructure",5,Kybernetes,5,Q1,7.7,2025,7.7,2026,0.654,0.978,Engineering (miscellaneous) (Q1); Library and Information Sciences (Q1); Social Sciences (miscellaneous) (Q1); Artificial Intelligence (Q2); Computer Science (miscellaneous) (Q2); Control and Systems Engineering (Q2); Electrical and Electronic Engineering (Q2); Human-Computer Interaction (Q2); Information Systems (Q2); Information Systems and Management (Q2); Management Information Systems (Q2); Management Science and Operations Research (Q2); Software (Q2); Strategy and Management (Q2); Theoretical Computer Science (Q2)
-9,"Industry, Innovation & Infrastructure",6,Separation and Purification Technology,5,Q1,14.3,2025,12.6,2026,1.564,1.498,Analytical Chemistry (Q1); Filtration and Separation (Q1)
-9,"Industry, Innovation & Infrastructure",7,Arabian Journal for Science and Engineering,5,Q1,7.1,2025,6.1,2026,0.545,0.991,Multidisciplinary (Q1)
-9,"Industry, Innovation & Infrastructure",8,Journal of Asian Architecture and Building Engineering,4,Q1,4.5,2025,4.4,2026,0.470,1.18,Architecture (Q1); Arts and Humanities (miscellaneous) (Q1); Cultural Studies (Q1); Building and Construction (Q2); Civil and Structural Engineering (Q2)
-9,"Industry, Innovation & Infrastructure",9,Management of Environmental Quality an International Journal,4,Q1,,,,,,,
-9,"Industry, Innovation & Infrastructure",10,Food and Bioprocess Technology,4,Q1,9.0,2025,8.2,2026,1.071,1.254,"Food Science (Q1); Industrial and Manufacturing Engineering (Q1); Process Chemistry and Technology (Q1); Safety, Risk, Reliability and Quality (Q1)"
-10,Reduced Inequalities,1,International Journal of Environmental Research and Public Health,11,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-10,Reduced Inequalities,2,Plos One,8,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-10,Reduced Inequalities,3,Asian Journal of Psychiatry,5,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
-10,Reduced Inequalities,4,BMC Pregnancy and Childbirth,3,Q1,4.8,2025,3.7,2026,1.066,1.435,Obstetrics and Gynecology (Q1)
-10,Reduced Inequalities,5,Management of Environmental Quality an International Journal,3,Q1,,,,,,,
-10,Reduced Inequalities,6,Disasters,3,Q1,6.0,2025,3.9,2026,0.736,1.574,Earth and Planetary Sciences (miscellaneous) (Q1); Social Sciences (miscellaneous) (Q1)
-10,Reduced Inequalities,7,Research in International Business and Finance,2,Q1,11.9,2025,9.6,2026,1.509,1.851,"Business, Management and Accounting (miscellaneous) (Q1); Finance (Q1)"
-10,Reduced Inequalities,8,Climatic Change,2,Q1,8.0,2025,6.1,2026,1.396,1.501,Atmospheric Science (Q1); Global and Planetary Change (Q1)
-10,Reduced Inequalities,9,BMC Psychiatry,2,Q1,6.3,2025,5.6,2026,1.423,1.471,Psychiatry and Mental Health (Q1)
-10,Reduced Inequalities,10,Land Use Policy,2,Q1,14.0,2025,10.3,2026,1.686,1.956,"Forestry (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Nature and Landscape Conservation (Q1)"
-11,Sustainable Cities & Communities,1,Journal of Asian Architecture and Building Engineering,7,Q1,4.5,2025,4.4,2026,0.470,1.18,Architecture (Q1); Arts and Humanities (miscellaneous) (Q1); Cultural Studies (Q1); Building and Construction (Q2); Civil and Structural Engineering (Q2)
-11,Sustainable Cities & Communities,2,Sensors Switzerland,5,Q1,,,,,,,
-11,Sustainable Cities & Communities,3,Land Use Policy,5,Q1,14.0,2025,10.3,2026,1.686,1.956,"Forestry (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Nature and Landscape Conservation (Q1)"
-11,Sustainable Cities & Communities,4,Housing Studies,4,Q1,8.1,2025,6.7,2026,1.476,2.305,Environmental Science (miscellaneous) (Q1); Sociology and Political Science (Q1); Urban Studies (Q1)
-11,Sustainable Cities & Communities,5,Attachment and Human Development,2,Q1,6.1,2025,3.0,2026,1.132,1.433,Developmental and Educational Psychology (Q1); Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1)
-11,Sustainable Cities & Communities,6,Journal of Urban Affairs,2,Q1,5.7,2025,5.4,2026,0.826,1.63,"Geography, Planning and Development (Q1); Sociology and Political Science (Q1); Urban Studies (Q1)"
-11,Sustainable Cities & Communities,7,Journal of Housing and the Built Environment,2,Q1,5.5,2025,4.8,2026,0.762,1.415,"Geography, Planning and Development (Q1); Urban Studies (Q1)"
-11,Sustainable Cities & Communities,8,Urban Ecosystems,2,Q1,5.2,2025,3.8,2026,0.873,1.14,Ecology (Q1); Urban Studies (Q1)
-11,Sustainable Cities & Communities,9,International Journal of Environmental Research and Public Health,2,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-11,Sustainable Cities & Communities,10,IEEE Sensors Journal,2,Q1,7.8,2025,6.6,2026,0.947,1.347,Electrical and Electronic Engineering (Q1); Instrumentation (Q1)
-12,Responsible Consumption & Production,1,Journal of Material Cycles and Waste Management,32,Q1,6.4,2025,6.2,2026,0.737,1.025,Mechanics of Materials (Q1); Waste Management and Disposal (Q2)
-12,Responsible Consumption & Production,2,Plos One,8,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-12,Responsible Consumption & Production,3,Process Safety and Environmental Protection,6,Q1,12.8,2025,11.9,2026,1.398,1.527,"Chemical Engineering (miscellaneous) (Q1); Environmental Chemistry (Q1); Environmental Engineering (Q1); Safety, Risk, Reliability and Quality (Q1)"
-12,Responsible Consumption & Production,4,Arabian Journal for Science and Engineering,5,Q1,7.1,2025,6.1,2026,0.545,0.991,Multidisciplinary (Q1)
-12,Responsible Consumption & Production,5,Solar Energy,4,Q1,13.0,2025,11.7,2026,1.336,1.525,"Materials Science (miscellaneous) (Q1); Renewable Energy, Sustainability and the Environment (Q1)"
-12,Responsible Consumption & Production,6,Clean Technologies and Environmental Policy,4,Q1,8.0,2025,7.3,2026,0.885,1.187,"Business, Management and Accounting (miscellaneous) (Q1); Environmental Engineering (Q1); Economics and Econometrics (Q2); Environmental Chemistry (Q2); Management, Monitoring, Policy and Law (Q2)"
-12,Responsible Consumption & Production,7,Chemsuschem,3,Q1,9.4,2025,7.6,2026,1.379,1.032,Chemical Engineering (miscellaneous) (Q1); Energy (miscellaneous) (Q1); Environmental Chemistry (Q1); Materials Science (miscellaneous) (Q1)
-12,Responsible Consumption & Production,8,Journal of Asian Architecture and Building Engineering,3,Q1,4.5,2025,4.4,2026,0.470,1.18,Architecture (Q1); Arts and Humanities (miscellaneous) (Q1); Cultural Studies (Q1); Building and Construction (Q2); Civil and Structural Engineering (Q2)
-12,Responsible Consumption & Production,9,Management of Environmental Quality an International Journal,3,Q1,,,,,,,
-12,Responsible Consumption & Production,10,Separation and Purification Technology,3,Q1,14.3,2025,12.6,2026,1.564,1.498,Analytical Chemistry (Q1); Filtration and Separation (Q1)
-13,Climate Action,1,Global Change Biology,21,Q1,21.1,2025,17.4,2026,4.581,3.119,Ecology (Q1); Environmental Chemistry (Q1); Environmental Science (miscellaneous) (Q1); Global and Planetary Change (Q1)
-13,Climate Action,2,International Journal of Climatology,13,Q1,7.1,2025,4.7,2026,1.079,1.027,Statistics and Probability (Q1); Atmospheric Science (Q2)
-13,Climate Action,3,Land Use Policy,13,Q1,14.0,2025,10.3,2026,1.686,1.956,"Forestry (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Nature and Landscape Conservation (Q1)"
-13,Climate Action,4,Plos One,12,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-13,Climate Action,5,Climatic Change,10,Q1,8.0,2025,6.1,2026,1.396,1.501,Atmospheric Science (Q1); Global and Planetary Change (Q1)
-13,Climate Action,6,Biogeosciences,10,Q1,6.7,2025,5.7,2026,1.689,1.274,"Earth-Surface Processes (Q1); Ecology, Evolution, Behavior and Systematics (Q1)"
-13,Climate Action,7,Resources Policy,7,Q1,20.3,2025,18.6,2026,2.050,1.542,"Economics and Econometrics (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
-13,Climate Action,8,Journal of Material Cycles and Waste Management,7,Q1,6.4,2025,6.2,2026,0.737,1.025,Mechanics of Materials (Q1); Waste Management and Disposal (Q2)
-13,Climate Action,9,Bioenergy Research,6,Q1,8.6,2025,6.9,2026,0.652,0.859,"Agronomy and Crop Science (Q1); Energy (miscellaneous) (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
-13,Climate Action,10,Agricultural Systems,6,Q1,11.2,2025,8.6,2026,1.606,1.8,Agronomy and Crop Science (Q1); Animal Science and Zoology (Q1)
-14,Life Below Water,1,Plos One,19,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-14,Life Below Water,2,Fisheries Research,19,Q1,4.5,2025,3.9,2026,0.752,1.197,Aquatic Science (Q1)
-14,Life Below Water,3,International Journal of Climatology,11,Q1,7.1,2025,4.7,2026,1.079,1.027,Statistics and Probability (Q1); Atmospheric Science (Q2)
-14,Life Below Water,4,Marine Drugs,10,Q1,11.6,2025,9.7,2026,1.044,1.267,"Drug Discovery (Q1); Pharmaceutical Science (Q1); Pharmacology, Toxicology and Pharmaceutics (miscellaneous) (Q1)"
-14,Life Below Water,5,Marine Ecology Progress Series,8,Q1,4.0,2025,3.1,2026,0.734,0.903,"Aquatic Science (Q1); Ecology, Evolution, Behavior and Systematics (Q1); Ecology (Q2)"
-14,Life Below Water,6,Journal of Climate,8,Q1,8.4,2025,7.1,2026,2.176,1.292,Atmospheric Science (Q1)
-14,Life Below Water,7,Global Change Biology,8,Q1,21.1,2025,17.4,2026,4.581,3.119,Ecology (Q1); Environmental Chemistry (Q1); Environmental Science (miscellaneous) (Q1); Global and Planetary Change (Q1)
-14,Life Below Water,8,Biogeosciences,7,Q1,6.7,2025,5.7,2026,1.689,1.274,"Earth-Surface Processes (Q1); Ecology, Evolution, Behavior and Systematics (Q1)"
-14,Life Below Water,9,Palaeogeography Palaeoclimatology Palaeoecology,7,Q1,4.8,2025,3.7,2026,0.973,1.058,"Earth-Surface Processes (Q1); Ecology, Evolution, Behavior and Systematics (Q1); Oceanography (Q1); Paleontology (Q1)"
-14,Life Below Water,10,Atmospheric Research,6,Q1,8.6,2025,6.1,2026,1.447,1.265,Atmospheric Science (Q1)
-15,Life on Land,1,Plos One,15,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-15,Life on Land,2,Land Use Policy,15,Q1,14.0,2025,10.3,2026,1.686,1.956,"Forestry (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Nature and Landscape Conservation (Q1)"
-15,Life on Land,3,Global Change Biology,15,Q1,21.1,2025,17.4,2026,4.581,3.119,Ecology (Q1); Environmental Chemistry (Q1); Environmental Science (miscellaneous) (Q1); Global and Planetary Change (Q1)
-15,Life on Land,4,Bioscience,9,Q1,14.4,2025,11.2,2026,2.295,3.273,Agricultural and Biological Sciences (miscellaneous) (Q1)
-15,Life on Land,5,Palaeogeography Palaeoclimatology Palaeoecology,8,Q1,4.8,2025,3.7,2026,0.973,1.058,"Earth-Surface Processes (Q1); Ecology, Evolution, Behavior and Systematics (Q1); Oceanography (Q1); Paleontology (Q1)"
-15,Life on Land,6,Philosophical Transactions of the Royal Society B Biological Sciences,7,Q1,10.2,2025,8.8,2026,1.725,1.782,"Agricultural and Biological Sciences (miscellaneous) (Q1); Biochemistry, Genetics and Molecular Biology (miscellaneous) (Q1)"
-15,Life on Land,7,Human Ecology,6,Q1,3.1,2025,2.8,2026,0.515,0.778,"Anthropology (Q1); Arts and Humanities (miscellaneous) (Q1); Ecology (Q2); Environmental Science (miscellaneous) (Q2); Health (social science) (Q2); Public Health, Environmental and Occupational Health (Q2); Sociology and Political Science (Q2); Health, Toxicology and Mutagenesis (Q3)"
-15,Life on Land,8,Biogeosciences,6,Q1,6.7,2025,5.7,2026,1.689,1.274,"Earth-Surface Processes (Q1); Ecology, Evolution, Behavior and Systematics (Q1)"
-15,Life on Land,9,BMC Ecology and Evolution,6,Q1,4.3,2025,3.3,2026,0.818,1.125,"Ecology, Evolution, Behavior and Systematics (Q1); Environmental Science (miscellaneous) (Q2)"
-15,Life on Land,10,Proceedings of the Royal Society B Biological Sciences,6,Q1,6.1,2025,4.8,2026,1.408,1.493,"Agricultural and Biological Sciences (miscellaneous) (Q1); Biochemistry, Genetics and Molecular Biology (miscellaneous) (Q1); Environmental Science (miscellaneous) (Q1); Immunology and Microbiology (miscellaneous)  (Q1); Medicine (miscellaneous) (Q1)"
-16,"Peace, Justice & Strong Institutions",1,Plos One,13,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-16,"Peace, Justice & Strong Institutions",2,Contemporary Southeast Asia,13,Q1,2.9,2025,2.5,2026,1.114,1.847,Development (Q1); History (Q1); Political Science and International Relations (Q1); Sociology and Political Science (Q1)
-16,"Peace, Justice & Strong Institutions",3,Land Use Policy,10,Q1,14.0,2025,10.3,2026,1.686,1.956,"Forestry (Q1); Geography, Planning and Development (Q1); Management, Monitoring, Policy and Law (Q1); Nature and Landscape Conservation (Q1)"
-16,"Peace, Justice & Strong Institutions",4,Asian Journal of Psychiatry,9,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
-16,"Peace, Justice & Strong Institutions",5,Resources Policy,7,Q1,20.3,2025,18.6,2026,2.050,1.542,"Economics and Econometrics (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
-16,"Peace, Justice & Strong Institutions",6,Public Organization Review,7,Q1,3.6,2025,3.2,2026,0.459,0.931,"Law (Q1); Business, Management and Accounting (miscellaneous) (Q2)"
-16,"Peace, Justice & Strong Institutions",7,Public Administration and Development,6,Q1,4.6,2025,4.4,2026,0.761,1.44,Development (Q1); Public Administration (Q1)
-16,"Peace, Justice & Strong Institutions",8,International Journal of Environmental Research and Public Health,5,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
-16,"Peace, Justice & Strong Institutions",9,Research in International Business and Finance,4,Q1,11.9,2025,9.6,2026,1.509,1.851,"Business, Management and Accounting (miscellaneous) (Q1); Finance (Q1)"
-16,"Peace, Justice & Strong Institutions",10,Small Scale Forestry,4,Q1,4.2,2025,3.8,2026,0.516,0.947,Forestry (Q1)
-17,Partnerships for the Goals,1,Plos One,5,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
-17,Partnerships for the Goals,2,BMC Pregnancy and Childbirth,2,Q1,4.8,2025,3.7,2026,1.066,1.435,Obstetrics and Gynecology (Q1)
-17,Partnerships for the Goals,3,Language Documentation and Conservation,2,Q1,1.5,2025,0.5,2026,0.370,0.496,Linguistics and Language (Q1); Library and Information Sciences (Q2); Computer Science Applications (Q3)
-17,Partnerships for the Goals,4,Endangered Species Research,1,Q1,4.1,2025,3.4,2026,0.751,1.076,Ecology (Q1); Nature and Landscape Conservation (Q1)
-17,Partnerships for the Goals,5,Journal of the American Medical Directors Association,1,Q1,5.8,2025,4.2,2026,1.205,1.242,Geriatrics and Gerontology (Q1); Health Policy (Q1); Medicine (miscellaneous) (Q1); Nursing (miscellaneous) (Q1)
-17,Partnerships for the Goals,6,Journal of Documentation,1,Q1,5.7,2025,3.8,2026,0.692,1.634,Library and Information Sciences (Q1); Information Systems (Q2)
-17,Partnerships for the Goals,7,Advances in Space Research,1,Q1,5.6,2025,4.8,2026,0.675,1.267,Aerospace Engineering (Q1); Earth and Planetary Sciences (miscellaneous) (Q1); Astronomy and Astrophysics (Q2); Atmospheric Science (Q2); Geophysics (Q2); Space and Planetary Science (Q2)
-17,Partnerships for the Goals,8,Fisheries Research,1,Q1,4.5,2025,3.9,2026,0.752,1.197,Aquatic Science (Q1)
-17,Partnerships for the Goals,9,Public Organization Review,1,Q1,3.6,2025,3.2,2026,0.459,0.931,"Law (Q1); Business, Management and Accounting (miscellaneous) (Q2)"
-17,Partnerships for the Goals,10,Human Resources for Health,1,Q1,8.1,2025,6.7,2026,1.527,2.024,"Public Administration (Q1); Public Health, Environmental and Occupational Health (Q1)"
+1,No Poverty,1,Sustainability Switzerland,81,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+1,No Poverty,2,Forest and Society,52,Q1,4.6,2025,4.1,2026,0.571,1.001,"Cultural Studies (Q1); Forestry (Q1); Geography, Planning and Development (Q2); Nature and Landscape Conservation (Q2); Plant Science (Q2); Political Science and International Relations (Q2); Sociology and Political Science (Q2)"
+1,No Poverty,3,Forest Policy and Economics,35,Q1,7.6,2025,6.4,2026,1.285,1.571,"Economics and Econometrics (Q1); Forestry (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
+1,No Poverty,4,Land,29,Q1,6.4,2025,5.3,2026,0.775,0.956,Ecology (Q1); Nature and Landscape Conservation (Q1); Global and Planetary Change (Q2)
+1,No Poverty,5,Heliyon,26,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+1,No Poverty,6,Forests,25,Q1,3.9,2025,3.6,2026,0.516,0.964,Forestry (Q1); Agronomy and Crop Science (Q2); Insect Science (Q2)
+1,No Poverty,7,International Journal of Environmental Research and Public Health,24,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+1,No Poverty,8,Marine Policy,23,Q1,8.7,2025,7.2,2026,1.279,1.53,"Aquatic Science (Q1); Economics and Econometrics (Q1); Environmental Science (miscellaneous) (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1)"
+1,No Poverty,9,Plos One,20,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+1,No Poverty,10,Bulletin of Indonesian Economic Studies,19,Q1,6.0,2025,5.7,2026,1.107,1.873,Development (Q1); Economics and Econometrics (Q1)
+2,Zero Hunger,1,Sustainability Switzerland,73,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+2,Zero Hunger,2,Nutrients,49,Q1,10.2,2025,8.6,2026,1.499,1.487,Food Science (Q1); Nutrition and Dietetics (Q1)
+2,Zero Hunger,3,Plos One,44,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+2,Zero Hunger,4,Heliyon,23,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+2,Zero Hunger,5,Frontiers in Sustainable Food Systems,23,Q1,6.0,2025,5.9,2026,0.768,1.115,"Agronomy and Crop Science (Q1); Ecology (Q1); Food Science (Q1); Horticulture (Q1); Global and Planetary Change (Q2); Management, Monitoring, Policy and Law (Q2)"
+2,Zero Hunger,6,International Journal of Environmental Research and Public Health,22,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+2,Zero Hunger,7,Veterinary World,19,Q1,4.5,2025,3.7,2026,0.576,0.988,Veterinary (miscellaneous) (Q1)
+2,Zero Hunger,8,Global Journal of Environmental Science and Management,19,Q1,5.8,2025,5.4,2026,0.501,0.889,Architecture (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Environmental Engineering (Q2); Environmental Science (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Pollution (Q3); Waste Management and Disposal (Q3)
+2,Zero Hunger,9,Lancet,16,Q1,92.4,2025,81.3,2026,14.821,27.703,Medicine (miscellaneous) (Q1)
+2,Zero Hunger,10,BMC Public Health,15,Q1,5.9,2025,5.1,2026,1.356,1.57,"Public Health, Environmental and Occupational Health (Q1)"
+3,Good Health & Well-being,1,Plos One,278,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+3,Good Health & Well-being,2,International Journal of Environmental Research and Public Health,189,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+3,Good Health & Well-being,3,Veterinary World,151,Q1,4.5,2025,3.7,2026,0.576,0.988,Veterinary (miscellaneous) (Q1)
+3,Good Health & Well-being,4,BMJ Open,124,Q1,4.1,2025,3.1,2026,0.930,1.002,Medicine (miscellaneous) (Q1)
+3,Good Health & Well-being,5,F1000research,111,Q1,2.9,2025,2.7,2026,0.432,0.641,"Arts and Humanities (miscellaneous) (Q1); Library and Information Sciences (Q2); Pharmacology, Toxicology and Pharmaceutics (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Biochemistry, Genetics and Molecular Biology (miscellaneous) (Q3); Immunology and Microbiology (miscellaneous)  (Q3); Medicine (miscellaneous) (Q3)"
+3,Good Health & Well-being,6,Lancet,109,Q1,92.4,2025,81.3,2026,14.821,27.703,Medicine (miscellaneous) (Q1)
+3,Good Health & Well-being,7,Asian Journal of Psychiatry,103,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
+3,Good Health & Well-being,8,BMC Public Health,97,Q1,5.9,2025,5.1,2026,1.356,1.57,"Public Health, Environmental and Occupational Health (Q1)"
+3,Good Health & Well-being,9,Scientific Reports,83,Q1,6.4,2025,6.1,2026,0.893,1.339,Multidisciplinary (Q1)
+3,Good Health & Well-being,10,Vaccines,83,Q1,7.7,2025,6.0,2026,0.955,0.833,Pharmacology (medical) (Q1); Drug Discovery (Q2); Immunology (Q2); Infectious Diseases (Q2); Pharmacology (Q2)
+4,Quality Education,1,Cogent Education,172,Q1,4.4,2025,4.6,2026,0.722,1.395,Education (Q1)
+4,Quality Education,2,International Journal of Language Education,96,Q1,3.3,2025,2.5,2026,0.324,0.764,Literature and Literary Theory (Q1); Linguistics and Language (Q2); Education (Q3)
+4,Quality Education,3,Social Sciences and Humanities Open,94,Q1,3.6,2025,3.4,2026,0.634,1.284,Social Sciences (miscellaneous) (Q1); Decision Sciences (miscellaneous) (Q2); Psychology (miscellaneous) (Q2)
+4,Quality Education,4,Retos,78,Q1,3.3,2025,3.1,2026,0.337,0.557,"Cultural Studies (Q1); Gender Studies (Q2); Pharmacy (Q2); Education (Q3); Orthopedics and Sports Medicine (Q3); Physical Therapy, Sports Therapy and Rehabilitation (Q3); Rehabilitation (Q3)"
+4,Quality Education,5,Studies in English Language and Education,78,Q1,2.4,2025,2.0,2026,0.314,0.774,Literature and Literary Theory (Q1); Linguistics and Language (Q2); Education (Q3)
+4,Quality Education,6,Jurnal Ilmiah Peuradeun,74,Q1,4.4,2025,5.1,2026,0.421,0.983,Arts and Humanities (miscellaneous) (Q1); Linguistics and Language (Q1); Religious Studies (Q1); Education (Q2); Law (Q2); Social Sciences (miscellaneous) (Q2)
+4,Quality Education,7,Frontiers in Education,62,Q1,4.3,2025,4.0,2026,0.744,1.297,Education (Q1)
+4,Quality Education,8,Jurnal Pendidikan Islam,59,Q1,4.1,2025,4.1,2026,0.409,0.841,Religious Studies (Q1); Education (Q2); Social Sciences (miscellaneous) (Q2)
+4,Quality Education,9,Jurnal Pendidikan Agama Islam,59,Q1,2.2,2025,2.7,2026,0.259,0.35,Religious Studies (Q1); Arts and Humanities (miscellaneous) (Q2)
+4,Quality Education,10,Sustainability Switzerland,56,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+5,Gender Equality,1,De Jure Jurnal Hukum Dan Syar Iah,17,Q1,,,,,,,
+5,Gender Equality,2,Al Ahwal,14,Q1,2.2,2025,2.5,2026,0.382,0.441,Arts and Humanities (miscellaneous) (Q1); Religious Studies (Q1); Gender Studies (Q2); Law (Q2)
+5,Gender Equality,3,Samarah,13,Q1,5.5,2025,5.2,2026,0.758,1.08,Law (Q1); Social Sciences (miscellaneous) (Q1)
+5,Gender Equality,4,Ahkam Jurnal Ilmu Syariah,12,Q1,6.7,2025,5.9,2026,0.896,1.226,Law (Q1); Religious Studies (Q1)
+5,Gender Equality,5,Al Ihkam Jurnal Hukum Dan Pranata Sosial,11,Q1,7.8,2025,5.2,2026,0.795,1.193,Arts and Humanities (miscellaneous) (Q1); Law (Q1); Philosophy (Q1); Religious Studies (Q1); Social Sciences (miscellaneous) (Q1); Sociology and Political Science (Q1); Social Psychology (Q2)
+5,Gender Equality,6,Journal of Indonesian Islam,9,Q1,1.9,2025,1.3,2026,0.329,0.518,Cultural Studies (Q1); History (Q1); Religious Studies (Q1)
+5,Gender Equality,7,El Usrah,9,Q1,4.2,2025,5.4,2026,0.830,0.934,Anthropology (Q1); Gender Studies (Q1); Law (Q1); Social Sciences (miscellaneous) (Q1)
+5,Gender Equality,8,Hts Teologiese Studies Theological Studies,8,Q1,2.2,2025,1.7,2026,0.404,0.802,Religious Studies (Q1)
+5,Gender Equality,9,Juris Jurnal Ilmiah Syariah,8,Q1,9.0,2025,7.9,2026,0.999,1.385,Law (Q1); Religious Studies (Q1)
+5,Gender Equality,10,Jurnal Ilmiah Peuradeun,8,Q1,4.4,2025,5.1,2026,0.421,0.983,Arts and Humanities (miscellaneous) (Q1); Linguistics and Language (Q1); Religious Studies (Q1); Education (Q2); Law (Q2); Social Sciences (miscellaneous) (Q2)
+6,Clean Water & Sanitation,1,Water Switzerland,84,Q1,6.7,2025,6.2,2026,0.807,0.99,"Aquatic Science (Q1); Geography, Planning and Development (Q1); Water Science and Technology (Q1); Biochemistry (Q2)"
+6,Clean Water & Sanitation,2,Sustainability Switzerland,59,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+6,Clean Water & Sanitation,3,Journal of Environmental Chemical Engineering,57,Q1,10.2,2025,8.7,2026,1.273,1.172,Chemical Engineering (miscellaneous) (Q1); Pollution (Q1); Process Chemistry and Technology (Q1); Waste Management and Disposal (Q1)
+6,Clean Water & Sanitation,4,Global Journal of Environmental Science and Management,54,Q1,5.8,2025,5.4,2026,0.501,0.889,Architecture (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Environmental Engineering (Q2); Environmental Science (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Pollution (Q3); Waste Management and Disposal (Q3)
+6,Clean Water & Sanitation,5,Journal of Water Process Engineering,50,Q1,9.6,2025,9.1,2026,1.229,1.141,"Biotechnology (Q1); Process Chemistry and Technology (Q1); Safety, Risk, Reliability and Quality (Q1); Waste Management and Disposal (Q1); Water Science and Technology (Q1)"
+6,Clean Water & Sanitation,6,Veterinary World,49,Q1,4.5,2025,3.7,2026,0.576,0.988,Veterinary (miscellaneous) (Q1)
+6,Clean Water & Sanitation,7,Science of the Total Environment,45,Q1,18.8,2025,17.0,2026,2.043,1.695,Environmental Chemistry (Q1); Environmental Engineering (Q1); Pollution (Q1); Waste Management and Disposal (Q1)
+6,Clean Water & Sanitation,8,Chemosphere,42,Q1,21.1,2025,16.1,2026,1.648,1.382,"Chemistry (miscellaneous) (Q1); Environmental Chemistry (Q1); Environmental Engineering (Q1); Health, Toxicology and Mutagenesis (Q1); Medicine (miscellaneous) (Q1); Pollution (Q1); Public Health, Environmental and Occupational Health (Q1)"
+6,Clean Water & Sanitation,9,Environmental Science and Pollution Research,40,Q1,12.1,2025,10.6,2026,0.909,1.041,"Medicine (miscellaneous) (Q1); Environmental Chemistry (Q2); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+6,Clean Water & Sanitation,10,Marine Pollution Bulletin,40,Q1,9.7,2025,7.5,2026,1.465,1.131,Aquatic Science (Q1); Oceanography (Q1); Pollution (Q1)
+7,Affordable & Clean Energy,1,Energies,97,Q1,9.2,2025,7.5,2026,1.122,0.823,Chemical Engineering (miscellaneous) (Q1); Electrical and Electronic Engineering (Q1); Electrochemistry (Q1); Energy Engineering and Power Technology (Q1); Materials Chemistry (Q1)
+7,Affordable & Clean Energy,2,Sustainability Switzerland,84,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+7,Affordable & Clean Energy,3,Geothermics,59,Q1,8.2,2025,6.5,2026,1.102,1.46,"Geology (Q1); Geotechnical Engineering and Engineering Geology (Q1); Renewable Energy, Sustainability and the Environment (Q2)"
+7,Affordable & Clean Energy,4,Results in Engineering,57,Q1,8.8,2025,8.2,2026,1.240,2.047,Engineering (miscellaneous) (Q1)
+7,Affordable & Clean Energy,5,Renewable Energy,54,Q1,18.1,2025,13.4,2026,1.889,1.798,"Renewable Energy, Sustainability and the Environment (Q1)"
+7,Affordable & Clean Energy,6,IEEE Access,53,Q1,9.3,2025,8.1,2026,0.884,1.483,Computer Science (miscellaneous) (Q1); Engineering (miscellaneous) (Q1); Materials Science (miscellaneous) (Q1)
+7,Affordable & Clean Energy,7,International Journal of Hydrogen Energy,40,Q1,14.3,2025,13.5,2026,1.659,1.511,"Condensed Matter Physics (Q1); Energy Engineering and Power Technology (Q1); Fuel Technology (Q1); Renewable Energy, Sustainability and the Environment (Q1)"
+7,Affordable & Clean Energy,8,Renewable and Sustainable Energy Reviews,34,Q1,36.8,2025,25.9,2026,3.995,4.233,"Renewable Energy, Sustainability and the Environment (Q1)"
+7,Affordable & Clean Energy,9,Energy Reports,32,Q1,15.3,2025,13.0,2026,1.197,1.461,"Building and Construction (Q1); Chemical Engineering (miscellaneous) (Q1); Civil and Structural Engineering (Q1); Electrical and Electronic Engineering (Q1); Energy Engineering and Power Technology (Q1); Management, Monitoring, Policy and Law (Q1); Mechanical Engineering (Q1); Renewable Energy, Sustainability and the Environment (Q2)"
+7,Affordable & Clean Energy,10,Heliyon,32,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+8,Decent Work & Economic Growth,1,Geojournal of Tourism and Geosites,200,Q1,3.5,2025,3.1,2026,0.320,0.689,"Conservation (Q1); Cultural Studies (Q1); Earth and Planetary Sciences (miscellaneous) (Q3); Geography, Planning and Development (Q3); Tourism, Leisure and Hospitality Management (Q3)"
+8,Decent Work & Economic Growth,2,Sustainability Switzerland,192,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+8,Decent Work & Economic Growth,3,Jurnal Kajian Bali,83,Q1,0.8,2025,1.0,2026,0.162,0.438,"Literature and Literary Theory (Q1); Arts and Humanities (miscellaneous) (Q2); Cultural Studies (Q2); History (Q2); Music (Q2); Tourism, Leisure and Hospitality Management (Q4)"
+8,Decent Work & Economic Growth,4,Plos One,68,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+8,Decent Work & Economic Growth,5,Heliyon,68,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+8,Decent Work & Economic Growth,6,Discover Sustainability,46,Q1,3.3,2025,4.3,2026,0.815,1.26,"Geography, Planning and Development (Q1); Energy (miscellaneous) (Q2); Environmental Science (miscellaneous) (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+8,Decent Work & Economic Growth,7,IEEE Access,42,Q1,9.3,2025,8.1,2026,0.884,1.483,Computer Science (miscellaneous) (Q1); Engineering (miscellaneous) (Q1); Materials Science (miscellaneous) (Q1)
+8,Decent Work & Economic Growth,8,International Journal of Environmental Research and Public Health,41,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+8,Decent Work & Economic Growth,9,Bulletin of Indonesian Economic Studies,40,Q1,6.0,2025,5.7,2026,1.107,1.873,Development (Q1); Economics and Econometrics (Q1)
+8,Decent Work & Economic Growth,10,Social Sciences and Humanities Open,37,Q1,3.6,2025,3.4,2026,0.634,1.284,Social Sciences (miscellaneous) (Q1); Decision Sciences (miscellaneous) (Q2); Psychology (miscellaneous) (Q2)
+9,"Industry, Innovation & Infrastructure",1,Sustainability Switzerland,272,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+9,"Industry, Innovation & Infrastructure",2,Journal of Open Innovation Technology Market and Complexity,133,Q1,16.0,2025,13.4,2026,1.397,2.176,"Development (Q1); Economics, Econometrics and Finance (miscellaneous) (Q1); Sociology and Political Science (Q1)"
+9,"Industry, Innovation & Infrastructure",3,IEEE Access,108,Q1,9.3,2025,8.1,2026,0.884,1.483,Computer Science (miscellaneous) (Q1); Engineering (miscellaneous) (Q1); Materials Science (miscellaneous) (Q1)
+9,"Industry, Innovation & Infrastructure",4,Heliyon,104,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+9,"Industry, Innovation & Infrastructure",5,Social Sciences and Humanities Open,68,Q1,3.6,2025,3.4,2026,0.634,1.284,Social Sciences (miscellaneous) (Q1); Decision Sciences (miscellaneous) (Q2); Psychology (miscellaneous) (Q2)
+9,"Industry, Innovation & Infrastructure",6,Discover Sustainability,59,Q1,3.3,2025,4.3,2026,0.815,1.26,"Geography, Planning and Development (Q1); Energy (miscellaneous) (Q2); Environmental Science (miscellaneous) (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+9,"Industry, Innovation & Infrastructure",7,Retos,58,Q1,3.3,2025,3.1,2026,0.337,0.557,"Cultural Studies (Q1); Gender Studies (Q2); Pharmacy (Q2); Education (Q3); Orthopedics and Sports Medicine (Q3); Physical Therapy, Sports Therapy and Rehabilitation (Q3); Rehabilitation (Q3)"
+9,"Industry, Innovation & Infrastructure",8,Plos One,51,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+9,"Industry, Innovation & Infrastructure",9,Civil Engineering Journal Iran,46,Q1,7.3,2025,6.8,2026,0.803,1.41,Building and Construction (Q1); Civil and Structural Engineering (Q1); Environmental Engineering (Q2); Geotechnical Engineering and Engineering Geology (Q2)
+9,"Industry, Innovation & Infrastructure",10,F1000research,45,Q1,2.9,2025,2.7,2026,0.432,0.641,"Arts and Humanities (miscellaneous) (Q1); Library and Information Sciences (Q2); Pharmacology, Toxicology and Pharmaceutics (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Biochemistry, Genetics and Molecular Biology (miscellaneous) (Q3); Immunology and Microbiology (miscellaneous)  (Q3); Medicine (miscellaneous) (Q3)"
+10,Reduced Inequalities,1,Sustainability Switzerland,12,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+10,Reduced Inequalities,2,International Journal of Environmental Research and Public Health,11,Q1,9.8,2025,7.5,2026,0.927,1.413,"Public Health, Environmental and Occupational Health (Q1); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+10,Reduced Inequalities,3,Pharos Journal of Theology,9,Q1,1.0,2025,1.1,2026,0.225,0.552,Religious Studies (Q1); Archeology (arts and humanities) (Q2); Philosophy (Q2)
+10,Reduced Inequalities,4,Plos One,8,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+10,Reduced Inequalities,5,Heliyon,7,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+10,Reduced Inequalities,6,Journal of Indonesian Islam,7,Q1,1.9,2025,1.3,2026,0.329,0.518,Cultural Studies (Q1); History (Q1); Religious Studies (Q1)
+10,Reduced Inequalities,7,Discover Sustainability,6,Q1,3.3,2025,4.3,2026,0.815,1.26,"Geography, Planning and Development (Q1); Energy (miscellaneous) (Q2); Environmental Science (miscellaneous) (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+10,Reduced Inequalities,8,Asian Journal of Psychiatry,5,Q1,6.5,2025,6.4,2026,1.265,1.264,Medicine (miscellaneous) (Q1); Psychiatry and Mental Health (Q1); Psychology (miscellaneous) (Q1)
+10,Reduced Inequalities,9,Social Indicators Research,5,Q1,6.4,2025,4.4,2026,0.918,1.525,Arts and Humanities (miscellaneous) (Q1); Social Sciences (miscellaneous) (Q1); Sociology and Political Science (Q1); Developmental and Educational Psychology (Q2)
+10,Reduced Inequalities,10,Journal of Multidisciplinary Healthcare,5,Q1,3.9,2025,3.8,2026,0.767,1.073,Nursing (miscellaneous) (Q1); Medicine (miscellaneous) (Q2)
+11,Sustainable Cities & Communities,1,Sustainability Switzerland,44,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+11,Sustainable Cities & Communities,2,IEEE Access,15,Q1,9.3,2025,8.1,2026,0.884,1.483,Computer Science (miscellaneous) (Q1); Engineering (miscellaneous) (Q1); Materials Science (miscellaneous) (Q1)
+11,Sustainable Cities & Communities,3,Cities,14,Q1,11.5,2025,8.6,2026,1.772,2.055,"Development (Q1); Sociology and Political Science (Q1); Tourism, Leisure and Hospitality Management (Q1); Urban Studies (Q1)"
+11,Sustainable Cities & Communities,4,Land,9,Q1,6.4,2025,5.3,2026,0.775,0.956,Ecology (Q1); Nature and Landscape Conservation (Q1); Global and Planetary Change (Q2)
+11,Sustainable Cities & Communities,5,International Journal of Disaster Risk Reduction,8,Q1,9.1,2025,7.9,2026,1.243,1.654,Geology (Q1); Geotechnical Engineering and Engineering Geology (Q1); Safety Research (Q1)
+11,Sustainable Cities & Communities,6,Urban Science,8,Q1,3.7,2025,3.5,2026,0.673,1.162,"Geography, Planning and Development (Q1); Urban Studies (Q1); Environmental Science (miscellaneous) (Q2); Pollution (Q2); Waste Management and Disposal (Q2)"
+11,Sustainable Cities & Communities,7,Journal of Asian Architecture and Building Engineering,7,Q1,4.5,2025,4.4,2026,0.470,1.18,Architecture (Q1); Arts and Humanities (miscellaneous) (Q1); Cultural Studies (Q1); Building and Construction (Q2); Civil and Structural Engineering (Q2)
+11,Sustainable Cities & Communities,8,Heliyon,7,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+11,Sustainable Cities & Communities,9,Frontiers in Sustainable Cities,7,Q1,5.1,2025,4.3,2026,0.731,1.036,"Public Administration (Q1); Urban Studies (Q1); Renewable Energy, Sustainability and the Environment (Q2)"
+11,Sustainable Cities & Communities,10,Journal of Islamic Architecture,6,Q1,1.3,2025,1.2,2026,0.274,0.696,Religious Studies (Q1); Archeology (arts and humanities) (Q2); Architecture (Q2); History and Philosophy of Science (Q2); Urban Studies (Q2); Building and Construction (Q3)
+12,Responsible Consumption & Production,1,Sustainability Switzerland,92,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+12,Responsible Consumption & Production,2,Global Journal of Environmental Science and Management,66,Q1,5.8,2025,5.4,2026,0.501,0.889,Architecture (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Environmental Engineering (Q2); Environmental Science (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Pollution (Q3); Waste Management and Disposal (Q3)
+12,Responsible Consumption & Production,3,Marine Pollution Bulletin,57,Q1,9.7,2025,7.5,2026,1.465,1.131,Aquatic Science (Q1); Oceanography (Q1); Pollution (Q1)
+12,Responsible Consumption & Production,4,Circular Economy and Sustainability,39,Q1,8.5,2025,5.8,2026,1.080,1.397,"Environmental Science (miscellaneous) (Q1); Renewable Energy, Sustainability and the Environment (Q2)"
+12,Responsible Consumption & Production,5,Journal of Material Cycles and Waste Management,37,Q1,6.4,2025,6.2,2026,0.737,1.025,Mechanics of Materials (Q1); Waste Management and Disposal (Q2)
+12,Responsible Consumption & Production,6,Journal of Cleaner Production,35,Q1,21.3,2025,18.2,2026,2.019,2.04,"Environmental Science (miscellaneous) (Q1); Industrial and Manufacturing Engineering (Q1); Renewable Energy, Sustainability and the Environment (Q1); Strategy and Management (Q1)"
+12,Responsible Consumption & Production,7,Case Studies in Chemical and Environmental Engineering,31,Q1,11.6,2025,12.4,2026,1.185,1.399,Chemical Engineering (miscellaneous) (Q1); Engineering (miscellaneous) (Q1); Environmental Engineering (Q1); Environmental Science (miscellaneous) (Q1); Environmental Chemistry (Q2)
+12,Responsible Consumption & Production,8,Results in Engineering,24,Q1,8.8,2025,8.2,2026,1.240,2.047,Engineering (miscellaneous) (Q1)
+12,Responsible Consumption & Production,9,Biomass and Bioenergy,24,Q1,8.9,2025,5.8,2026,1.132,1.308,"Agronomy and Crop Science (Q1); Forestry (Q1); Waste Management and Disposal (Q1); Renewable Energy, Sustainability and the Environment (Q2)"
+12,Responsible Consumption & Production,10,Bioresource Technology Reports,23,Q1,9.3,2025,6.6,2026,0.869,0.985,"Environmental Engineering (Q1); Bioengineering (Q2); Renewable Energy, Sustainability and the Environment (Q2); Waste Management and Disposal (Q2)"
+13,Climate Action,1,Sustainability Switzerland,161,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+13,Climate Action,2,Science of the Total Environment,50,Q1,18.8,2025,17.0,2026,2.043,1.695,Environmental Chemistry (Q1); Environmental Engineering (Q1); Pollution (Q1); Waste Management and Disposal (Q1)
+13,Climate Action,3,Global Journal of Environmental Science and Management,42,Q1,5.8,2025,5.4,2026,0.501,0.889,Architecture (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Environmental Engineering (Q2); Environmental Science (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Pollution (Q3); Waste Management and Disposal (Q3)
+13,Climate Action,4,Forests,41,Q1,3.9,2025,3.6,2026,0.516,0.964,Forestry (Q1); Agronomy and Crop Science (Q2); Insect Science (Q2)
+13,Climate Action,5,Journal of Cleaner Production,40,Q1,21.3,2025,18.2,2026,2.019,2.04,"Environmental Science (miscellaneous) (Q1); Industrial and Manufacturing Engineering (Q1); Renewable Energy, Sustainability and the Environment (Q1); Strategy and Management (Q1)"
+13,Climate Action,6,Environmental Research Letters,39,Q1,9.3,2025,7.4,2026,1.933,1.412,"Environmental Science (miscellaneous) (Q1); Public Health, Environmental and Occupational Health (Q1); Renewable Energy, Sustainability and the Environment (Q1)"
+13,Climate Action,7,Energies,39,Q1,9.2,2025,7.5,2026,1.122,0.823,Chemical Engineering (miscellaneous) (Q1); Electrical and Electronic Engineering (Q1); Electrochemistry (Q1); Energy Engineering and Power Technology (Q1); Materials Chemistry (Q1)
+13,Climate Action,8,Scientific Reports,38,Q1,6.4,2025,6.1,2026,0.893,1.339,Multidisciplinary (Q1)
+13,Climate Action,9,Environmental Science and Pollution Research,33,Q1,12.1,2025,10.6,2026,0.909,1.041,"Medicine (miscellaneous) (Q1); Environmental Chemistry (Q2); Health, Toxicology and Mutagenesis (Q2); Pollution (Q2)"
+13,Climate Action,10,Heliyon,32,Q1,7.8,2025,9.3,2026,0.739,1.173,Multidisciplinary (Q1)
+14,Life Below Water,1,Regional Studies in Marine Science,99,Q1,4.3,2025,4.1,2026,0.668,0.906,"Animal Science and Zoology (Q1); Aquatic Science (Q2); Ecology (Q2); Ecology, Evolution, Behavior and Systematics (Q2)"
+14,Life Below Water,2,Marine Policy,81,Q1,8.7,2025,7.2,2026,1.279,1.53,"Aquatic Science (Q1); Economics and Econometrics (Q1); Environmental Science (miscellaneous) (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1)"
+14,Life Below Water,3,Frontiers in Marine Science,78,Q1,6.5,2025,5.7,2026,0.959,1.103,Aquatic Science (Q1); Environmental Science (miscellaneous) (Q1); Ocean Engineering (Q1); Oceanography (Q1); Water Science and Technology (Q1); Global and Planetary Change (Q2)
+14,Life Below Water,4,Marine Pollution Bulletin,74,Q1,9.7,2025,7.5,2026,1.465,1.131,Aquatic Science (Q1); Oceanography (Q1); Pollution (Q1)
+14,Life Below Water,5,Sustainability Switzerland,61,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+14,Life Below Water,6,Ocean and Coastal Management,55,Q1,10.3,2025,9.1,2026,1.332,1.533,"Aquatic Science (Q1); Management, Monitoring, Policy and Law (Q1); Oceanography (Q1)"
+14,Life Below Water,7,Global Journal of Environmental Science and Management,53,Q1,5.8,2025,5.4,2026,0.501,0.889,Architecture (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Environmental Engineering (Q2); Environmental Science (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Pollution (Q3); Waste Management and Disposal (Q3)
+14,Life Below Water,8,International Journal of Conservation Science,38,Q1,1.8,2025,1.5,2026,0.353,0.691,Conservation (Q1); Nature and Landscape Conservation (Q3)
+14,Life Below Water,9,Plos One,34,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+14,Life Below Water,10,Scientific Reports,33,Q1,6.4,2025,6.1,2026,0.893,1.339,Multidisciplinary (Q1)
+15,Life on Land,1,Sustainability Switzerland,151,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+15,Life on Land,2,Land,110,Q1,6.4,2025,5.3,2026,0.775,0.956,Ecology (Q1); Nature and Landscape Conservation (Q1); Global and Planetary Change (Q2)
+15,Life on Land,3,Scientific Reports,100,Q1,6.4,2025,6.1,2026,0.893,1.339,Multidisciplinary (Q1)
+15,Life on Land,4,Global Journal of Environmental Science and Management,95,Q1,5.8,2025,5.4,2026,0.501,0.889,Architecture (Q1); Agricultural and Biological Sciences (miscellaneous) (Q2); Environmental Engineering (Q2); Environmental Science (miscellaneous) (Q2); Social Sciences (miscellaneous) (Q2); Pollution (Q3); Waste Management and Disposal (Q3)
+15,Life on Land,5,Forests,86,Q1,3.9,2025,3.6,2026,0.516,0.964,Forestry (Q1); Agronomy and Crop Science (Q2); Insect Science (Q2)
+15,Life on Land,6,Plos One,84,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+15,Life on Land,7,Forest Policy and Economics,84,Q1,7.6,2025,6.4,2026,1.285,1.571,"Economics and Econometrics (Q1); Forestry (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
+15,Life on Land,8,Biological Conservation,72,Q1,7.6,2025,6.5,2026,1.700,1.759,"Ecology, Evolution, Behavior and Systematics (Q1); Nature and Landscape Conservation (Q1)"
+15,Life on Land,9,Science of the Total Environment,70,Q1,18.8,2025,17.0,2026,2.043,1.695,Environmental Chemistry (Q1); Environmental Engineering (Q1); Pollution (Q1); Waste Management and Disposal (Q1)
+15,Life on Land,10,Regional Studies in Marine Science,69,Q1,4.3,2025,4.1,2026,0.668,0.906,"Animal Science and Zoology (Q1); Aquatic Science (Q2); Ecology (Q2); Ecology, Evolution, Behavior and Systematics (Q2)"
+16,"Peace, Justice & Strong Institutions",1,Sustainability Switzerland,121,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+16,"Peace, Justice & Strong Institutions",2,Samarah,103,Q1,5.5,2025,5.2,2026,0.758,1.08,Law (Q1); Social Sciences (miscellaneous) (Q1)
+16,"Peace, Justice & Strong Institutions",3,Jurnal Konstitusi,100,Q1,1.7,2025,1.0,2026,0.467,0.815,Law (Q1)
+16,"Peace, Justice & Strong Institutions",4,Journal of Law and Legal Reform,93,Q1,1.6,2025,1.8,2026,0.309,0.757,History (Q1); Law (Q2); Sociology and Political Science (Q2); Public Administration (Q3)
+16,"Peace, Justice & Strong Institutions",5,Jurnal Hukum Unissula,90,Q1,2.0,2025,2.0,2026,0.307,0.591,Religious Studies (Q1); Law (Q2); Sociology and Political Science (Q2)
+16,"Peace, Justice & Strong Institutions",6,Journal of Indonesian Legal Studies,88,Q1,5.4,2025,4.3,2026,0.464,0.879,Law (Q1)
+16,"Peace, Justice & Strong Institutions",7,Journal of Human Rights Culture and Legal System,73,Q1,7.9,2025,7.3,2026,0.519,1.057,Law (Q1); Environmental Science (miscellaneous) (Q2); Political Science and International Relations (Q2); Public Administration (Q2)
+16,"Peace, Justice & Strong Institutions",8,Legality Jurnal Ilmiah Hukum,70,Q1,6.2,2025,6.0,2026,0.576,1.161,Law (Q1); Religious Studies (Q1); Social Sciences (miscellaneous) (Q1); Political Science and International Relations (Q2)
+16,"Peace, Justice & Strong Institutions",9,Al Istinbath Jurnal Hukum Islam,67,Q1,4.7,2025,4.6,2026,0.604,1.031,Law (Q1); Religious Studies (Q1); Social Sciences (miscellaneous) (Q1)
+16,"Peace, Justice & Strong Institutions",10,Petita Jurnal Kajian Ilmu Hukum Dan Syariah,67,Q1,2.7,2025,2.7,2026,0.340,0.741,Religious Studies (Q1); Arts and Humanities (miscellaneous) (Q2); Law (Q2); Social Sciences (miscellaneous) (Q2)
+17,Partnerships for the Goals,1,Sustainability Switzerland,9,Q1,8.9,2025,7.7,2026,0.750,1.212,"Geography, Planning and Development (Q1); Computer Networks and Communications (Q2); Energy Engineering and Power Technology (Q2); Environmental Science (miscellaneous) (Q2); Hardware and Architecture (Q2); Management, Monitoring, Policy and Law (Q2); Renewable Energy, Sustainability and the Environment (Q2)"
+17,Partnerships for the Goals,2,Forest and Society,7,Q1,4.6,2025,4.1,2026,0.571,1.001,"Cultural Studies (Q1); Forestry (Q1); Geography, Planning and Development (Q2); Nature and Landscape Conservation (Q2); Plant Science (Q2); Political Science and International Relations (Q2); Sociology and Political Science (Q2)"
+17,Partnerships for the Goals,3,Forest Policy and Economics,7,Q1,7.6,2025,6.4,2026,1.285,1.571,"Economics and Econometrics (Q1); Forestry (Q1); Management, Monitoring, Policy and Law (Q1); Sociology and Political Science (Q1)"
+17,Partnerships for the Goals,4,Plos One,5,Q1,4.8,2025,3.9,2026,0.726,1.081,Multidisciplinary (Q1)
+17,Partnerships for the Goals,5,Global Health Action,5,Q1,4.4,2025,3.6,2026,0.926,1.244,"Health Policy (Q1); Public Health, Environmental and Occupational Health (Q1)"
+17,Partnerships for the Goals,6,BMJ Global Health,5,Q1,9.3,2025,5.9,2026,2.140,2.314,"Health Policy (Q1); Public Health, Environmental and Occupational Health (Q1)"
+17,Partnerships for the Goals,7,Forests,4,Q1,3.9,2025,3.6,2026,0.516,0.964,Forestry (Q1); Agronomy and Crop Science (Q2); Insect Science (Q2)
+17,Partnerships for the Goals,8,Tropical Medicine and Infectious Disease,4,Q1,6.0,2025,5.0,2026,0.979,1.257,"Immunology and Microbiology (miscellaneous)  (Q1); Infectious Diseases (Q1); Public Health, Environmental and Occupational Health (Q1)"
+17,Partnerships for the Goals,9,Sustainable Futures,4,Q1,3.5,2025,4.4,2026,1.097,1.494,Management of Technology and Innovation (Q1); Management Science and Operations Research (Q1); Sociology and Political Science (Q1)
+17,Partnerships for the Goals,10,Marine Policy,4,Q1,8.7,2025,7.2,2026,1.279,1.53,"Aquatic Science (Q1); Economics and Econometrics (Q1); Environmental Science (miscellaneous) (Q1); Law (Q1); Management, Monitoring, Policy and Law (Q1)"
