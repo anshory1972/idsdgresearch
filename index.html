@@ -149,7 +149,8 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 }
 .hm-cell:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,0,0,.25);z-index:5;position:relative}
 .hm-cell .hc-icon{width:100%;display:block}
-.hm-cell .hc-p{font-size:12px;font-weight:800;color:#fff;padding:5px 2px 8px;text-shadow:0 1px 3px rgba(0,0,0,.4)}
+.hm-cell .hc-p{font-size:12px;font-weight:800;color:#fff;padding:5px 2px 3px;text-shadow:0 1px 3px rgba(0,0,0,.4)}
+.hm-cell .hc-tier{font-size:8px;font-weight:800;letter-spacing:.07em;color:#fff;padding:2px 4px 6px;text-transform:uppercase;opacity:.9}
 
 /* ── Gap detail section ── */
 .gap-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-bottom:8px}
@@ -2979,7 +2980,8 @@ SDG.forEach(d=>{
   cell.className='hm-cell';
   cell.style.background = d.color;
   const pad = n => String(n).padStart(2,'0');
-  cell.innerHTML = `<img src="img/sdg-${pad(d.n)}.png" class="hc-icon" alt="SDG ${d.n}"><div class="hc-p">${d.pct}%</div>`;
+  const tierBg = d.tier==='STRONG' ? 'rgba(0,0,0,.22)' : d.tier==='GAP' ? 'rgba(180,0,0,.35)' : 'rgba(0,0,0,.18)';
+  cell.innerHTML = `<img src="img/sdg-${pad(d.n)}.png" class="hc-icon" alt="SDG ${d.n}"><div class="hc-p">${d.pct}%</div><div class="hc-tier" style="background:${tierBg}">${d.tier}</div>`;
   cell.addEventListener('mouseenter', e=>showTT(e,d));
   cell.addEventListener('mousemove',  e=>moveTT(e));
   cell.addEventListener('mouseleave', hideTT);
