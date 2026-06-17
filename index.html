@@ -2838,9 +2838,10 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 <div class="tab-panel" id="tab-methodology">
 <div class="sec">Methodology</div>
 <div class="method-note">
-  This dashboard was produced by <strong>SDG Center UNPAD (Pusat Riset SDGs, Universitas Padjadjaran)</strong>
+  This dashboard was produced by <strong>SDGs Center UNPAD (Pusat Riset SDGs, Universitas Padjadjaran)</strong>
   to map Indonesian high-quality scientific output to the 17 UN Sustainable Development Goals and identify research gaps.
-  All counts are derived from live Scopus API queries executed in June 2026.
+  All 75,892 Q1 Indonesian papers were bulk-downloaded from the Scopus API in June 2026 and stored as local CSV files.
+  All counts, journal rankings, and institutional contributions are derived from exact analysis of those downloaded records.
 </div>
 <div class="method-grid">
   <div class="method-card">
@@ -2848,7 +2849,16 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
     <p>The goal is to assess <strong>research strength</strong> &mdash; the capacity of Indonesian academia to produce
     internationally competitive work on each SDG &mdash; rather than raw publication volume.
     The analysis covers all Scopus-indexed journal articles with at least one Indonesian affiliation,
-    published from 2015 onwards.</p>
+    published from 2014 onwards in Q1-ranked journals.</p>
+  </div>
+  <div class="method-card">
+    <h4>&#x1F504; Data Pipeline</h4>
+    <ul>
+      <li><strong>Step 1 &mdash; Bulk download:</strong> Scopus Search API queried across 48 batches of 200 Q1 source IDs &rarr; <strong>75,892 total papers</strong> downloaded to CSV</li>
+      <li><strong>Step 2 &mdash; SDG filtering:</strong> Elsevier Aurora keyword queries applied per SDG &rarr; <strong>32,257 SDG-tagged papers</strong> (42.5% of Q1 output)</li>
+      <li><strong>Step 3 &mdash; Local analysis:</strong> Journal rankings and institutional contributions computed directly from downloaded CSV records &mdash; exact counts, no sampling</li>
+      <li><strong>Step 4 &mdash; Journal metrics:</strong> CiteScore, SJR, and SNIP fetched from Scopus Serial Title API (June 2026)</li>
+    </ul>
   </div>
   <div class="method-card">
     <h4>&#x2B50; Why Q1 Journals Only?</h4>
@@ -2864,7 +2874,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
       <li><strong>Q1 journals only</strong> &mdash; SCImago 2025, 9,470 journals across all disciplines</li>
       <li><strong>Active journals only</strong> &mdash; 1,132 discontinued titles (Elsevier Discontinued List, May 2026) excluded</li>
       <li><strong>Journal articles only</strong> &mdash; conference proceedings, books, and trade publications excluded (<code>SRCTYPE=j</code>)</li>
-      <li><strong>Period:</strong> 2015 to present (<code>PUBYEAR &gt; 2014</code>)</li>
+      <li><strong>Period:</strong> 2014 &ndash; present (<code>PUBYEAR &gt; 2014</code>)</li>
       <li><strong>Affiliation:</strong> at least one Indonesian author (<code>AFFILCOUNTRY(indonesia)</code>)</li>
     </ul>
   </div>
@@ -2873,8 +2883,8 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
     <p>Each paper is mapped to one or more SDGs using the <strong>Elsevier Aurora SDG keyword framework</strong> &mdash;
     a curated set of title, abstract, and keyword search strings (<code>TITLE-ABS-KEY</code>) designed for Scopus-based
     SDG bibliometric analysis. A single paper may match multiple SDGs (e.g., a study on clean energy access for
-    poverty reduction maps to both SDG 1 and SDG 7). <strong>No deduplication is applied</strong> &mdash;
-    consistent with the Aurora framework, where SDG coverage is not mutually exclusive.</p>
+    poverty reduction maps to both SDG 1 and SDG 7). <strong>SDG overlap is intentional</strong> &mdash;
+    consistent with the Aurora framework; SDG paper counts therefore sum to more than 75,892.</p>
   </div>
   <div class="method-card">
     <h4>&#x26A0; Gap Identification</h4>
@@ -2887,11 +2897,10 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
   <div class="method-card">
     <h4>&#x1F4DD; Limitations</h4>
     <ul>
-      <li>Results depend on the completeness of SCImago 2025 quartile rankings</li>
-      <li>The Aurora keyword framework may undercount thematic work using non-standard terminology</li>
-      <li><strong>Affiliation rankings are co-authorship frequency counts</strong> from 25 records per Q1 batch (all 48 batches) &mdash; proportional rankings, not exact paper totals; results are fully reproducible (no random sampling)</li>
-      <li>The Scopus facets API returns only 3 affiliations regardless of request size and cannot be used for comprehensive university ranking</li>
-      <li>Paper-SDG overlap is intentional; SDG counts sum to more than the 75,892 total</li>
+      <li>Results depend on the completeness of SCImago 2025 quartile rankings and Scopus indexing coverage</li>
+      <li>The Aurora keyword framework may undercount thematic work using non-standard or discipline-specific terminology</li>
+      <li><strong>Institutional rankings</strong> reflect co-authorship frequency in all 32,257 downloaded SDG papers &mdash; exact counts, fully reproducible</li>
+      <li>Very recently published papers (API indexing lag) and papers from journals added to Q1 after May 2026 are not included</li>
     </ul>
   </div>
 </div>
@@ -2910,8 +2919,8 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
     Data source: Scopus Search API (Elsevier) &nbsp;&bull;&nbsp;
     SDG mapping: Elsevier/Aurora keyword framework &nbsp;&bull;&nbsp;
     Filters: Q1 journals only (SCImago 2025, 9,470 journals), journal articles (SRCTYPE=j), 2015+ (PUBYEAR &gt; 2014), excl. 1,132 discontinued titles &nbsp;&bull;&nbsp;
-    Affiliation counts via Scopus facets API (exact) &nbsp;&bull;&nbsp;
-    Dashboard version: 17 June 2026
+    Institutional counts from 32,257 downloaded SDG papers (exact) &nbsp;&bull;&nbsp;
+    Dashboard version: 18 June 2026
   </div>
   <div style="margin-top:8px;opacity:.6">
     SDG icons &copy; United Nations &nbsp;&bull;&nbsp;
