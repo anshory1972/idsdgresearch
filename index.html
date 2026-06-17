@@ -144,12 +144,12 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 /* ── Heatmap ── */
 .hm-grid{display:grid;grid-template-columns:repeat(17,1fr);gap:4px}
 .hm-cell{
-  border-radius:6px;padding:10px 2px;text-align:center;
+  border-radius:8px;text-align:center;overflow:hidden;
   cursor:default;transition:transform .15s,box-shadow .15s;
 }
-.hm-cell:hover{transform:translateY(-4px);box-shadow:0 6px 16px rgba(0,0,0,.15);z-index:5;position:relative}
-.hm-cell .hc-n{font-size:9px;font-weight:700}
-.hm-cell .hc-p{font-size:11px;font-weight:800;margin-top:4px}
+.hm-cell:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,0,0,.25);z-index:5;position:relative}
+.hm-cell .hc-icon{width:100%;display:block}
+.hm-cell .hc-p{font-size:12px;font-weight:800;color:#fff;padding:5px 2px 8px;text-shadow:0 1px 3px rgba(0,0,0,.4)}
 
 /* ── Gap detail section ── */
 .gap-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-bottom:8px}
@@ -2977,10 +2977,9 @@ const hmGrid = document.getElementById('heatmap');
 SDG.forEach(d=>{
   const cell = document.createElement('div');
   cell.className='hm-cell';
-  const alpha = Math.round(Math.max(0.12, Math.min(1, d.pct/8))*255).toString(16).padStart(2,'0');
-  cell.style.background = d.color+alpha;
-  cell.style.border     = '1px solid '+d.color+'55';
-  cell.innerHTML = `<div class="hc-n" style="color:${d.color}">SDG ${d.n}</div><div class="hc-p" style="color:${d.color}">${d.pct}%</div>`;
+  cell.style.background = d.color;
+  const pad = n => String(n).padStart(2,'0');
+  cell.innerHTML = `<img src="img/sdg-${pad(d.n)}.png" class="hc-icon" alt="SDG ${d.n}"><div class="hc-p">${d.pct}%</div>`;
   cell.addEventListener('mouseenter', e=>showTT(e,d));
   cell.addEventListener('mousemove',  e=>moveTT(e));
   cell.addEventListener('mouseleave', hideTT);
