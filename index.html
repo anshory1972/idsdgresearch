@@ -36,16 +36,12 @@ header{
 .header-title{display:flex;flex-direction:column;justify-content:flex-end;gap:3px}
 .header-title h1{font-size:20px;font-weight:800;letter-spacing:.02em;margin:0;text-align:left}
 .header-title .subtitle{font-size:12px;opacity:.85;margin:0;text-align:left}
-.header-bottom{
-  display:flex;align-items:center;gap:10px;
-  padding:10px 36px; background:rgba(0,0,0,.15);
-  font-size:11px; flex-wrap:wrap;
+.header-meta{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  padding:8px 36px; background:rgba(0,0,0,.12);
+  font-size:11px; color:rgba(255,255,255,.75);
 }
-.filter-pill{
-  background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.25);
-  border-radius:20px; padding:3px 12px; font-size:11px; font-weight:600;
-}
-.filter-label{opacity:.7;font-size:11px;margin-right:4px}
+.header-meta .header-meta-note{opacity:.55;font-style:italic}
 
 /* ── Tab navigation ── */
 .tab-nav{
@@ -237,8 +233,7 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
   .header-title{margin-top:2px}
   .header-title h1{font-size:16px}
   .header-title .subtitle{font-size:11px}
-  .header-bottom{padding:10px 18px;gap:6px}
-  .header-bottom .filter-label{margin-left:0 !important}
+  .header-meta{padding:8px 18px;gap:6px;font-size:10.5px}
   /* Tab nav scrolls horizontally instead of overflowing */
   .tab-nav{padding:0 10px;overflow-x:auto;-webkit-overflow-scrolling:touch;flex-wrap:nowrap;scrollbar-width:none}
   .tab-nav::-webkit-scrollbar{display:none}
@@ -292,14 +287,13 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
       </div>
     </div>
   </div>
-  <div class="header-bottom">
-    <span class="filter-label">Active filters:</span>
-    <span class="filter-pill">&#x2714; Q1 journals only (SCImago 2025 &middot; 9,470 journals)</span>
-    <span class="filter-pill">&#x2714; 2015 &ndash; present</span>
-    <span class="filter-pill">&#x2714; Journal articles only (SRCTYPE=j)</span>
-    <span class="filter-pill">&#x2714; Active journals only (excl. 1132 discontinued)</span>
-    <span class="filter-pill">&#x2714; Indonesian affiliations only</span>
-    <span class="filter-label" style="margin-left:auto;opacity:.9;font-weight:600">&#x1F4C5; Dashboard version: 17 June 2026 &nbsp;&bull;&nbsp; Source: Scopus (Elsevier)</span>
+  <div class="header-meta">
+    <span>&#x1F4C5; Version: 17 June 2026</span>
+    <span>&bull;</span>
+    <span>Source: Scopus (Elsevier)</span>
+    <span>&bull;</span>
+    <span>Q1 journals &middot; 2015+ &middot; Indonesian affiliations</span>
+    <span class="header-meta-note">&mdash; full filters in Methodology</span>
   </div>
 </header>
 
