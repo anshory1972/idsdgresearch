@@ -165,6 +165,7 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 .hm-cell .hc-icon{width:100%;display:block}
 .hm-cell .hc-p{font-size:12px;font-weight:800;color:#fff;padding:5px 2px 3px;text-shadow:0 1px 3px rgba(0,0,0,.4)}
 .hm-cell .hc-tier{font-size:8px;font-weight:800;letter-spacing:.07em;color:#fff;padding:2px 4px 6px;text-transform:uppercase;opacity:.9}
+.hm-cell .hc-tier-short{display:none}
 
 /* ── Gap detail section ── */
 .gap-detail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-bottom:8px}
@@ -263,6 +264,8 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
   .sdg-grid,.gap-detail-grid,.jnl-grid,.method-grid{grid-template-columns:1fr}
   /* Heatmap: keep 17 cells usable via horizontal scroll */
   .hm-grid{grid-template-columns:repeat(17,46px);overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:8px}
+  .hm-cell .hc-tier-full{display:none}
+  .hm-cell .hc-tier-short{display:inline}
   /* Journal tables scroll horizontally inside their card */
   .jnl-card{overflow-x:auto;-webkit-overflow-scrolling:touch}
   .jnl-table{min-width:580px}
@@ -3040,7 +3043,8 @@ SDG.forEach(d=>{
   cell.style.background = d.color;
   const pad = n => String(n).padStart(2,'0');
   const tierBg = d.tier==='STRONG' ? 'rgba(0,0,0,.22)' : d.tier==='GAP' ? 'rgba(180,0,0,.35)' : 'rgba(0,0,0,.18)';
-  cell.innerHTML = `<img src="img/sdg-${pad(d.n)}.png" class="hc-icon" alt="SDG ${d.n}"><div class="hc-p">${d.pct}%</div><div class="hc-tier" style="background:${tierBg}">${d.tier}</div>`;
+  const tierShort = {STRONG:'STR',MODERATE:'MOD',GAP:'GAP'}[d.tier] || d.tier;
+  cell.innerHTML = `<img src="img/sdg-${pad(d.n)}.png" class="hc-icon" alt="SDG ${d.n}"><div class="hc-p">${d.pct}%</div><div class="hc-tier" style="background:${tierBg}"><span class="hc-tier-full">${d.tier}</span><span class="hc-tier-short">${tierShort}</span></div>`;
   cell.addEventListener('mouseenter', e=>showTT(e,d));
   cell.addEventListener('mousemove',  e=>moveTT(e));
   cell.addEventListener('mouseleave', hideTT);
