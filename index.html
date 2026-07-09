@@ -2182,6 +2182,10 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
   <h3>Research Breadth &mdash; SDGs Covered per University <span>number of the 17 SDGs where the university ranks in the top 10 (by co-authorship)</span></h3>
   <div style="position:relative;height:520px"><canvas id="breadthBar"></canvas></div>
 </div>
+<div class="chart-card" style="margin-bottom:24px">
+  <h3>Top 20 Indonesian Universities &mdash; All SDGs Combined <span>universities only &middot; exact counts from 75,892 downloaded papers</span></h3>
+  <div style="position:relative;height:500px"><canvas id="affBar"></canvas></div>
+</div>
 </div><!-- /tab-institutions -->
 
 <!-- ══ TAB: Methodology ══ -->
@@ -2300,6 +2304,7 @@ const SDG   = [
 {n:17,label:"Partnerships for the Goals",count:286,pct:0.38,color:"#19486A",tier:"GAP",affs:[{"name": "Universitas Gadjah Mada", "count": 36}, {"name": "Universitas Indonesia", "count": 33}, {"name": "IPB University", "count": 15}, {"name": "Universitas Padjadjaran", "count": 13}, {"name": "Hasanuddin University", "count": 13}, {"name": "Universitas Sebelas Maret", "count": 13}, {"name": "Universitas Udayana", "count": 9}, {"name": "Universitas Diponegoro", "count": 8}, {"name": "Institut Teknologi Bandung", "count": 7}, {"name": "Universitas Airlangga", "count": 7}]}
 ];
 const TOTAL = 75892;
+const OA    = [{"name": "Universitas Indonesia", "count": 3051}, {"name": "Universitas Gadjah Mada", "count": 2553}, {"name": "Universitas Airlangga", "count": 2014}, {"name": "Universitas Padjadjaran", "count": 1693}, {"name": "Institut Teknologi Bandung", "count": 1649}, {"name": "IPB University", "count": 1467}, {"name": "Brawijaya University", "count": 1070}, {"name": "Hasanuddin University", "count": 987}, {"name": "Universitas Diponegoro", "count": 941}, {"name": "Universitas Sebelas Maret", "count": 896}, {"name": "Institut Teknologi Sepuluh Nopember", "count": 798}, {"name": "Universitas Syiah Kuala", "count": 692}, {"name": "Universitas Negeri Malang", "count": 628}, {"name": "Universitas Sumatera Utara", "count": 602}, {"name": "Universitas Udayana", "count": 538}, {"name": "Universitas Pendidikan Indonesia", "count": 510}, {"name": "Bina Nusantara University", "count": 479}, {"name": "Universitas Negeri Yogyakarta", "count": 376}, {"name": "Universitas Andalas", "count": 364}, {"name": "Universitas Negeri Semarang", "count": 338}];
 const GAP_T = 1.0;
 
 // ── KPIs ──────────────────────────────────────────────────────────────────────
@@ -2438,6 +2443,31 @@ new Chart(document.getElementById('breadthBar'),{
     },
     scales:{
       x:{grid:{color:'#f1f5f9'},ticks:{color:'#64748b',stepSize:1,precision:0},suggestedMax:17,title:{display:true,text:'Number of SDGs (max 17)',color:'#64748b',font:{size:11}}},
+      y:{grid:{color:'#f1f5f9'},ticks:{color:'#1e293b',font:{size:11}}}
+    }
+  }
+});
+
+// ── Overall affiliation bar ───────────────────────────────────────────────────
+new Chart(document.getElementById('affBar'),{
+  type:'bar',
+  data:{
+    labels:OA.map(a=>a.name),
+    datasets:[{
+      label:'Publications',
+      data:OA.map(a=>a.count),
+      backgroundColor:'#003b7acc',
+      borderColor:'#003b7a',borderWidth:1,borderRadius:4,
+    }]
+  },
+  options:{
+    indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{
+      legend:{display:false},
+      tooltip:{callbacks:{label:ctx=>' '+ctx.raw.toLocaleString()+' papers'}}
+    },
+    scales:{
+      x:{grid:{color:'#f1f5f9'},ticks:{color:'#64748b'}},
       y:{grid:{color:'#f1f5f9'},ticks:{color:'#1e293b',font:{size:11}}}
     }
   }
