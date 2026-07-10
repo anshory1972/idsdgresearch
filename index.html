@@ -152,6 +152,8 @@ main{max-width:1700px;margin:0 auto;padding:28px 32px}
 /* ── Charts section ── */
 .charts-grid{display:grid;grid-template-columns:3fr 2fr;gap:18px;margin-bottom:24px}
 @media(max-width:1100px){.charts-grid{grid-template-columns:1fr}}
+.inst-charts{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:24px}
+@media(max-width:900px){.inst-charts{grid-template-columns:1fr}}
 .chart-card{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);padding:22px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
 .chart-card h3{font-size:13px;font-weight:700;margin-bottom:16px;color:var(--text)}
 .chart-card h3 span{color:var(--muted);font-size:11px;font-weight:400;margin-left:6px}
@@ -2183,13 +2185,15 @@ footer .footer-logos img{height:36px;filter:brightness(0) invert(1);opacity:.8}
 <!-- ══ TAB: Institutions ══ -->
 <div class="tab-panel" id="tab-institutions">
 <div class="sec">Institutional Contributions</div>
-<div class="chart-card" style="margin-bottom:24px">
+<div class="inst-charts">
+<div class="chart-card">
   <h3>Research Breadth &mdash; SDGs Covered per University <span>number of the 17 SDGs where the university ranks in the top 10 (by co-authorship)</span></h3>
   <div style="position:relative;height:520px"><canvas id="breadthBar"></canvas></div>
 </div>
-<div class="chart-card" style="margin-bottom:24px">
+<div class="chart-card">
   <h3>Top 20 Indonesian Universities &mdash; All SDGs Combined <span>universities only &middot; exact counts from 75,892 downloaded papers</span></h3>
-  <div style="position:relative;height:500px"><canvas id="affBar"></canvas></div>
+  <div style="position:relative;height:520px"><canvas id="affBar"></canvas></div>
+</div>
 </div>
 </div><!-- /tab-institutions -->
 
